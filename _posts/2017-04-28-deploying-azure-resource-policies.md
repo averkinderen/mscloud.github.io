@@ -191,8 +191,7 @@ View the code here
 
 
 Run the above script with the required parameters:
-
-[<img class="alignnone size-large wp-image-19341" src="http://www.mscloud.be/wp-content/uploads/2017/04/ps2-1024x504.png" alt="" width="768" height="378" srcset="http://www.mscloud.be/wp-content/uploads/2017/04/ps2-1024x504.png 1024w, http://www.mscloud.be/wp-content/uploads/2017/04/ps2-300x148.png 300w, http://www.mscloud.be/wp-content/uploads/2017/04/ps2-768x378.png 768w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/ps2.png)
+![My helpful screenshot](/wp-content/uploads/2017/04/ps2.png)
 
 That&#8217;s it! You have now created a new Azure Resource Policy definition and assigned that Policy to a subscription!
 
