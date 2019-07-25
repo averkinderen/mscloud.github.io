@@ -3,7 +3,7 @@ id: 4561
 title: Configurable Quotas for Windows Azure Pack Web Site Plans
 date: 2014-12-26T13:30:29+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=4561
 permalink: /configurable-quotas-for-windows-azure-pack-web-site-plans/
 sc_member_order:

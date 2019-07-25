@@ -3,7 +3,7 @@ id: 608
 title: OpsMgr survey about Management Pack Authoring
 date: 2010-01-18T06:56:18+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/01/18/opsmgr-survey-about-management-pack-authoring.aspx
 permalink: /opsmgr-survey-about-management-pack-authoring/
 sc_member_order:

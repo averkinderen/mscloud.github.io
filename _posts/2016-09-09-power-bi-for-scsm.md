@@ -3,7 +3,7 @@ id: 11061
 title: Power BI for SCSM
 date: 2016-09-09T02:17:09+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=11061
 permalink: /power-bi-for-scsm/
 sc_member_order:

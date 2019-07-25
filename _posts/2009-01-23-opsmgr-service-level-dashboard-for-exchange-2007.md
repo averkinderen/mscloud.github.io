@@ -3,7 +3,7 @@ id: 19683
 title: Opsmgr Service Level Dashboard for Exchange 2007
 date: 2009-01-23T14:31:09+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/01/23/opsmgr-service-level-dashboard-for-exchange-2007.aspx
 permalink: /opsmgr-service-level-dashboard-for-exchange-2007/
 sc_member_order:

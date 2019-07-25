@@ -3,7 +3,7 @@ id: 2441
 title: 'OpsMgr : two new Novell Linux Management packs'
 date: 2009-12-06T09:18:15+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/12/06/opsmgr-two-new-novell-linux-management-packs.aspx
 permalink: /opsmgr-two-new-novell-linux-management-packs-3/
 sc_member_order:

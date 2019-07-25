@@ -3,7 +3,7 @@ id: 19679
 title: Add a recording to an existing Web Application object Part II
 date: 2008-10-19T11:05:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/19/add-a-recording-to-an-existing-web-application-object.aspx
 permalink: /add-a-recording-to-an-existing-web-application-object/
 sc_member_order:

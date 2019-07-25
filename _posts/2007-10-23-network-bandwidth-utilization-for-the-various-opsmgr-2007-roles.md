@@ -3,7 +3,7 @@ id: 480
 title: Network Bandwidth Utilization for the various OpsMgr 2007 Roles
 date: 2007-10-23T18:19:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/10/23/network-bandwidth-utilization-for-the-various-opsmgr-2007-roles.aspx
 permalink: /network-bandwidth-utilization-for-the-various-opsmgr-2007-roles/
 sc_member_order:

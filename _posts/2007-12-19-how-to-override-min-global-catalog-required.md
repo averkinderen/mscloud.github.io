@@ -3,7 +3,7 @@ id: 488
 title: How to override Min. Global catalog required in Opsmgr
 date: 2007-12-19T18:08:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/12/19/how-to-override-min-global-catalog-required.aspx
 permalink: /how-to-override-min-global-catalog-required/
 sc_member_order:

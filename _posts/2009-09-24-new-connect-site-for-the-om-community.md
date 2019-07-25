@@ -3,7 +3,7 @@ id: 593
 title: New Connect site for the OM Community
 date: 2009-09-24T21:30:07+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/24/new-connect-site-for-the-om-community.aspx
 permalink: /new-connect-site-for-the-om-community/
 sc_member_order:

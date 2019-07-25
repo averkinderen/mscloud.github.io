@@ -3,7 +3,7 @@ id: 19698
 title: 'OpsMgr : Certificate for this system  is not valid when installing Linux agent'
 date: 2009-12-04T15:15:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/12/04/opsmgr-certificate-for-this-system-is-not-valid-when-installing-linux-agent.aspx
 permalink: /opsmgr-certificate-for-this-system-is-not-valid-when-installing-linux-agent/
 sc_member_order:

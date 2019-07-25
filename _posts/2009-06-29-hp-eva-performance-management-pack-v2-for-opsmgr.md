@@ -3,7 +3,7 @@ id: 577
 title: HP EVA performance management pack V2 for Opsmgr
 date: 2009-06-29T16:29:16+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/29/hp-eva-performance-management-pack-v2-for-opsmgr.aspx
 permalink: /hp-eva-performance-management-pack-v2-for-opsmgr/
 sc_member_order:

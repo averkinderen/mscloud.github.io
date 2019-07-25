@@ -3,7 +3,7 @@ id: 19431
 title: 'Deploying Azure Resource Policies 2: Limit Azure Regions'
 date: 2017-05-23T14:00:23+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=19431
 permalink: /deploying-azure-resource-policies-2-limit-azure-regions/
 sc_member_order:

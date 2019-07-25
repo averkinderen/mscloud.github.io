@@ -3,7 +3,7 @@ id: 489
 title: System Center Dataprotector Management Pack
 date: 2007-12-23T09:57:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/12/23/system-center-dataprotector-management-pack.aspx
 permalink: /system-center-dataprotector-management-pack/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 9301
 title: What is Microsoft Azure Stack?
 date: 2015-11-07T16:11:33+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9301
 permalink: /what-is-microsoft-azure-stack/
 sc_member_order:

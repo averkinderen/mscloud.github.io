@@ -3,7 +3,7 @@ id: 534
 title: First day at teched Barcelona
 date: 2008-11-03T14:51:25+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/11/03/first-day-at-teched-barcelona.aspx
 permalink: /first-day-at-teched-barcelona/
 sc_member_order:

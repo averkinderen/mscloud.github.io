@@ -3,7 +3,7 @@ id: 579
 title: System Center Server Management Suite Enterprise Transition to System Management Suite Datacenter
 date: 2009-07-01T20:24:19+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/07/01/system-center-server-management-suite-enterprise-transition-to-system-management-suite-datacenter.aspx
 permalink: /system-center-server-management-suite-enterprise-transition-to-system-management-suite-datacenter/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 5561
 title: SQL Server 2014 AlwaysOn on Massive G-series Azure VMs
 date: 2015-02-12T09:26:25+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=5561
 permalink: /sql-server-2014-alwayson-on-massive-g-series-azure-vms/
 sc_member_order:

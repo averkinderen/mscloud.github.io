@@ -3,7 +3,7 @@ id: 507
 title: Dell Management Pack Opsmgr Issue Solved!
 date: 2008-06-30T18:00:37+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/06/30/dell-management-pack-issue-solved.aspx
 permalink: /dell-management-pack-issue-solved/
 sc_member_order:

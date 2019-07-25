@@ -3,7 +3,7 @@ id: 19674
 title: ACS noise filter
 date: 2008-08-28T14:55:05+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/08/28/acs-noise-filter.aspx
 permalink: /acs-noise-filter/
 sc_member_order:

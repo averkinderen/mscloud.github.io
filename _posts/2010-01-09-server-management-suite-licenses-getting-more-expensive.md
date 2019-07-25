@@ -3,7 +3,7 @@ id: 19701
 title: Server Management Suite Licenses getting more expensive!
 date: 2010-01-09T08:50:39+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/01/09/server-management-suite-licenses-getting-more-expensive.aspx
 permalink: /server-management-suite-licenses-getting-more-expensive/
 sc_member_order:

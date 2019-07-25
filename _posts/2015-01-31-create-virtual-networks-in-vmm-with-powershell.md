@@ -3,7 +3,7 @@ id: 5271
 title: Create Virtual networks in VMM with Powershell
 date: 2015-01-31T08:27:58+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=5271
 permalink: /create-virtual-networks-in-vmm-with-powershell/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19670
 title: Data Warehouse Data Retention Policy (dwdatarp.exe) in Opsmgr
 date: 2008-05-18T07:27:41+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/05/18/data-warehouse-data-retention-policy-dwdatarp-exe.aspx
 permalink: /data-warehouse-data-retention-policy-dwdatarp-exe/
 sc_member_order:

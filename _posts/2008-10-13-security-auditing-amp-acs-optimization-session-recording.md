@@ -3,7 +3,7 @@ id: 19677
 title: 'Security Auditing &#038; ACS Optimization Session recording'
 date: 2008-10-13T03:40:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/13/security-auditing-amp-acs-optimization-session-recording.aspx
 permalink: /security-auditing-amp-acs-optimization-session-recording/
 sc_member_order:

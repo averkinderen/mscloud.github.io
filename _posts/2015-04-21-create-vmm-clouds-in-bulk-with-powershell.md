@@ -3,7 +3,7 @@ id: 7831
 title: Create VMM Clouds in bulk with PowerShell
 date: 2015-04-21T20:14:41+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=7831
 permalink: /create-vmm-clouds-in-bulk-with-powershell/
 sc_member_order:

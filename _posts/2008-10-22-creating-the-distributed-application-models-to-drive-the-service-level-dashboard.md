@@ -3,7 +3,7 @@ id: 1741
 title: Creating the Distributed Application Models to Drive the Service Level Dashboard Part IV
 date: 2008-10-22T21:06:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/22/creating-the-distributed-application-models-to-drive-the-service-level-dashboard.aspx
 permalink: /creating-the-distributed-application-models-to-drive-the-service-level-dashboard/
 sc_member_order:

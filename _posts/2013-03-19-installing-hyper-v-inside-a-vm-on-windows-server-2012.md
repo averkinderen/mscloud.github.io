@@ -3,7 +3,7 @@ id: 684
 title: Installing hyper-v inside a vm on Windows Server 2012
 date: 2013-03-19T16:07:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=684
 permalink: /installing-hyper-v-inside-a-vm-on-windows-server-2012/
 sc_member_order:

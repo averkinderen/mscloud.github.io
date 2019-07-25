@@ -3,7 +3,7 @@ id: 2351
 title: Windows Server Operating System Management Pack for Operations Manager 2007
 date: 2009-09-19T06:55:20+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/19/windows-server-operating-system-management-pack-for-operations-manager-2007.aspx
 permalink: /windows-server-operating-system-management-pack-for-operations-manager-2007/
 sc_member_order:

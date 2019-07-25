@@ -3,7 +3,7 @@ id: 2661
 title: 'Belgian Best of MMS: The top 20 “Must Have“ customizations in Operations Manager'
 date: 2010-05-27T20:06:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/05/27/belgian-best-of-mms-the-top-20-must-have-customizations-in-operations-manager.aspx
 permalink: /belgian-best-of-mms-the-top-20-must-have-customizations-in-operations-manager-2/
 sc_member_order:

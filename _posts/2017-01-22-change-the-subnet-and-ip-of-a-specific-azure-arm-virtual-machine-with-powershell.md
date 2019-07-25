@@ -3,7 +3,7 @@ id: 16681
 title: Change the subnet and IP of a specific Azure ARM virtual machine with PowerShell
 date: 2017-01-22T08:45:30+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=16681
 permalink: /change-the-subnet-and-ip-of-a-specific-azure-arm-virtual-machine-with-powershell/
 sc_member_order:

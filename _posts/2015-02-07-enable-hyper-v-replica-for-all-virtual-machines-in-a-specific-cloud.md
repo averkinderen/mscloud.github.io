@@ -3,7 +3,7 @@ id: 5921
 title: Enable Hyper-V Replica for all virtual machines in a specific Cloud
 date: 2015-02-07T10:00:39+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=5921
 permalink: /enable-hyper-v-replica-for-all-virtual-machines-in-a-specific-cloud/
 sc_member_order:

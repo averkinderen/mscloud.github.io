@@ -3,7 +3,7 @@ id: 19709
 title: 'Part 1: Bulk import server locations with PowerShell'
 date: 2014-03-24T14:47:02+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=776
 permalink: /part-1-bulk-import-server-locations-with-powershell/
 sc_member_order:

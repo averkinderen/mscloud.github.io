@@ -3,7 +3,7 @@ id: 706
 title: Setting SQL permissions with Powershell
 date: 2013-11-19T00:08:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=706
 permalink: /setting-sql-permissions-with-powershell/
 sc_member_order:

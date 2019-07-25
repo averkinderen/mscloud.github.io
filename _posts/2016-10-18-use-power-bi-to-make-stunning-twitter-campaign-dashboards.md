@@ -3,7 +3,7 @@ id: 14561
 title: Use Power BI to make stunning Twitter campaign dashboards
 date: 2016-10-18T10:00:04+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=14561
 permalink: /use-power-bi-to-make-stunning-twitter-campaign-dashboards/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19986
 title: Configure regional settings on Azure Virtual Machines
 date: 2019-05-25T13:28:08+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19986
 permalink: /configure-regional-settings-and-windows-locales-on-azure-virtual-machines/
 sc_member_order:

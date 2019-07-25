@@ -3,7 +3,7 @@ id: 19702
 title: What’s new in System Center Operations Manager R2 LiveMeeting SlideDeck
 date: 2010-01-13T20:49:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/01/13/what-s-new-in-system-center-operations-manager-r2-livemeeting-slidedeck.aspx
 permalink: /what-s-new-in-system-center-operations-manager-r2-livemeeting-slidedeck/
 sc_member_order:

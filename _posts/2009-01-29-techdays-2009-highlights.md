@@ -3,7 +3,7 @@ id: 548
 title: TechDays 2009 Highlights
 date: 2009-01-29T19:39:24+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/01/29/techdays-2009-highlights.aspx
 permalink: /techdays-2009-highlights/
 sc_member_order:

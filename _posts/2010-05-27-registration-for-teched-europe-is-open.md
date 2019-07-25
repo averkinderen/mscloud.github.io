@@ -3,7 +3,7 @@ id: 627
 title: Registration for TechEd Europe is open!
 date: 2010-05-27T12:42:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/05/27/registration-for-teched-europe-is-open.aspx
 permalink: /registration-for-teched-europe-is-open/
 sc_member_order:

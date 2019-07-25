@@ -3,7 +3,7 @@ id: 2001
 title: 'Biwug &#038; Scug Session: Using System Center Operations Manager to monitor your SharePoint environment'
 date: 2009-03-19T20:45:34+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/03/19/biwug-amp-scug-session-using-system-center-operations-manager-to-monitor-your-sharepoint-environment.aspx
 permalink: /biwug-amp-scug-session-using-system-center-operations-manager-to-monitor-your-sharepoint-environment-2/
 sc_member_order:

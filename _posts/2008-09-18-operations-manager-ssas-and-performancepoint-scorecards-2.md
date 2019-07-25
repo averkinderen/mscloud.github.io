@@ -3,7 +3,7 @@ id: 1721
 title: Operations Manager/SSAS and PerformancePoint Scorecards
 date: 2008-09-18T16:03:52+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/09/18/operations-manager-ssas-and-performancepoint-scorecards.aspx
 permalink: /operations-manager-ssas-and-performancepoint-scorecards-2/
 sc_member_order:

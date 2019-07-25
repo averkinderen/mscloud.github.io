@@ -3,7 +3,7 @@ id: 19960
 title: Cross subscription VNET peering deployment with Azure Blueprints
 date: 2019-03-24T10:11:16+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19960
 permalink: /cross-subscription-vnet-peering-deployment-with-azure-blueprints/
 sc_member_order:

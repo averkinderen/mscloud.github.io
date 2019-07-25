@@ -3,7 +3,7 @@ id: 533
 title: Define a Health Criteria for your web application Monitor Part III
 date: 2008-10-22T21:52:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/22/define-a-health-criteria-for-your-web-application-monitor.aspx
 permalink: /define-a-health-criteria-for-your-web-application-monitor/
 sc_member_order:

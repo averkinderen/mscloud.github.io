@@ -3,7 +3,7 @@ id: 677
 title: Extended network device monitoring list updated
 date: 2013-02-16T12:45:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=677
 permalink: /extended-network-device-monitoring-list-updated/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19680
 title: Service Level Dashboard Part VI
 date: 2008-10-22T20:19:31+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/22/service-level-dashboard-part-vi.aspx
 permalink: /service-level-dashboard-part-vi/
 sc_member_order:

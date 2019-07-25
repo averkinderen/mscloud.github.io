@@ -3,7 +3,7 @@ id: 361
 title: Technological Underpinnings of a Microsoft Infrastructure as a Service infrastructure
 date: 2014-12-22T07:45:43+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=361
 permalink: /technological-underpinnings-of-a-microsoft-infrastructure-as-a-service-infrastructure/
 sc_member_order:

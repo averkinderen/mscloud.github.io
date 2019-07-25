@@ -3,7 +3,7 @@ id: 623
 title: 'Diagram view not working in the webconsole OpsMgr 2007 R2: “missing permissions on the server allow the creation of the RenderBase and/or ImageCache folder”'
 date: 2010-05-07T12:50:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/05/07/diagram-view-not-working-in-the-webconsole-opsmgr-2007-r2-missing-permissions-on-the-server-allow-the-creation-of-the-renderbase-and-or-imagecache-folder.aspx
 permalink: /diagram-view-not-working-in-the-webconsole-opsmgr-2007-r2-missing-permissions-on-the-server-allow-the-creation-of-the-renderbase-and-or-imagecache-folder/
 sc_member_order:

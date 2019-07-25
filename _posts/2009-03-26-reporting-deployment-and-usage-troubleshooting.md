@@ -3,7 +3,7 @@ id: 552
 title: Reporting Deployment and Usage Troubleshooting
 date: 2009-03-26T18:52:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/03/26/reporting-deployment-and-usage-troubleshooting.aspx
 permalink: /reporting-deployment-and-usage-troubleshooting/
 sc_member_order:

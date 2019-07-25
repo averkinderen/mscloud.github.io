@@ -3,7 +3,7 @@ id: 19666
 title: Best practices to configure overrides in OpsMgr 2007
 date: 2007-10-28T09:35:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/10/28/best-practices-to-configure-overrides-in-opsmgr-2007.aspx
 permalink: /best-practices-to-configure-overrides-in-opsmgr-2007/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 2911
 title: AEM ADMX File for OpsMgr 2007 R2
 date: 2011-06-10T06:31:35+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/06/10/aem-admx-file-for-opsmgr-2007-r2.aspx
 permalink: /aem-admx-file-for-opsmgr-2007-r2-2/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 9731
 title: System Center Universe Asia Pacific is coming!
 date: 2016-01-21T12:57:05+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9731
 permalink: /system-center-universe-asia-pacific-is-coming/
 sc_member_order:

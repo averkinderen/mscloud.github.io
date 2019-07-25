@@ -3,7 +3,7 @@ id: 616
 title: Operations Manager 2007 Superflows
 date: 2010-04-11T18:49:11+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/04/11/operations-manager-2007-superflows.aspx
 permalink: /operations-manager-2007-superflows/
 sc_member_order:

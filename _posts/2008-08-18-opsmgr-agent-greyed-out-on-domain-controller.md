@@ -3,7 +3,7 @@ id: 517
 title: Opsmgr agent grayed out on domain controller
 date: 2008-08-18T13:41:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/08/18/opsmgr-agent-greyed-out-on-domain-controller.aspx
 permalink: /opsmgr-agent-greyed-out-on-domain-controller/
 sc_member_order:

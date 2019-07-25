@@ -3,7 +3,7 @@ id: 514
 title: File System Management Pack for Opsmgr
 date: 2008-07-26T08:40:54+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/07/26/file-system-management-pack.aspx
 permalink: /file-system-management-pack/
 sc_member_order:

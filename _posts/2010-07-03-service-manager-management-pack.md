@@ -3,7 +3,7 @@ id: 630
 title: Service Manager Management Pack
 date: 2010-07-03T09:42:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/07/03/service-manager-management-pack.aspx
 permalink: /service-manager-management-pack/
 sc_member_order:

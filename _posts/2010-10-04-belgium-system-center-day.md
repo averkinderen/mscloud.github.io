@@ -3,7 +3,7 @@ id: 634
 title: Belgium System Center Day
 date: 2010-10-04T14:07:43+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/10/04/belgium-system-center-day.aspx
 permalink: /belgium-system-center-day/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 574
 title: HP EVA management pack
 date: 2009-06-17T21:39:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/17/hp-eva-management-pack.aspx
 permalink: /hp-eva-management-pack/
 sc_member_order:

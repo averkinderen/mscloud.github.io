@@ -3,7 +3,7 @@ id: 645
 title: Using System Center Advisor Management Packs in OpsMgr
 date: 2011-05-02T06:59:35+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/05/02/using-system-center-advisor-management-packs-in-opsmgr.aspx
 permalink: /using-system-center-advisor-management-packs-in-opsmgr/
 sc_member_order:

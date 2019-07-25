@@ -3,7 +3,7 @@ id: 1471
 title: Intel® AMT Desktop Management Pack for SCOM 2007 and SCE 2007
 date: 2008-03-04T16:53:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/03/04/intel-174-amt-desktop-management-pack-for-scom-2007-and-sce-2007.aspx
 permalink: /intel-174-amt-desktop-management-pack-for-scom-2007-and-sce-2007-2/
 sc_member_order:

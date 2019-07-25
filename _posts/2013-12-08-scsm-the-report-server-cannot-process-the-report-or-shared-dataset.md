@@ -3,7 +3,7 @@ id: 728
 title: SCSM The report server cannot process the report or shared dataset
 date: 2013-12-08T07:33:59+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=728
 permalink: /scsm-the-report-server-cannot-process-the-report-or-shared-dataset/
 sc_member_order:

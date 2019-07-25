@@ -3,7 +3,7 @@ id: 8691
 title: Bulk migrate virtual machines after Hyper-V replication
 date: 2015-05-02T06:35:55+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=8691
 permalink: /bulk-migrate-virtual-machines-after-hyper-v-replication/
 sc_member_order:

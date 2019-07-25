@@ -3,7 +3,7 @@ id: 19663
 title: Which Opsmgr groups is a server member of ?
 date: 2007-10-28T09:43:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/10/28/which-groups-is-a-server-member-of.aspx
 permalink: /which-groups-is-a-server-member-of/
 sc_member_order:

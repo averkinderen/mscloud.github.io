@@ -3,7 +3,7 @@ id: 575
 title: System Center Operations Manager 2007 R2 SCW Roles and Security Hardening Guide for Windows Server 2008
 date: 2009-06-21T08:07:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/21/system-center-operations-manager-2007-r2-scw-roles-and-security-hardening-guide-for-windows-server-2008.aspx
 permalink: /system-center-operations-manager-2007-r2-scw-roles-and-security-hardening-guide-for-windows-server-2008/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 2961
 title: 'Cloud Service pack failed: Current user is not a valid Orchestrator user'
 date: 2013-04-02T09:46:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=696
 permalink: /cloud-service-pack-failed-current-user-is-not-a-valid-orchestrator-user-2/
 sc_member_order:

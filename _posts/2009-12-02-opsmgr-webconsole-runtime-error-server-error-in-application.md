@@ -3,7 +3,7 @@ id: 600
 title: OpsMgr Webconsole Runtime error “Server Error in ‘/’ Application”
 date: 2009-12-02T20:07:29+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/12/02/opsmgr-webconsole-runtime-error-server-error-in-application.aspx
 permalink: /opsmgr-webconsole-runtime-error-server-error-in-application/
 sc_member_order:

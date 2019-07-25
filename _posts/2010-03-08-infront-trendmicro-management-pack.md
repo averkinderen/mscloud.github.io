@@ -3,7 +3,7 @@ id: 614
 title: Infront TrendMicro Management Pack
 date: 2010-03-08T10:23:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/03/08/infront-trendmicro-management-pack.aspx
 permalink: /infront-trendmicro-management-pack/
 sc_member_order:

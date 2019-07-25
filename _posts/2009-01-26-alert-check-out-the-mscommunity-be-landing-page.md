@@ -3,7 +3,7 @@ id: 19684
 title: 'Alert : Check out the MSCommunity.be landing page'
 date: 2009-01-26T22:14:01+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/01/26/alert-check-out-the-mscommunity-be-landing-page.aspx
 permalink: /alert-check-out-the-mscommunity-be-landing-page/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 9581
 title: Azure Subscriptions best practices
 date: 2016-01-22T10:31:50+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9581
 permalink: /azure-subscriptions-best-practices/
 sc_member_order:

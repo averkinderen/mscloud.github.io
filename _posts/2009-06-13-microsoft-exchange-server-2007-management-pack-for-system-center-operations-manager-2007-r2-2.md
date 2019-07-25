@@ -3,7 +3,7 @@ id: 2261
 title: Microsoft Exchange Server 2007 Management Pack for System Center Operations Manager 2007 R2
 date: 2009-06-13T07:45:20+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/13/microsoft-exchange-server-2007-management-pack-for-system-center-operations-manager-2007-r2.aspx
 permalink: /microsoft-exchange-server-2007-management-pack-for-system-center-operations-manager-2007-r2-2/
 sc_member_order:

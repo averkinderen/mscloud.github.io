@@ -3,7 +3,7 @@ id: 13151
 title: Add a custom image to Azure Stack
 date: 2016-09-15T01:21:19+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=13151
 permalink: /add-a-custom-image-to-azure-stack/
 sc_member_order:

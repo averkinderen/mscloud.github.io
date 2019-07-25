@@ -3,7 +3,7 @@ id: 18451
 title: Microsoft PowerApps and inner join 2 sql tables
 date: 2017-03-08T15:27:57+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=18451
 permalink: /microsoft-powerapps-and-inner-join-2-sql-tables/
 sc_member_order:

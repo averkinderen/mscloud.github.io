@@ -3,7 +3,7 @@ id: 2321
 title: SCUG.BE session on Service Manager
 date: 2009-07-22T10:43:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/07/22/scug-be-session-on-service-manager.aspx
 permalink: /scug-be-session-on-service-manager-2/
 sc_member_order:

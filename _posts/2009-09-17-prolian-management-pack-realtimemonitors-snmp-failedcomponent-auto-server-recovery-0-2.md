@@ -3,7 +3,7 @@ id: 2341
 title: Proliant Management pack RealtimeMonitors_SNMP.FailedComponent Auto Server Recovery 0
 date: 2009-09-17T12:17:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/17/prolian-management-pack-realtimemonitors-snmp-failedcomponent-auto-server-recovery-0.aspx
 permalink: /prolian-management-pack-realtimemonitors-snmp-failedcomponent-auto-server-recovery-0-2/
 sc_member_order:

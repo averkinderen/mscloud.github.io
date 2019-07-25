@@ -3,7 +3,7 @@ id: 2401
 title: TechNet Live meetings planning
 date: 2009-11-30T18:02:24+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/11/30/technet-live-meetings-planning.aspx
 permalink: /technet-live-meetings-planning-2/
 sc_member_order:

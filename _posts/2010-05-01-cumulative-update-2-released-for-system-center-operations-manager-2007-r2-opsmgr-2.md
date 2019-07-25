@@ -3,7 +3,7 @@ id: 2601
 title: Cumulative Update 2 Released for System Center Operations Manager 2007 R2 opsmgr
 date: 2010-05-01T08:34:32+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/05/01/cumulative-update-2-released-for-system-center-operations-manager-2007-r2-opsmgr.aspx
 permalink: /cumulative-update-2-released-for-system-center-operations-manager-2007-r2-opsmgr-2/
 sc_member_order:

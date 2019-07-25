@@ -3,7 +3,7 @@ id: 2971
 title: How to change SCOM reporting to use Kerberos instead of NTLM
 date: 2013-04-30T12:06:09+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=703
 permalink: /how-to-change-scom-reporting-to-use-kerberos-instead-of-ntlm-2/
 sc_member_order:

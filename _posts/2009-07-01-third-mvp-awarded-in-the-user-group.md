@@ -3,7 +3,7 @@ id: 578
 title: Third MVP awarded in the User group
 date: 2009-07-01T17:47:29+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/07/01/third-mvp-awarded-in-the-user-group.aspx
 permalink: /third-mvp-awarded-in-the-user-group/
 sc_member_order:

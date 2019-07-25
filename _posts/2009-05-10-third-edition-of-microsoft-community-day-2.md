@@ -3,7 +3,7 @@ id: 2091
 title: Third Edition of Microsoft Community Day !!
 date: 2009-05-10T07:21:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/10/third-edition-of-microsoft-community-day.aspx
 permalink: /third-edition-of-microsoft-community-day-2/
 sc_member_order:

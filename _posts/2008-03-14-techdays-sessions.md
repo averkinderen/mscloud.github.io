@@ -3,7 +3,7 @@ id: 497
 title: Techdays Opsmgr Sessions
 date: 2008-03-14T19:28:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/03/14/techdays-sessions.aspx
 permalink: /techdays-sessions/
 sc_member_order:

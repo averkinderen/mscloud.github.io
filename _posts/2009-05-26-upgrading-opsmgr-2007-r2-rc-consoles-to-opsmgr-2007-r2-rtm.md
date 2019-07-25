@@ -3,7 +3,7 @@ id: 19687
 title: Upgrading Opsmgr 2007 R2 RC consoles to Opsmgr 2007 R2 RTM
 date: 2009-05-26T19:37:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/26/upgrading-opsmgr-2007-r2-rc-consoles-to-opsmgr-2007-r2-rtm.aspx
 permalink: /upgrading-opsmgr-2007-r2-rc-consoles-to-opsmgr-2007-r2-rtm/
 sc_member_order:

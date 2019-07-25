@@ -3,7 +3,7 @@ id: 2151
 title: Upgrade Opsmgr 2007 R2 RC to Opsmgr 2007 R2 RTM
 date: 2009-05-23T11:46:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/23/upgrade-opsmgr-2007-r2-rc-to-opsmgr-2007-r2-rtm.aspx
 permalink: /upgrade-opsmgr-2007-r2-rc-to-opsmgr-2007-r2-rtm-2/
 sc_member_order:

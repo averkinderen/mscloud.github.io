@@ -3,7 +3,7 @@ id: 1761
 title: Configuring the Service Level Dashboard Part V
 date: 2008-10-22T21:08:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/22/configuring-the-service-level-dashboard.aspx
 permalink: /configuring-the-service-level-dashboard-2/
 sc_member_order:

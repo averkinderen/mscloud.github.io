@@ -3,7 +3,7 @@ id: 2171
 title: Interview with Nigel Cain at Techdays 2009 in Antwerp on SCSM
 date: 2009-06-04T22:52:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/04/interview-nigel-cain-at-techdays-2009-in-antwerp.aspx
 permalink: /interview-nigel-cain-at-techdays-2009-in-antwerp-2/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 1581
 title: System Center Mobile Device Manager 2008 Opmsgr Management Pack
 date: 2008-07-02T17:45:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/07/02/system-center-mobile-device-manager-2008-management-pack.aspx
 permalink: /system-center-mobile-device-manager-2008-management-pack/
 sc_member_order:

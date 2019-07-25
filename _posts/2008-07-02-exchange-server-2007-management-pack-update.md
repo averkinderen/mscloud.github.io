@@ -3,7 +3,7 @@ id: 509
 title: Opsmgr Exchange Server 2007 Management PackUpdate!
 date: 2008-07-02T17:27:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/07/02/exchange-server-2007-management-pack-update.aspx
 permalink: /exchange-server-2007-management-pack-update/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 251
 title: CloudCruiser unable to connect to usage server
 date: 2014-12-21T21:22:12+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=251
 permalink: /cloudcruiser-unable-to-connect-to-usage-server/
 sc_member_order:

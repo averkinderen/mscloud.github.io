@@ -3,7 +3,7 @@ id: 538
 title: Day 2 of teched 2008 Barcelona
 date: 2008-11-09T11:08:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/11/09/day-2-of-teched-2008-barcelona.aspx
 permalink: /day-2-of-teched-2008-barcelona/
 sc_member_order:

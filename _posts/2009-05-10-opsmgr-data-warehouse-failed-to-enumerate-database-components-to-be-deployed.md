@@ -3,7 +3,7 @@ id: 560
 title: Opsmgr Data Warehouse failed to enumerate database components to be deployed
 date: 2009-05-10T09:04:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/10/opsmgr-data-warehouse-failed-to-enumerate-database-components-to-be-deployed.aspx
 permalink: /opsmgr-data-warehouse-failed-to-enumerate-database-components-to-be-deployed/
 sc_member_order:

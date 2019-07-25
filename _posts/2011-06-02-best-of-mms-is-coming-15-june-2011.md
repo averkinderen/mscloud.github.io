@@ -3,7 +3,7 @@ id: 650
 title: 'Best of MMS is coming: 15 june 2011'
 date: 2011-06-02T05:31:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/06/02/best-of-mms-is-coming-15-june-2011.aspx
 permalink: /best-of-mms-is-coming-15-june-2011/
 sc_member_order:

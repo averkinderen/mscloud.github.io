@@ -3,7 +3,7 @@ id: 19673
 title: Collecting Syslogs with Opsmgr
 date: 2008-06-16T20:11:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/06/16/collecting-syslogs-with-opsmgr.aspx
 permalink: /collecting-syslogs-with-opsmgr/
 sc_member_order:

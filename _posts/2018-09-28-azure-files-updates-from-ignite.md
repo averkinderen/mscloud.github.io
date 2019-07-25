@@ -3,7 +3,7 @@ id: 19862
 title: Azure Files Updates from Ignite
 date: 2018-09-28T19:19:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19862
 permalink: /azure-files-updates-from-ignite/
 sc_member_order:

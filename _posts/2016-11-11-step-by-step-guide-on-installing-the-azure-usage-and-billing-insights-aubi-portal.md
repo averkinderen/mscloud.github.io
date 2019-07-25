@@ -3,7 +3,7 @@ id: 13881
 title: Step by Step guide on installing the Azure Usage and Billing Insights (AUBI) Portal
 date: 2016-11-11T03:20:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=13881
 permalink: /step-by-step-guide-on-installing-the-azure-usage-and-billing-insights-aubi-portal/
 sc_member_order:

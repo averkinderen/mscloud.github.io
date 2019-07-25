@@ -3,7 +3,7 @@ id: 9511
 title: 7th MVP renewal!
 date: 2016-01-01T16:51:57+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9511
 permalink: /7th-mvp-renewal/
 sc_member_order:

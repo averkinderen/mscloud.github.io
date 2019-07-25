@@ -3,7 +3,7 @@ id: 592
 title: 'Unique Opsmgr 2007 training event (Belgium) : Management Pack Development Course'
 date: 2009-09-22T17:23:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/22/unique-opsmgr-2007-training-event-belgium-management-pack-development-course.aspx
 permalink: /unique-opsmgr-2007-training-event-belgium-management-pack-development-course/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19686
 title: Opsmgr on Social Forum!
 date: 2009-05-22T17:40:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/22/opsmgr-on-social-forum.aspx
 permalink: /opsmgr-on-social-forum/
 sc_member_order:

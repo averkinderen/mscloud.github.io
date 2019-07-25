@@ -3,7 +3,7 @@ id: 572
 title: Opsmgr Performance problems with healthservice on agents
 date: 2009-06-11T20:59:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/11/opsmgr-performance-problems-with-healthservice-on-agents.aspx
 permalink: /opsmgr-performance-problems-with-healthservice-on-agents/
 sc_member_order:

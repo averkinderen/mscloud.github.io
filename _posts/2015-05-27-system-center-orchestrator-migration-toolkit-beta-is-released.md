@@ -3,7 +3,7 @@ id: 9001
 title: 'System Center Orchestrator Migration Toolkit’- Beta is released'
 date: 2015-05-27T09:32:09+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9001
 permalink: /system-center-orchestrator-migration-toolkit-beta-is-released/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 1871
 title: The SQL Server Service Broker for the current Opsmgr database is not enabled
 date: 2008-11-22T15:04:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/11/22/the-sql-server-service-broker-for-the-current-opsmgr-database-is-not-enabled.aspx
 permalink: /the-sql-server-service-broker-for-the-current-opsmgr-database-is-not-enabled-2/
 sc_member_order:

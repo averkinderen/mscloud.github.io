@@ -3,7 +3,7 @@ id: 2291
 title: Known issues with the Microsoft Dynamics AX 2009 Management Pack for Systems Center Operations Manager 2007
 date: 2009-06-23T21:03:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/23/known-issues-with-the-microsoft-dynamics-ax-2009-management-pack-for-systems-center-operations-manager-2007.aspx
 permalink: /known-issues-with-the-microsoft-dynamics-ax-2009-management-pack-for-systems-center-operations-manager-2007-2/
 sc_member_order:

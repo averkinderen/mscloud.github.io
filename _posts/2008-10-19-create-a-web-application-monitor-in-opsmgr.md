@@ -3,7 +3,7 @@ id: 19678
 title: Create a Web Application Monitor in opsmgr Part I
 date: 2008-10-19T08:58:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/10/19/create-a-web-application-monitor-in-opsmgr.aspx
 permalink: /create-a-web-application-monitor-in-opsmgr/
 sc_member_order:

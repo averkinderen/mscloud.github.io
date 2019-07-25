@@ -3,7 +3,7 @@ id: 2921
 title: Building a Sharepoint Change Calendar with Orchestrator and Service Manager
 date: 2012-11-08T10:48:38+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=663
 permalink: /building-a-sharepoint-change-calendar-with-orchestrator-and-service-manager-2/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 10521
 title: 'New step in my career&#8230;. down under!'
 date: 2016-06-09T17:19:57+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=10521
 permalink: /new-step-in-my-career-down-under/
 sc_member_order:

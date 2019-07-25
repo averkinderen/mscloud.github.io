@@ -3,7 +3,7 @@ id: 629
 title: Operations Manager 2007 R2 Management Pack 3rd quarterly update
 date: 2010-07-03T09:02:05+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/07/03/operations-manager-2007-r2-management-pack-3rd-quarterly-update.aspx
 permalink: /operations-manager-2007-r2-management-pack-3rd-quarterly-update/
 sc_member_order:

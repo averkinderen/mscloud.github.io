@@ -3,7 +3,7 @@ id: 540
 title: Opsmgr 2007 R2 Beta1 Released!
 date: 2008-11-20T09:17:40+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/11/20/opsmgr-2007-r2-beta1-released.aspx
 permalink: /opsmgr-2007-r2-beta1-released/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 2391
 title: Installing and Configuring System Center Operations Manager 2007 (MOC50028)
 date: 2009-10-27T10:34:25+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/10/27/installing-and-configuring-system-center-operations-manager-2007-moc50028.aspx
 permalink: /installing-and-configuring-system-center-operations-manager-2007-moc50028/
 sc_member_order:

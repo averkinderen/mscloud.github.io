@@ -3,7 +3,7 @@ id: 1431
 title: How tho make an override for the SWAP Disks
 date: 2007-12-29T09:52:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/12/29/how-tho-make-an-override-for-the-swap-disks.aspx
 permalink: /how-tho-make-an-override-for-the-swap-disks/
 sc_member_order:

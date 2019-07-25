@@ -3,7 +3,7 @@ id: 515
 title: Windows 2008 Opsmgr Management Packs released
 date: 2008-07-28T12:56:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/07/28/windows-2008-management-packs-released.aspx
 permalink: /windows-2008-management-packs-released/
 sc_member_order:

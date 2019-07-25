@@ -3,7 +3,7 @@ id: 2851
 title: Hp bladesystem enclosure monitoring manager requested registry access is not allowed
 date: 2011-06-01T05:18:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/06/01/hp-bladesystem-enclosure-monitoring-manager-requested-registry-access-is-not-allowed.aspx
 permalink: /hp-bladesystem-enclosure-monitoring-manager-requested-registry-access-is-not-allowed-2/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 742
 title: Install OpsMgr Agent-less remotely with Powershell
 date: 2014-01-02T14:04:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=742
 permalink: /install-opsmgr-agent-less-remotely-with-powershell/
 sc_member_order:

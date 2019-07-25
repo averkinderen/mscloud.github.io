@@ -3,7 +3,7 @@ id: 638
 title: Installing a remote Operations Manager database with DBcreateWizard.exe
 date: 2011-01-19T11:56:05+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/01/19/installing-a-remote-operations-manager-database-with-dbcreatewizard-exe.aspx
 permalink: /installing-a-remote-operations-manager-database-with-dbcreatewizard-exe/
 sc_member_order:

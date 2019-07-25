@@ -3,7 +3,7 @@ id: 566
 title: 'Optimizing the performance of  your Opsmgr Console and reducing DB size'
 date: 2009-05-28T09:12:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/05/28/optimizing-the-performance-of-your-opsmgr-console-and-reducing-db-size.aspx
 permalink: /optimizing-the-performance-of-your-opsmgr-console-and-reducing-db-size/
 sc_member_order:

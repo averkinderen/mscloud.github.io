@@ -3,7 +3,7 @@ id: 679
 title: SPF examples
 date: 2013-02-21T22:49:54+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=679
 permalink: /spf-examples/
 sc_member_order:

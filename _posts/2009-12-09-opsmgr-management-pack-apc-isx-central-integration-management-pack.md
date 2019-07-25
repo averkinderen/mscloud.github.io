@@ -3,7 +3,7 @@ id: 19699
 title: OpsMgr Management pack APC ISX Central Integration Management Pack
 date: 2009-12-09T13:54:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/12/09/opsmgr-management-pack-apc-isx-central-integration-management-pack.aspx
 permalink: /opsmgr-management-pack-apc-isx-central-integration-management-pack/
 sc_member_order:

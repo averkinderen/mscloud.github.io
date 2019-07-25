@@ -3,7 +3,7 @@ id: 635
 title: TechEd BOF Session Proposal Voting
 date: 2010-10-14T19:06:26+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/10/14/teched-bof-session-proposal-voting.aspx
 permalink: /teched-bof-session-proposal-voting/
 sc_member_order:

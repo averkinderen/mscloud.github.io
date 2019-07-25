@@ -3,7 +3,7 @@ id: 3001
 title: Powershell Deployment Toolkit failed missing port for sql server
 date: 2013-11-28T20:28:04+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=711
 permalink: /powershell-deployment-toolkit-failed-missing-port-for-sql-server-2/
 sc_member_order:

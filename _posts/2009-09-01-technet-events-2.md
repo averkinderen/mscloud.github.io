@@ -3,7 +3,7 @@ id: 2331
 title: Technet Events
 date: 2009-09-01T19:27:57+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/01/technet-events.aspx
 permalink: /technet-events-2/
 sc_member_order:

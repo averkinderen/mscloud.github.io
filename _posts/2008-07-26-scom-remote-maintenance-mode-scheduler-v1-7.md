@@ -3,7 +3,7 @@ id: 513
 title: Opsmgr Remote Maintenance Mode Scheduler v1.7
 date: 2008-07-26T07:33:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/07/26/scom-remote-maintenance-mode-scheduler-v1-7.aspx
 permalink: /scom-remote-maintenance-mode-scheduler-v1-7/
 sc_member_order:

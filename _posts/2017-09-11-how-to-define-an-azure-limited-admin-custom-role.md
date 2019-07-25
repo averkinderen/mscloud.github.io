@@ -3,7 +3,7 @@ id: 19720
 title: How to define an Azure Limited Admin custom role
 date: 2017-09-11T10:19:34+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19720
 permalink: /how-to-define-an-azure-limited-admin-custom-role/
 sc_member_order:

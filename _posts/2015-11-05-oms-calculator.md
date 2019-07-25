@@ -3,7 +3,7 @@ id: 9141
 title: OMS Calculator
 date: 2015-11-05T00:59:56+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9141
 permalink: /oms-calculator/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 2821
 title: System Center Advisor Part 2 Installation
 date: 2011-04-30T09:59:14+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/04/30/system-center-advisor-part-2-installation.aspx
 permalink: /system-center-advisor-part-2-installation-2/
 sc_member_order:

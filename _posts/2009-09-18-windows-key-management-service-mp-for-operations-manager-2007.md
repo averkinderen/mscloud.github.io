@@ -3,7 +3,7 @@ id: 590
 title: Windows Key Management Service MP for Operations Manager 2007
 date: 2009-09-18T17:53:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/18/windows-key-management-service-mp-for-operations-manager-2007.aspx
 permalink: /windows-key-management-service-mp-for-operations-manager-2007/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19689
 title: Changes effective July 1st to System Center Server Management Suite Enterprise Licensing
 date: 2009-06-06T09:19:09+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/06/06/changes-effective-july-1st-to-system-center-server-management-suite-enterprise-licensing.aspx
 permalink: /changes-effective-july-1st-to-system-center-server-management-suite-enterprise-licensing/
 sc_member_order:

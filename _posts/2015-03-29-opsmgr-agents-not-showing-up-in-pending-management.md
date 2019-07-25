@@ -3,7 +3,7 @@ id: 8451
 title: OpsMgr agents not showing up in pending management
 date: 2015-03-29T07:49:17+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=8451
 permalink: /opsmgr-agents-not-showing-up-in-pending-management/
 sc_member_order:

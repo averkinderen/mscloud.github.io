@@ -3,7 +3,7 @@ id: 1891
 title: Native DPM 2007 managment pack for opsmgr
 date: 2009-01-06T22:50:17+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/01/06/native-dpm-2007-managment-pack-for-opsmgr.aspx
 permalink: /native-dpm-2007-managment-pack-for-opsmgr-2/
 sc_member_order:

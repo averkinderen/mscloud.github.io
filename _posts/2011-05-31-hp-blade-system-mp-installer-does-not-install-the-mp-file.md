@@ -3,7 +3,7 @@ id: 648
 title: HP Blade System MP installer does not install the mp file
 date: 2011-05-31T05:16:50+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/05/31/hp-blade-system-mp-installer-does-not-install-the-mp-file.aspx
 permalink: /hp-blade-system-mp-installer-does-not-install-the-mp-file/
 sc_member_order:

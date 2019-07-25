@@ -3,7 +3,7 @@ id: 19131
 title: Deploying Azure Resource Policies
 date: 2017-04-28T09:03:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=19131
 permalink: /deploying-azure-resource-policies/
 sc_member_order:

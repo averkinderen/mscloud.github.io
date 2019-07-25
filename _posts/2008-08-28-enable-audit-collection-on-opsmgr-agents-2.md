@@ -3,7 +3,7 @@ id: 1711
 title: enable audit collection on opsmgr agents
 date: 2008-08-28T14:44:59+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/08/28/enable-audit-collection-on-opsmgr-agents.aspx
 permalink: /enable-audit-collection-on-opsmgr-agents-2/
 sc_member_order:

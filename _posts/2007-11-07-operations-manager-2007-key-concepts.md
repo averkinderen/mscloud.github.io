@@ -3,7 +3,7 @@ id: 19664
 title: Operations Manager 2007 Key Concepts
 date: 2007-11-07T19:19:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/11/07/operations-manager-2007-key-concepts.aspx
 permalink: /operations-manager-2007-key-concepts/
 sc_member_order:

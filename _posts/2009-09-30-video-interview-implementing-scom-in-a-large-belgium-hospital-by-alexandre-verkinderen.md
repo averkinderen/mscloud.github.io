@@ -3,7 +3,7 @@ id: 2371
 title: 'Video Interview: Implementing SCOM in a large Belgium Hospital by Alexandre Verkinderen'
 date: 2009-09-30T08:45:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/30/video-interview-implementing-scom-in-a-large-belgium-hospital-by-alexandre-verkinderen.aspx
 permalink: /video-interview-implementing-scom-in-a-large-belgium-hospital-by-alexandre-verkinderen/
 sc_member_order:

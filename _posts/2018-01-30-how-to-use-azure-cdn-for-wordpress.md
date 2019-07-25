@@ -3,7 +3,7 @@ id: 19798
 title: How to use Azure CDN for WordPress
 date: 2018-01-30T09:50:19+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19798
 permalink: /how-to-use-azure-cdn-for-wordpress/
 sc_member_order:

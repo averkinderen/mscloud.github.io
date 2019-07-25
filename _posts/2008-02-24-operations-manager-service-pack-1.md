@@ -3,7 +3,7 @@ id: 492
 title: Operations Manager Service pack 1
 date: 2008-02-24T12:20:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/02/24/operations-manager-service-pack-1.aspx
 permalink: /operations-manager-service-pack-1/
 sc_member_order:

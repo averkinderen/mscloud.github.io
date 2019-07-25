@@ -3,7 +3,7 @@ id: 19898
 title: Real Time Twitter sentiment analysis with Azure Cognitive Services
 date: 2018-11-21T10:16:53+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19898
 permalink: /real-time-twitter-sentiment-analysis-with-azure-cognitive-services/
 sc_member_order:

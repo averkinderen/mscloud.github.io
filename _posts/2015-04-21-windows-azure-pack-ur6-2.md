@@ -3,7 +3,7 @@ id: 8821
 title: Windows Azure Pack UR6
 date: 2015-04-21T20:00:23+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=8821
 permalink: /windows-azure-pack-ur6-2/
 sc_member_order:

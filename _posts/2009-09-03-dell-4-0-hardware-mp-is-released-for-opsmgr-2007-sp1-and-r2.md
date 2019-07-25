@@ -3,7 +3,7 @@ id: 19691
 title: Dell 4.0 hardware MP is released for Opsmgr 2007 SP1 and R2
 date: 2009-09-03T06:55:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/09/03/dell-4-0-hardware-mp-is-released-for-opsmgr-2007-sp1-and-r2.aspx
 permalink: /dell-4-0-hardware-mp-is-released-for-opsmgr-2007-sp1-and-r2/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 5051
 title: Optimize Azure website performance
 date: 2015-01-25T14:51:16+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=5051
 permalink: /optimize-azure-website-performance/
 sc_member_order:

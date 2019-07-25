@@ -3,7 +3,7 @@ id: 555
 title: IIS 7 management pack hotfix
 date: 2009-04-08T20:58:39+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/04/08/iis-7-management-pack-hotfix.aspx
 permalink: /iis-7-management-pack-hotfix/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 487
 title: Congrats for SCUG.NL
 date: 2007-12-16T09:20:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/12/16/congrats-for-scug-nl.aspx
 permalink: /congrats-for-scug-nl/
 sc_member_order:

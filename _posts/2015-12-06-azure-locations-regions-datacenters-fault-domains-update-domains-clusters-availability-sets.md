@@ -3,7 +3,7 @@ id: 9431
 title: Azure locations, regions, datacenters, fault domains, update domains, clusters, availability sets??
 date: 2015-12-06T12:35:30+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=9431
 permalink: /azure-locations-regions-datacenters-fault-domains-update-domains-clusters-availability-sets/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 19682
 title: TechDays 2009 in March
 date: 2009-01-04T22:42:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/01/04/techdays-2009-in-march.aspx
 permalink: /techdays-2009-in-march/
 sc_member_order:

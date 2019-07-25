@@ -3,7 +3,7 @@ id: 597
 title: New management packs for OpsMgr in October
 date: 2009-10-23T15:03:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/10/23/new-management-packs-for-opsmgr.aspx
 permalink: /new-management-packs-for-opsmgr/
 sc_member_order:

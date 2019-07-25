@@ -3,7 +3,7 @@ id: 617
 title: OpsMgr Management Pack Catalog Certificate not Valid or Expired!
 date: 2010-04-14T18:36:07+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/04/14/opsmgr-management-pack-catalog-certificate-not-valid-or-expired.aspx
 permalink: /opsmgr-management-pack-catalog-certificate-not-valid-or-expired/
 sc_member_order:

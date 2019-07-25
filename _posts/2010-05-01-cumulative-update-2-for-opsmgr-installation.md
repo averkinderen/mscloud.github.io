@@ -3,7 +3,7 @@ id: 2611
 title: Cumulative Update 2 for OpsMgr installation
 date: 2010-05-01T12:28:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/05/01/cumulative-update-2-for-opsmgr-installation.aspx
 permalink: /cumulative-update-2-for-opsmgr-installation/
 sc_member_order:

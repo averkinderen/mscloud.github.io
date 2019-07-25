@@ -3,7 +3,7 @@ id: 520
 title: Installing Audit Collection Services ( ACS )
 date: 2008-08-27T19:05:11+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/08/27/installing-audit-collection-services-acs.aspx
 permalink: /installing-audit-collection-services-acs/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 1381
 title: OpsMgr 2007 SP1 Release Candidate Upgrade
 date: 2007-11-04T13:30:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/11/04/opsmgr-2007-sp1-release-candidate-upgrade.aspx
 permalink: /opsmgr-2007-sp1-release-candidate-upgrade-2/
 sc_member_order:

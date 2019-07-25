@@ -3,7 +3,7 @@ id: 643
 title: System Center Advisor Part 1 Overview
 date: 2011-04-30T09:25:19+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/04/30/system-center-advisor-part-1-overview.aspx
 permalink: /system-center-advisor-part-1-overview/
 sc_member_order:

@@ -3,7 +3,7 @@ id: 733
 title: Configure users and Roles in App Controller with Powershell
 date: 2013-12-26T12:41:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=733
 permalink: /configure-users-and-roles-in-app-controller-with-powershell/
 sc_member_order:

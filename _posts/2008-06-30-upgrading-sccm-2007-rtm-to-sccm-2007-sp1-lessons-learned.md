@@ -3,7 +3,7 @@ id: 508
 title: 'Upgrading SCCM 2007 RTM to SCCM 2007 SP1 : Lessons Learned'
 date: 2008-06-30T20:10:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/06/30/upgrading-sccm-2007-rtm-to-sccm-2007-sp1-lessons-learned.aspx
 permalink: /upgrading-sccm-2007-rtm-to-sccm-2007-sp1-lessons-learned/
 sc_member_order:

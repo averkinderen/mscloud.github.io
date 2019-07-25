@@ -3,7 +3,7 @@ id: 2301
 title: System Center User Group Netherlands Summer Night
 date: 2009-07-08T10:16:08+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2009/07/08/system-center-user-group-netherlands-summer-night.aspx
 permalink: /system-center-user-group-netherlands-summer-night/
 sc_member_order:

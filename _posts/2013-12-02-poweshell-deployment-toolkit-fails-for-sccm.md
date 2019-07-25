@@ -3,7 +3,7 @@ id: 714
 title: Poweshell Deployment Toolkit fails for SCCM
 date: 2013-12-02T06:05:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://scug.be/scom/?p=714
 permalink: /poweshell-deployment-toolkit-fails-for-sccm/
 sc_member_order:

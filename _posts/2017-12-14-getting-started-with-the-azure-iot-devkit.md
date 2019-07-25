@@ -3,7 +3,7 @@ id: 19822
 title: Getting started with the Azure Iot DevKit
 date: 2017-12-14T09:43:34+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://mscloud.be/?p=19822
 permalink: /getting-started-with-the-azure-iot-devkit/
 sc_member_order:

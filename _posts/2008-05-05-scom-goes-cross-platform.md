@@ -3,7 +3,7 @@ id: 1511
 title: Scom Goes cross-platform
 date: 2008-05-05T19:10:13+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/05/05/scom-goes-cross-platform.aspx
 permalink: /scom-goes-cross-platform/
 sc_member_order:

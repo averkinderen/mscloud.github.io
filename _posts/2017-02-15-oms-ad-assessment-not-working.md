@@ -3,7 +3,7 @@ id: 17811
 title: OMS AD assessment not working, no data found.
 date: 2017-02-15T16:52:15+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: http://www.mscloud.be/?p=17811
 permalink: /oms-ad-assessment-not-working/
 sc_member_order:

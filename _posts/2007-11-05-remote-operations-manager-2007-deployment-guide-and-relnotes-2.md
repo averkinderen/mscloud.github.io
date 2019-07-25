@@ -3,7 +3,7 @@ id: 1391
 title: Remote Operations Manager 2007 Deployment Guide and RelNotes
 date: 2007-11-05T22:16:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2007/11/05/remote-operations-manager-2007-deployment-guide-and-relnotes.aspx
 permalink: /remote-operations-manager-2007-deployment-guide-and-relnotes-2/
 sc_member_order:

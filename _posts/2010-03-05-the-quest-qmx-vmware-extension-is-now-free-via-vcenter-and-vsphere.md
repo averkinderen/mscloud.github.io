@@ -3,7 +3,7 @@ id: 613
 title: The Quest QMX VMware extension is now free via vCenter and vSphere
 date: 2010-03-05T08:28:14+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2010/03/05/the-quest-qmx-vmware-extension-is-now-free-via-vcenter-and-vsphere.aspx
 permalink: /the-quest-qmx-vmware-extension-is-now-free-via-vcenter-and-vsphere/
 sc_member_order:

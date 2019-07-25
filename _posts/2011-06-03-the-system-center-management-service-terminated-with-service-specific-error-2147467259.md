@@ -3,7 +3,7 @@ id: 2891
 title: 'The System Center Management service terminated with service-specific error %%-2147467259'
 date: 2011-06-03T05:19:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2011/06/03/the-system-center-management-service-terminated-with-service-specific-error-2147467259.aspx
 permalink: /the-system-center-management-service-terminated-with-service-specific-error-2147467259/
 sc_member_order:

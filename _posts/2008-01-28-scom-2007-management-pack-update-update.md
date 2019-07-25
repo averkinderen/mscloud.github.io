@@ -22,3 +22,4 @@ tags:
   - Operations Manager 2007
 ---
 SCOM 2007 Management Pack Update Update The Microsoft System Center Operations Manager Management Pack update is an update to the previously released System Center Operations Manager 2007 Management Pack with System Center Operations Manager 2007 RTM&#8230;([read more](http://trycatch.be/blogs/scug/archive/2008/01/28/scom-2007-management-pack-update-update.aspx))<img src="http://trycatch.be/aggbug.aspx?PostID=347" width="1" height="1" />
+
