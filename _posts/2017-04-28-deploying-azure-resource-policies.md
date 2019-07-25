@@ -106,7 +106,7 @@ Well-designed naming standards enable you to identify resources in the Azure por
   </li>
 </ul>
 
-[<img class="alignnone size-full wp-image-19231" src="http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging.png" alt="" width="400" height="243" srcset="/wp-content/uploads/2017/04/resource-group-tagging.png 400w, /wp-content/uploads/2017/04/resource-group-tagging-300x182.png 300w" sizes="(max-width: 400px) 100vw, 400px" />](http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging.png)
+[<img class="alignnone size-full wp-image-19231" src="http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging.png" alt="" width="400" height="243" srcset="http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging.png 400w, http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging-300x182.png 300w" sizes="(max-width: 400px) 100vw, 400px" />](http://www.mscloud.be/wp-content/uploads/2017/04/resource-group-tagging.png)
 
 ### Locations
 
@@ -186,12 +186,13 @@ The script requires the following parameters:
 
 You then need to specify the subscription to assign the Policy definition. Policies are inherited by all child resources. So, if a policy is applied to a subscription, it is applicable to all the resource groups and resources in that subscription.
 
-    View the code on <script src="https://gist.github.com/averkinderen/df7bb438bd9908af73c0deb25879d654.js"></script>
+View the code here
+<script src="https://gist.github.com/averkinderen/df7bb438bd9908af73c0deb25879d654.js"></script>
 
 
 Run the above script with the required parameters:
 
-[<img class="alignnone size-large wp-image-19341" src="http://www.mscloud.be/wp-content/uploads/2017/04/ps2-1024x504.png" alt="" width="768" height="378" srcset="/wp-content/uploads/2017/04/ps2-1024x504.png 1024w, /wp-content/uploads/2017/04/ps2-300x148.png 300w, /wp-content/uploads/2017/04/ps2-768x378.png 768w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/ps2.png)
+[<img class="alignnone size-large wp-image-19341" src="http://www.mscloud.be/wp-content/uploads/2017/04/ps2-1024x504.png" alt="" width="768" height="378" srcset="http://www.mscloud.be/wp-content/uploads/2017/04/ps2-1024x504.png 1024w, http://www.mscloud.be/wp-content/uploads/2017/04/ps2-300x148.png 300w, http://www.mscloud.be/wp-content/uploads/2017/04/ps2-768x378.png 768w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/ps2.png)
 
 That&#8217;s it! You have now created a new Azure Resource Policy definition and assigned that Policy to a subscription!
 
@@ -199,11 +200,11 @@ That&#8217;s it! You have now created a new Azure Resource Policy definition and
 
 After running the script and assigning the tagging policy you should see the following policy assigned to our subscription:
 
-[<img class="alignnone size-large wp-image-19271" src="http://www.mscloud.be/wp-content/uploads/2017/04/sub-1024x419.png" alt="" width="768" height="314" srcset="/wp-content/uploads/2017/04/sub-1024x419.png 1024w, /wp-content/uploads/2017/04/sub-300x123.png 300w, /wp-content/uploads/2017/04/sub-768x314.png 768w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/sub.png)
+[<img class="alignnone size-large wp-image-19271" src="http://www.mscloud.be/wp-content/uploads/2017/04/sub-1024x419.png" alt="" width="768" height="314" srcset="http://www.mscloud.be/wp-content/uploads/2017/04/sub-1024x419.png 1024w, http://www.mscloud.be/wp-content/uploads/2017/04/sub-300x123.png 300w, /wp-content/uploads/2017/04/sub-768x314.png 768w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/sub.png)
 
 and as you can see, when we create a new resource without tags, they willl be appended automatically:
 
-[<img class="alignnone size-large wp-image-19301" src="http://www.mscloud.be/wp-content/uploads/2017/04/tags-1024x604.png" alt="" width="768" height="453" srcset="/wp-content/uploads/2017/04/tags-1024x604.png 1024w, /wp-content/uploads/2017/04/tags-300x177.png 300w, /wp-content/uploads/2017/04/tags-768x453.png 768w, /wp-content/uploads/2017/04/tags.png 1445w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/tags.png)
+[<img class="alignnone size-large wp-image-19301" src="http://www.mscloud.be/wp-content/uploads/2017/04/tags-1024x604.png" alt="" width="768" height="453" srcset="/wp-content/uploads/2017/04/tags-1024x604.png 1024w, http://www.mscloud.be/wp-content/uploads/2017/04/tags-300x177.png 300w, http://www.mscloud.be/wp-content/uploads/2017/04/tags-768x453.png 768w, http://www.mscloud.be/wp-content/uploads/2017/04/tags.png 1445w" sizes="(max-width: 768px) 100vw, 768px" />](http://www.mscloud.be/wp-content/uploads/2017/04/tags.png)
 
 In the next blog post we will use the same PowerShell script but create and assign a policy to limit the Azure regions. So stay tuned!
 
