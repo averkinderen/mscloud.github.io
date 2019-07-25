@@ -1,6 +1,6 @@
 # main links
 main:
-  #- title: "Quick-Start Guide"
+  #- title: "Posts by tags"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
@@ -11,4 +11,4 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Posts by tags"
-   url: "/tags/"
+   url: /tags/
