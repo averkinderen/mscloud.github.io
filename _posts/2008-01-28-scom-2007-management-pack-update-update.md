@@ -3,7 +3,7 @@ id: 1451
 title: SCOM 2007 Management Pack Update Update
 date: 2008-01-28T08:51:00+10:00
 author: alexandre@verkinderen.com
-layout: post
+
 guid: /blogs/scom/archive/2008/01/28/scom-2007-management-pack-update-update.aspx
 permalink: /scom-2007-management-pack-update-update/
 sc_member_order:
