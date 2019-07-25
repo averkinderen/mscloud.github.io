@@ -5,7 +5,6 @@ date: 2017-01-03T10:53:57+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=16931
-permalink: /mvp-award-renewed/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2008-09-19T13:23:04+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/09/19/changing-the-acs-dataretention-period-for-opsmgr.aspx
-permalink: /changing-the-acs-dataretention-period-for-opsmgr/
 sc_member_order:
   - "0"
   - "0"

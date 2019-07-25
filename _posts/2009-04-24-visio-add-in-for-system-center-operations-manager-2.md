@@ -5,7 +5,6 @@ date: 2009-04-24T07:01:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/04/24/visio-add-in-for-system-center-operations-manager.aspx
-permalink: /visio-add-in-for-system-center-operations-manager-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-09-18T17:53:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/18/windows-key-management-service-mp-for-operations-manager-2007.aspx
-permalink: /windows-key-management-service-mp-for-operations-manager-2007/
 sc_member_order:
   - "0"
   - "0"

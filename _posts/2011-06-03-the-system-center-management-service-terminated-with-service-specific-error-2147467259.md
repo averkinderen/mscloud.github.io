@@ -5,7 +5,6 @@ date: 2011-06-03T05:19:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/06/03/the-system-center-management-service-terminated-with-service-specific-error-2147467259.aspx
-permalink: /the-system-center-management-service-terminated-with-service-specific-error-2147467259/
 sc_member_order:
   - "0"
   - "0"

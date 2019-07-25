@@ -5,7 +5,6 @@ date: 2019-05-25T13:28:08+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19986
-permalink: /configure-regional-settings-and-windows-locales-on-azure-virtual-machines/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

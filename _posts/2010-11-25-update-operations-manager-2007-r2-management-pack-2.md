@@ -5,7 +5,6 @@ date: 2010-11-25T19:21:42+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/11/25/update-operations-manager-2007-r2-management-pack.aspx
-permalink: /update-operations-manager-2007-r2-management-pack-2/
 sc_member_order:
   - "0"
   - "0"

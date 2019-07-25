@@ -5,7 +5,6 @@ date: 2009-10-23T10:00:05+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/10/23/operations-manager-2007-r2-authoring-resource-kit.aspx
-permalink: /operations-manager-2007-r2-authoring-resource-kit/
 sc_member_order:
   - "0"
   - "0"

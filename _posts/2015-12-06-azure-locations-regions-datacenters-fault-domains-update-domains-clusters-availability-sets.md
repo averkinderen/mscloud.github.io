@@ -5,7 +5,6 @@ date: 2015-12-06T12:35:30+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9431
-permalink: /azure-locations-regions-datacenters-fault-domains-update-domains-clusters-availability-sets/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

@@ -5,7 +5,6 @@ date: 2008-06-04T19:58:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/06/04/vista-gadget-to-search-system-center-documents.aspx
-permalink: /vista-gadget-to-search-system-center-documents/
 sc_member_order:
   - "0"
   - "0"

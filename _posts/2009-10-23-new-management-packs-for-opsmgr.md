@@ -5,7 +5,6 @@ date: 2009-10-23T15:03:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/10/23/new-management-packs-for-opsmgr.aspx
-permalink: /new-management-packs-for-opsmgr/
 sc_member_order:
   - "0"
   - "0"

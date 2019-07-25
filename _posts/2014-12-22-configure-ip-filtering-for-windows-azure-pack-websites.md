@@ -5,7 +5,6 @@ date: 2014-12-22T13:12:02+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=4461
-permalink: /configure-ip-filtering-for-windows-azure-pack-websites/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

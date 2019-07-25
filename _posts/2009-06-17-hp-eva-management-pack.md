@@ -5,7 +5,6 @@ date: 2009-06-17T21:39:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/17/hp-eva-management-pack.aspx
-permalink: /hp-eva-management-pack/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-01-04T22:42:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/01/04/techdays-2009-in-march.aspx
-permalink: /techdays-2009-in-march/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2015-03-29T07:49:17+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=8451
-permalink: /opsmgr-agents-not-showing-up-in-pending-management/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

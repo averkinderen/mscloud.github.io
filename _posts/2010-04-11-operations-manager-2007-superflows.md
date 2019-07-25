@@ -5,7 +5,6 @@ date: 2010-04-11T18:49:11+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/04/11/operations-manager-2007-superflows.aspx
-permalink: /operations-manager-2007-superflows/
 sc_member_order:
   - "0"
   - "0"

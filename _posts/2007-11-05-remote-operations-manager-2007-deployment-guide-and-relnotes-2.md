@@ -5,7 +5,6 @@ date: 2007-11-05T22:16:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2007/11/05/remote-operations-manager-2007-deployment-guide-and-relnotes.aspx
-permalink: /remote-operations-manager-2007-deployment-guide-and-relnotes-2/
 sc_member_order:
   - "0"
   - "0"

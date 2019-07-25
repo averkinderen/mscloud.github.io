@@ -5,7 +5,6 @@ date: 2008-07-02T17:45:13+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/07/02/system-center-mobile-device-manager-2008-management-pack.aspx
-permalink: /system-center-mobile-device-manager-2008-management-pack/
 sc_member_order:
   - "0"
   - "0"

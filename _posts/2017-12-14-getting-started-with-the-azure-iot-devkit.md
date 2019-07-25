@@ -5,7 +5,6 @@ date: 2017-12-14T09:43:34+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19822
-permalink: /getting-started-with-the-azure-iot-devkit/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

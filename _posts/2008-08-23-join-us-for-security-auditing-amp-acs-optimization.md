@@ -5,7 +5,6 @@ date: 2008-08-23T09:16:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/23/join-us-for-security-auditing-amp-acs-optimization.aspx
-permalink: /join-us-for-security-auditing-amp-acs-optimization/
 sc_member_order:
   - "0"
   - "0"

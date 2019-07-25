@@ -5,7 +5,6 @@ date: 2009-05-29T19:19:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/29/opsmgr-db-create-wizard-system-invalidoperationexception.aspx
-permalink: /opsmgr-db-create-wizard-system-invalidoperationexception-2/
 sc_member_order:
   - "0"
   - "0"

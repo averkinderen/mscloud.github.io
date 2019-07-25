@@ -5,7 +5,6 @@ date: 2010-01-02T12:33:49+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/01/02/mvp-renewal-and-happy-new-year.aspx
-permalink: /mvp-renewal-and-happy-new-year/
 sc_member_order:
   - "0"
   - "0"

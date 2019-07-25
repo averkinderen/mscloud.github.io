@@ -5,7 +5,6 @@ date: 2011-01-19T11:56:05+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/01/19/installing-a-remote-operations-manager-database-with-dbcreatewizard-exe.aspx
-permalink: /installing-a-remote-operations-manager-database-with-dbcreatewizard-exe/
 sc_member_order:
   - "0"
   - "0"

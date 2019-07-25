@@ -5,7 +5,6 @@ date: 2009-09-01T19:27:57+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/01/technet-events.aspx
-permalink: /technet-events-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2008-10-22T21:06:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/10/22/creating-the-distributed-application-models-to-drive-the-service-level-dashboard.aspx
-permalink: /creating-the-distributed-application-models-to-drive-the-service-level-dashboard/
 sc_member_order:
   - "0"
   - "0"

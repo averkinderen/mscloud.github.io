@@ -5,7 +5,6 @@ date: 2008-02-24T12:33:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/02/24/what-s-new-in-operations-manager-2007-service-pack-1.aspx
-permalink: /what-s-new-in-operations-manager-2007-service-pack-1/
 sc_member_order:
   - "0"
   - "0"

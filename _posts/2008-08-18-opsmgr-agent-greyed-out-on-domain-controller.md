@@ -5,7 +5,6 @@ date: 2008-08-18T13:41:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/18/opsmgr-agent-greyed-out-on-domain-controller.aspx
-permalink: /opsmgr-agent-greyed-out-on-domain-controller/
 sc_member_order:
   - "0"
   - "0"

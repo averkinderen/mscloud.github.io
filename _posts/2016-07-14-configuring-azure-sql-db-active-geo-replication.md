@@ -5,7 +5,6 @@ date: 2016-07-14T02:28:08+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=10721
-permalink: /configuring-azure-sql-db-active-geo-replication/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2008-07-26T07:33:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/07/26/scom-remote-maintenance-mode-scheduler-v1-7.aspx
-permalink: /scom-remote-maintenance-mode-scheduler-v1-7/
 sc_member_order:
   - "0"
   - "0"

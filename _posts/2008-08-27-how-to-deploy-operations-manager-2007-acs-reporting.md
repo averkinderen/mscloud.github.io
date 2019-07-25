@@ -5,7 +5,6 @@ date: 2008-08-27T19:11:06+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/27/how-to-deploy-operations-manager-2007-acs-reporting.aspx
-permalink: /how-to-deploy-operations-manager-2007-acs-reporting/
 sc_member_order:
   - "0"
   - "0"

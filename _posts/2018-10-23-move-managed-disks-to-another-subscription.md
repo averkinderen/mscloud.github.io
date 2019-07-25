@@ -5,7 +5,6 @@ date: 2018-10-23T11:26:10+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19876
-permalink: /move-managed-disks-to-another-subscription/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

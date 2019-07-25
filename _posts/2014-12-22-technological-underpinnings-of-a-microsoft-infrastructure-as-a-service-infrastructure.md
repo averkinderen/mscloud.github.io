@@ -5,7 +5,6 @@ date: 2014-12-22T07:45:43+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=361
-permalink: /technological-underpinnings-of-a-microsoft-infrastructure-as-a-service-infrastructure/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

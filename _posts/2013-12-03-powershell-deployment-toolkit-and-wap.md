@@ -5,7 +5,6 @@ date: 2013-12-03T14:50:00+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=719
-permalink: /powershell-deployment-toolkit-and-wap/
 sc_member_order:
   - "0"
 post_views_count:

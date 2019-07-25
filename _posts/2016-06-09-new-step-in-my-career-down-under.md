@@ -5,7 +5,6 @@ date: 2016-06-09T17:19:57+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=10521
-permalink: /new-step-in-my-career-down-under/
 sc_member_order:
   - "0"
   - "0"

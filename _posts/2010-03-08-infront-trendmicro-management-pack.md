@@ -5,7 +5,6 @@ date: 2010-03-08T10:23:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/03/08/infront-trendmicro-management-pack.aspx
-permalink: /infront-trendmicro-management-pack/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2016-10-19T10:39:16+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=15051
-permalink: /new-oms-calculator/
 sc_member_order:
   - "0"
   - "0"

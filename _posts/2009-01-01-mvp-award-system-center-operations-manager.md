@@ -5,7 +5,6 @@ date: 2009-01-01T21:13:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/01/01/mvp-award-system-center-operations-manager.aspx
-permalink: /mvp-award-system-center-operations-manager/
 sc_member_order:
   - "0"
   - "0"

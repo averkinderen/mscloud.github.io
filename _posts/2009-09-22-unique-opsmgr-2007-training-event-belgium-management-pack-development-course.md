@@ -5,7 +5,6 @@ date: 2009-09-22T17:23:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/22/unique-opsmgr-2007-training-event-belgium-management-pack-development-course.aspx
-permalink: /unique-opsmgr-2007-training-event-belgium-management-pack-development-course/
 sc_member_order:
   - "0"
   - "0"

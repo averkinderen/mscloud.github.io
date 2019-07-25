@@ -5,7 +5,6 @@ date: 2018-10-02T12:10:33+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19867
-permalink: /download-msignite-2018-slides/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

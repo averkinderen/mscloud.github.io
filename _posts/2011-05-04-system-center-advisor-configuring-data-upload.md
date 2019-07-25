@@ -5,7 +5,6 @@ date: 2011-05-04T11:39:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/05/04/system-center-advisor-configuring-data-upload.aspx
-permalink: /system-center-advisor-configuring-data-upload/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2008-09-06T07:51:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/09/06/opsmgr-exchange-2007-management-pack.aspx
-permalink: /opsmgr-exchange-2007-management-pack/
 sc_member_order:
   - "0"
   - "0"

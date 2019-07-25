@@ -5,7 +5,6 @@ date: 2008-06-15T08:02:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/06/15/management-packs-roadmap.aspx
-permalink: /management-packs-roadmap/
 sc_member_order:
   - "0"
   - "0"

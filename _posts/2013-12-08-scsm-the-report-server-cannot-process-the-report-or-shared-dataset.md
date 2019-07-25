@@ -5,7 +5,6 @@ date: 2013-12-08T07:33:59+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=728
-permalink: /scsm-the-report-server-cannot-process-the-report-or-shared-dataset/
 sc_member_order:
   - "0"
 post_views_count:

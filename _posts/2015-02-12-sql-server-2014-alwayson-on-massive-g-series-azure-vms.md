@@ -5,7 +5,6 @@ date: 2015-02-12T09:26:25+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=5561
-permalink: /sql-server-2014-alwayson-on-massive-g-series-azure-vms/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

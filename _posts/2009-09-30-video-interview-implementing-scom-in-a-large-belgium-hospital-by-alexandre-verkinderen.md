@@ -5,7 +5,6 @@ date: 2009-09-30T08:45:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/30/video-interview-implementing-scom-in-a-large-belgium-hospital-by-alexandre-verkinderen.aspx
-permalink: /video-interview-implementing-scom-in-a-large-belgium-hospital-by-alexandre-verkinderen/
 sc_member_order:
   - "0"
   - "0"

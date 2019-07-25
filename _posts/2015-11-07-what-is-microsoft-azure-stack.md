@@ -5,7 +5,6 @@ date: 2015-11-07T16:11:33+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9301
-permalink: /what-is-microsoft-azure-stack/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

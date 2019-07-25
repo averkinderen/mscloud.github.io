@@ -5,7 +5,6 @@ date: 2009-06-13T07:45:20+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/13/microsoft-exchange-server-2007-management-pack-for-system-center-operations-manager-2007-r2.aspx
-permalink: /microsoft-exchange-server-2007-management-pack-for-system-center-operations-manager-2007-r2-2/
 sc_member_order:
   - "0"
   - "0"

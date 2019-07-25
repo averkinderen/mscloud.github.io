@@ -5,7 +5,6 @@ date: 2007-12-19T18:08:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2007/12/19/how-to-override-min-global-catalog-required.aspx
-permalink: /how-to-override-min-global-catalog-required/
 sc_member_order:
   - "0"
   - "0"

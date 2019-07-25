@@ -5,7 +5,6 @@ date: 2013-03-19T16:07:13+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=684
-permalink: /installing-hyper-v-inside-a-vm-on-windows-server-2012/
 sc_member_order:
   - "0"
 post_views_count:

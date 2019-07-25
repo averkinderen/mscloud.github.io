@@ -5,7 +5,6 @@ date: 2009-02-13T14:04:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/02/13/windows-server-cluster-management-pack-for-operations-manager-2007.aspx
-permalink: /windows-server-cluster-management-pack-for-operations-manager-2007/
 sc_member_order:
   - "0"
   - "0"

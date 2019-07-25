@@ -5,7 +5,6 @@ date: 2008-02-25T08:19:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/02/25/management-pack-authoring-guide.aspx
-permalink: /management-pack-authoring-guide-2/
 sc_member_order:
   - "0"
   - "0"

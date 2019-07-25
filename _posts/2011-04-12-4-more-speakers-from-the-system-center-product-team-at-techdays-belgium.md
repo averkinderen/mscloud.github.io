@@ -5,7 +5,6 @@ date: 2011-04-12T13:13:08+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/12/4-more-speakers-from-the-system-center-product-team-at-techdays-belgium.aspx
-permalink: /4-more-speakers-from-the-system-center-product-team-at-techdays-belgium/
 sc_member_order:
   - "0"
   - "0"

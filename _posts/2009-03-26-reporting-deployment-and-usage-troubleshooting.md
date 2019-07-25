@@ -5,7 +5,6 @@ date: 2009-03-26T18:52:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/03/26/reporting-deployment-and-usage-troubleshooting.aspx
-permalink: /reporting-deployment-and-usage-troubleshooting/
 sc_member_order:
   - "0"
   - "0"

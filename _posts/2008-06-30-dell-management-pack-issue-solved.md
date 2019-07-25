@@ -5,7 +5,6 @@ date: 2008-06-30T18:00:37+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/06/30/dell-management-pack-issue-solved.aspx
-permalink: /dell-management-pack-issue-solved/
 sc_member_order:
   - "0"
   - "0"

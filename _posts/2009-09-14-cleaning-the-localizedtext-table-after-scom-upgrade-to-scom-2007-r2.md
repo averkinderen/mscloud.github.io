@@ -5,7 +5,6 @@ date: 2009-09-14T13:48:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/14/cleaning-the-localizedtext-table-after-scom-upgrade-to-scom-2007-r2.aspx
-permalink: /cleaning-the-localizedtext-table-after-scom-upgrade-to-scom-2007-r2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2010-04-10T11:41:52+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/04/10/system-center-operations-manager-2007-r2-unleashed-is-now-available-for-preorder.aspx
-permalink: /system-center-operations-manager-2007-r2-unleashed-is-now-available-for-preorder/
 sc_member_order:
   - "0"
   - "0"

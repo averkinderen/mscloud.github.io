@@ -5,7 +5,6 @@ date: 2009-06-05T19:00:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/05/session-recording-using-system-center-operations-manager-to-monitor-your-sharepoint-environment.aspx
-permalink: /session-recording-using-system-center-operations-manager-to-monitor-your-sharepoint-environment/
 sc_member_order:
   - "0"
   - "0"

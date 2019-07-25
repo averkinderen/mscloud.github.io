@@ -5,7 +5,6 @@ date: 2009-12-02T20:07:29+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/12/02/opsmgr-webconsole-runtime-error-server-error-in-application.aspx
-permalink: /opsmgr-webconsole-runtime-error-server-error-in-application/
 sc_member_order:
   - "0"
   - "0"

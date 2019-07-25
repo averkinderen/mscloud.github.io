@@ -5,7 +5,6 @@ date: 2016-09-27T01:46:32+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=13321
-permalink: /whats-new-in-azure-stack-technical-preview-2/
 sc_member_order:
   - "0"
   - "0"

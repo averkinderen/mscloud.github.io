@@ -5,7 +5,6 @@ date: 2009-04-07T09:52:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/04/07/biwug-session-changed.aspx
-permalink: /biwug-session-changed/
 sc_member_order:
   - "0"
   - "0"

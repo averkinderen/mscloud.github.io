@@ -5,7 +5,6 @@ date: 2008-08-27T19:05:11+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/27/installing-audit-collection-services-acs.aspx
-permalink: /installing-audit-collection-services-acs/
 sc_member_order:
   - "0"
   - "0"

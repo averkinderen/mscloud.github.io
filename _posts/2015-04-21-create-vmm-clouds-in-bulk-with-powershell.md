@@ -5,7 +5,6 @@ date: 2015-04-21T20:14:41+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=7831
-permalink: /create-vmm-clouds-in-bulk-with-powershell/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

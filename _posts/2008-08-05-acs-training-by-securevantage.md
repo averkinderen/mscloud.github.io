@@ -5,7 +5,6 @@ date: 2008-08-05T17:30:35+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/05/acs-training-by-securevantage.aspx
-permalink: /acs-training-by-securevantage/
 sc_member_order:
   - "0"
   - "0"

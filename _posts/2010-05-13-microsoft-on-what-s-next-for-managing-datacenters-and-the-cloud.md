@@ -5,7 +5,6 @@ date: 2010-05-13T16:29:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/05/13/microsoft-on-what-s-next-for-managing-datacenters-and-the-cloud.aspx
-permalink: /microsoft-on-what-s-next-for-managing-datacenters-and-the-cloud/
 sc_member_order:
   - "0"
   - "0"

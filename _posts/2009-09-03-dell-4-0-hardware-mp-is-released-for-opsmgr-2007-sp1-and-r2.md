@@ -5,7 +5,6 @@ date: 2009-09-03T06:55:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/03/dell-4-0-hardware-mp-is-released-for-opsmgr-2007-sp1-and-r2.aspx
-permalink: /dell-4-0-hardware-mp-is-released-for-opsmgr-2007-sp1-and-r2/
 sc_member_order:
   - "0"
   - "0"

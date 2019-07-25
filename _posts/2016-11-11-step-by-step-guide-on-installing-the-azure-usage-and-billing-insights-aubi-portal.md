@@ -5,7 +5,6 @@ date: 2016-11-11T03:20:13+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=13881
-permalink: /step-by-step-guide-on-installing-the-azure-usage-and-billing-insights-aubi-portal/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2011-05-09T11:36:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/05/09/system-center-advisor-changing-the-upload-frequency.aspx
-permalink: /system-center-advisor-changing-the-upload-frequency/
 sc_member_order:
   - "0"
   - "0"

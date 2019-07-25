@@ -5,7 +5,6 @@ date: 2009-01-26T22:14:01+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/01/26/alert-check-out-the-mscommunity-be-landing-page.aspx
-permalink: /alert-check-out-the-mscommunity-be-landing-page/
 sc_member_order:
   - "0"
   - "0"

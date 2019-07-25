@@ -5,7 +5,6 @@ date: 2009-04-29T17:05:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/04/29/insight-control-suite-for-microsoft-system-center.aspx
-permalink: /insight-control-suite-for-microsoft-system-center-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-05-04T17:56:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/04/systemcentercentral-com-launch.aspx
-permalink: /systemcentercentral-com-launch/
 sc_member_order:
   - "0"
   - "0"

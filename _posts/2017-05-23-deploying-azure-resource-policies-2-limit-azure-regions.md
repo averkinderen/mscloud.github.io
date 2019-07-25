@@ -5,7 +5,6 @@ date: 2017-05-23T14:00:23+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=19431
-permalink: /deploying-azure-resource-policies-2-limit-azure-regions/
 sc_member_order:
   - "0"
   - "0"

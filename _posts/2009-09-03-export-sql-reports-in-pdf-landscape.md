@@ -5,7 +5,6 @@ date: 2009-09-03T12:53:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/03/export-sql-reports-in-pdf-landscape.aspx
-permalink: /export-sql-reports-in-pdf-landscape/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-06-04T22:52:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/04/interview-nigel-cain-at-techdays-2009-in-antwerp.aspx
-permalink: /interview-nigel-cain-at-techdays-2009-in-antwerp-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-12-04T12:59:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/12/04/opsmgr-bug-console-crashing-when-creating-an-override-on-cluster-resource-group-monitor.aspx
-permalink: /opsmgr-bug-console-crashing-when-creating-an-override-on-cluster-resource-group-monitor/
 sc_member_order:
   - "0"
   - "0"

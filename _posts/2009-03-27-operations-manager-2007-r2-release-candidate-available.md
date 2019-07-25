@@ -5,7 +5,6 @@ date: 2009-03-27T15:15:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/03/27/operations-manager-2007-r2-release-candidate-available.aspx
-permalink: /operations-manager-2007-r2-release-candidate-available/
 sc_member_order:
   - "0"
   - "0"

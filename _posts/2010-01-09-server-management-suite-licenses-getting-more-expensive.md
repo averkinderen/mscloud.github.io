@@ -5,7 +5,6 @@ date: 2010-01-09T08:50:39+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/01/09/server-management-suite-licenses-getting-more-expensive.aspx
-permalink: /server-management-suite-licenses-getting-more-expensive/
 sc_member_order:
   - "0"
   - "0"

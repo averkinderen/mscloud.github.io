@@ -5,7 +5,6 @@ date: 2009-06-08T21:01:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/08/collect-processor-time-of-the-healthservice-exe-of-your-agents.aspx
-permalink: /collect-processor-time-of-the-healthservice-exe-of-your-agents/
 sc_member_order:
   - "0"
   - "0"

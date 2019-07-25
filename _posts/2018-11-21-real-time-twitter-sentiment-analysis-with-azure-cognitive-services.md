@@ -5,7 +5,6 @@ date: 2018-11-21T10:16:53+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19898
-permalink: /real-time-twitter-sentiment-analysis-with-azure-cognitive-services/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

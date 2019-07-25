@@ -5,7 +5,6 @@ date: 2014-12-26T13:30:29+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=4561
-permalink: /configurable-quotas-for-windows-azure-pack-web-site-plans/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

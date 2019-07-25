@@ -5,7 +5,6 @@ date: 2018-09-28T19:19:13+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19862
-permalink: /azure-files-updates-from-ignite/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

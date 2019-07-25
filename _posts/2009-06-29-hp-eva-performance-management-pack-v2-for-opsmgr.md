@@ -5,7 +5,6 @@ date: 2009-06-29T16:29:16+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/29/hp-eva-performance-management-pack-v2-for-opsmgr.aspx
-permalink: /hp-eva-performance-management-pack-v2-for-opsmgr/
 sc_member_order:
   - "0"
   - "0"

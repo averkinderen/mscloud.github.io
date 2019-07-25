@@ -5,7 +5,6 @@ date: 2016-01-22T10:31:50+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9581
-permalink: /azure-subscriptions-best-practices/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

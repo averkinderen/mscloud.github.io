@@ -5,7 +5,6 @@ date: 2017-11-29T12:20:00+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19781
-permalink: /data-wrenching-with-azure-machine-learning-workbench/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

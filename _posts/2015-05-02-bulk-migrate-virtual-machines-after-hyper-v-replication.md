@@ -5,7 +5,6 @@ date: 2015-05-02T06:35:55+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=8691
-permalink: /bulk-migrate-virtual-machines-after-hyper-v-replication/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

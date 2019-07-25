@@ -5,7 +5,6 @@ date: 2010-04-14T18:36:07+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/04/14/opsmgr-management-pack-catalog-certificate-not-valid-or-expired.aspx
-permalink: /opsmgr-management-pack-catalog-certificate-not-valid-or-expired/
 sc_member_order:
   - "0"
   - "0"

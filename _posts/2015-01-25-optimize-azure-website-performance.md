@@ -5,7 +5,6 @@ date: 2015-01-25T14:51:16+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=5051
-permalink: /optimize-azure-website-performance/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

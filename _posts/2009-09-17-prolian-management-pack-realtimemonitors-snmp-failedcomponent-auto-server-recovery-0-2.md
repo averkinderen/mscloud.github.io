@@ -5,7 +5,6 @@ date: 2009-09-17T12:17:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/17/prolian-management-pack-realtimemonitors-snmp-failedcomponent-auto-server-recovery-0.aspx
-permalink: /prolian-management-pack-realtimemonitors-snmp-failedcomponent-auto-server-recovery-0-2/
 sc_member_order:
   - "0"
   - "0"

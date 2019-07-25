@@ -5,7 +5,6 @@ date: 2009-07-31T11:59:43+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/07/31/trendmicro-management-pack-for-opsmgr-2007-r2.aspx
-permalink: /trendmicro-management-pack-for-opsmgr-2007-r2/
 sc_member_order:
   - "0"
   - "0"

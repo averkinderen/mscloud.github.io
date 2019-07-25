@@ -5,7 +5,6 @@ date: 2018-01-30T09:50:19+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19798
-permalink: /how-to-use-azure-cdn-for-wordpress/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:
@@ -57,7 +56,6 @@ To use Azure CDN for your WordPress site you will need to follow these steps:
 
 ## 1) Install WP-super Cache
 
-Install like any other plugin, directly from your plugins page but make sure you have custom permalinks enabled. Go to the plugin settings page at Settings->WP Super Cache and enable caching.
 
 ## 2) Deploy Azure CDN in your Azure subscription
 

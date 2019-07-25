@@ -5,7 +5,6 @@ date: 2009-05-23T11:46:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/23/upgrade-opsmgr-2007-r2-rc-to-opsmgr-2007-r2-rtm.aspx
-permalink: /upgrade-opsmgr-2007-r2-rc-to-opsmgr-2007-r2-rtm-2/
 sc_member_order:
   - "0"
   - "0"

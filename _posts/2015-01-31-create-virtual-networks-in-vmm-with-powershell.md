@@ -5,7 +5,6 @@ date: 2015-01-31T08:27:58+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=5271
-permalink: /create-virtual-networks-in-vmm-with-powershell/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

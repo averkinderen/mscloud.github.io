@@ -5,7 +5,6 @@ date: 2016-01-01T16:51:57+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9511
-permalink: /7th-mvp-renewal/
 sc_member_order:
   - "0"
 post_views_count:

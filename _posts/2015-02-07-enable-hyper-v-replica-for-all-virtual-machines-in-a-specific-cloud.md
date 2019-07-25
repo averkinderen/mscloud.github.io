@@ -5,7 +5,6 @@ date: 2015-02-07T10:00:39+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=5921
-permalink: /enable-hyper-v-replica-for-all-virtual-machines-in-a-specific-cloud/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

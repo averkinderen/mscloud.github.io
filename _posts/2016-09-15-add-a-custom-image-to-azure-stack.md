@@ -5,7 +5,6 @@ date: 2016-09-15T01:21:19+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=13151
-permalink: /add-a-custom-image-to-azure-stack/
 sc_member_order:
   - "0"
   - "0"

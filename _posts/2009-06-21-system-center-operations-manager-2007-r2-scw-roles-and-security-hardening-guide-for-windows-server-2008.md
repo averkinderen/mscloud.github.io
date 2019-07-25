@@ -5,7 +5,6 @@ date: 2009-06-21T08:07:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/21/system-center-operations-manager-2007-r2-scw-roles-and-security-hardening-guide-for-windows-server-2008.aspx
-permalink: /system-center-operations-manager-2007-r2-scw-roles-and-security-hardening-guide-for-windows-server-2008/
 sc_member_order:
   - "0"
   - "0"

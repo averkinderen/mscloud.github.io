@@ -5,7 +5,6 @@ date: 2008-10-13T03:40:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/10/13/security-auditing-amp-acs-optimization-session-recording.aspx
-permalink: /security-auditing-amp-acs-optimization-session-recording/
 sc_member_order:
   - "0"
   - "0"

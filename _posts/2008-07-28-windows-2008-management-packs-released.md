@@ -5,7 +5,6 @@ date: 2008-07-28T12:56:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/07/28/windows-2008-management-packs-released.aspx
-permalink: /windows-2008-management-packs-released/
 sc_member_order:
   - "0"
   - "0"

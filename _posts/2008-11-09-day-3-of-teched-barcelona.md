@@ -5,7 +5,6 @@ date: 2008-11-09T10:57:08+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/11/09/day-3-of-teched-barcelona.aspx
-permalink: /day-3-of-teched-barcelona/
 sc_member_order:
   - "0"
   - "0"

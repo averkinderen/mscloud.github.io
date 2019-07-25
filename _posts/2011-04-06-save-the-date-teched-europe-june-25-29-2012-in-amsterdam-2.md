@@ -5,7 +5,6 @@ date: 2011-04-06T13:43:32+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/06/save-the-date-teched-europe-june-25-29-2012-in-amsterdam.aspx
-permalink: /save-the-date-teched-europe-june-25-29-2012-in-amsterdam-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2010-03-04T09:38:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/03/04/unique-opsmgr-2007-r2-bootcamp-training-event-belgium.aspx
-permalink: /unique-opsmgr-2007-r2-bootcamp-training-event-belgium/
 sc_member_order:
   - "0"
   - "0"

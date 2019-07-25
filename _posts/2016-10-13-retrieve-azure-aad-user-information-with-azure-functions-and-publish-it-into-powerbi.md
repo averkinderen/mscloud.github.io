@@ -5,7 +5,6 @@ date: 2016-10-13T22:35:45+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=13921
-permalink: /retrieve-azure-aad-user-information-with-azure-functions-and-publish-it-into-powerbi/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2008-02-24T12:20:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/02/24/operations-manager-service-pack-1.aspx
-permalink: /operations-manager-service-pack-1/
 sc_member_order:
   - "0"
   - "0"

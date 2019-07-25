@@ -5,7 +5,6 @@ date: 2009-02-11T15:08:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/02/11/rms-grayed-out-and-server-discovery-failed.aspx
-permalink: /rms-grayed-out-and-server-discovery-failed/
 sc_member_order:
   - "0"
   - "0"

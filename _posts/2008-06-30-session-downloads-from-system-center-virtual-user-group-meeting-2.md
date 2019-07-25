@@ -5,7 +5,6 @@ date: 2008-06-30T17:40:51+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/06/30/session-downloads-from-system-center-virtual-user-group-meeting.aspx
-permalink: /session-downloads-from-system-center-virtual-user-group-meeting-2/
 sc_member_order:
   - "0"
   - "0"

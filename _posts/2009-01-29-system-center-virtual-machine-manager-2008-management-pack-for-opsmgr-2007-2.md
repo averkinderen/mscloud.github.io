@@ -5,7 +5,6 @@ date: 2009-01-29T07:57:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/01/29/system-center-virtual-machine-manager-2008-management-pack-for-opsmgr-2007.aspx
-permalink: /system-center-virtual-machine-manager-2008-management-pack-for-opsmgr-2007-2/
 sc_member_order:
   - "0"
   - "0"

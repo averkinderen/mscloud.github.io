@@ -5,7 +5,6 @@ date: 2018-09-26T16:17:42+10:00
 author: alexandre@verkinderen.com
 
 guid: http://mscloud.be/?p=19852
-permalink: /azure-disks-ignite-updates/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

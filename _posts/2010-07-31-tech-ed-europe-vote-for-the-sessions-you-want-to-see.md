@@ -5,7 +5,6 @@ date: 2010-07-31T10:44:02+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/07/31/tech-ed-europe-vote-for-the-sessions-you-want-to-see.aspx
-permalink: /tech-ed-europe-vote-for-the-sessions-you-want-to-see/
 sc_member_order:
   - "0"
   - "0"

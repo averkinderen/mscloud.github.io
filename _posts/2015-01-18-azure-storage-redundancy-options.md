@@ -5,7 +5,6 @@ date: 2015-01-18T07:35:44+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=4821
-permalink: /azure-storage-redundancy-options/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

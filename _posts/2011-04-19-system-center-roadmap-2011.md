@@ -5,7 +5,6 @@ date: 2011-04-19T13:20:18+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/19/system-center-roadmap-2011.aspx
-permalink: /system-center-roadmap-2011/
 sc_member_order:
   - "0"
   - "0"

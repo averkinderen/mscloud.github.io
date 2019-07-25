@@ -5,7 +5,6 @@ date: 2008-11-22T15:04:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/11/22/the-sql-server-service-broker-for-the-current-opsmgr-database-is-not-enabled.aspx
-permalink: /the-sql-server-service-broker-for-the-current-opsmgr-database-is-not-enabled-2/
 sc_member_order:
   - "0"
   - "0"

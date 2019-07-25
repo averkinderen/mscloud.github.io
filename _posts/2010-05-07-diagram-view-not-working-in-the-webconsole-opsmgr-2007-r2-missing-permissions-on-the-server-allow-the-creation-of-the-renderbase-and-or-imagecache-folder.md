@@ -5,7 +5,6 @@ date: 2010-05-07T12:50:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/05/07/diagram-view-not-working-in-the-webconsole-opsmgr-2007-r2-missing-permissions-on-the-server-allow-the-creation-of-the-renderbase-and-or-imagecache-folder.aspx
-permalink: /diagram-view-not-working-in-the-webconsole-opsmgr-2007-r2-missing-permissions-on-the-server-allow-the-creation-of-the-renderbase-and-or-imagecache-folder/
 sc_member_order:
   - "0"
   - "0"

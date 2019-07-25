@@ -5,7 +5,6 @@ date: 2017-02-15T16:52:15+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=17811
-permalink: /oms-ad-assessment-not-working/
 sc_member_order:
   - "0"
   - "0"

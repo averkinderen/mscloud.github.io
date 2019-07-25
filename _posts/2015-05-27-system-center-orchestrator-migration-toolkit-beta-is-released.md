@@ -5,7 +5,6 @@ date: 2015-05-27T09:32:09+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9001
-permalink: /system-center-orchestrator-migration-toolkit-beta-is-released/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

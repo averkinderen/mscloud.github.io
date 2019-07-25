@@ -5,7 +5,6 @@ date: 2009-09-17T09:06:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/17/live-maps-v4-for-opsmgr-2007-r2-is-available.aspx
-permalink: /live-maps-v4-for-opsmgr-2007-r2-is-available/
 sc_member_order:
   - "0"
   - "0"

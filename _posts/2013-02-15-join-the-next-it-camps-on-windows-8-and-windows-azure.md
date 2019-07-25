@@ -5,7 +5,6 @@ date: 2013-02-15T11:24:08+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=676
-permalink: /join-the-next-it-camps-on-windows-8-and-windows-azure/
 sc_member_order:
   - "0"
 post_views_count:

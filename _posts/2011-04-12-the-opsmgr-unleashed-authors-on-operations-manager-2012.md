@@ -5,7 +5,6 @@ date: 2011-04-12T12:32:24+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/12/the-opsmgr-unleashed-authors-on-operations-manager-2012.aspx
-permalink: /the-opsmgr-unleashed-authors-on-operations-manager-2012/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2014-12-21T21:22:12+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=251
-permalink: /cloudcruiser-unable-to-connect-to-usage-server/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

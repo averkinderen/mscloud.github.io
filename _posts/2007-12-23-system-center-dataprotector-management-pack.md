@@ -5,7 +5,6 @@ date: 2007-12-23T09:57:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2007/12/23/system-center-dataprotector-management-pack.aspx
-permalink: /system-center-dataprotector-management-pack/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2017-06-06T16:04:57+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=19551
-permalink: /enabling-azure-network-security-group-nsg-flow-logging-in-bulk/
 sc_member_order:
   - "0"
   - "0"

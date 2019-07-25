@@ -5,7 +5,6 @@ date: 2009-09-24T21:30:07+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/09/24/new-connect-site-for-the-om-community.aspx
-permalink: /new-connect-site-for-the-om-community/
 sc_member_order:
   - "0"
   - "0"

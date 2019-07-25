@@ -5,7 +5,6 @@ date: 2011-04-30T09:25:19+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/30/system-center-advisor-part-1-overview.aspx
-permalink: /system-center-advisor-part-1-overview/
 sc_member_order:
   - "0"
   - "0"

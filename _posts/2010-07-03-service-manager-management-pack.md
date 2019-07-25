@@ -5,7 +5,6 @@ date: 2010-07-03T09:42:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/07/03/service-manager-management-pack.aspx
-permalink: /service-manager-management-pack/
 sc_member_order:
   - "0"
   - "0"

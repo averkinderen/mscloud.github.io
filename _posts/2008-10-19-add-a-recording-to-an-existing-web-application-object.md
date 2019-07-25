@@ -5,7 +5,6 @@ date: 2008-10-19T11:05:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/10/19/add-a-recording-to-an-existing-web-application-object.aspx
-permalink: /add-a-recording-to-an-existing-web-application-object/
 sc_member_order:
   - "0"
   - "0"

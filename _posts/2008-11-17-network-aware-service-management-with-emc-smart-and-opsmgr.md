@@ -5,7 +5,6 @@ date: 2008-11-17T19:13:53+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/11/17/network-aware-service-management-with-emc-smart-and-opsmgr.aspx
-permalink: /network-aware-service-management-with-emc-smart-and-opsmgr/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2010-07-31T07:38:07+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/07/31/cumulative-update-2-for-opsmgr-2007-r2-connectors.aspx
-permalink: /cumulative-update-2-for-opsmgr-2007-r2-connectors-2/
 sc_member_order:
   - "0"
   - "0"

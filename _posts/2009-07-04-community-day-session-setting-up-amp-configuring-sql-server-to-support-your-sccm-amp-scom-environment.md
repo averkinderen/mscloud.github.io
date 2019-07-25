@@ -5,7 +5,6 @@ date: 2009-07-04T14:41:13+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/07/04/community-day-session-setting-up-amp-configuring-sql-server-to-support-your-sccm-amp-scom-environment.aspx
-permalink: /community-day-session-setting-up-amp-configuring-sql-server-to-support-your-sccm-amp-scom-environment/
 sc_member_order:
   - "0"
   - "0"

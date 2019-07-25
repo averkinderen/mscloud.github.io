@@ -5,7 +5,6 @@ date: 2010-10-04T14:07:43+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/10/04/belgium-system-center-day.aspx
-permalink: /belgium-system-center-day/
 sc_member_order:
   - "0"
   - "0"

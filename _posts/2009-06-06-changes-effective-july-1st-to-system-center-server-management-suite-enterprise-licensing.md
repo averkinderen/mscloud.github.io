@@ -5,7 +5,6 @@ date: 2009-06-06T09:19:09+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/06/06/changes-effective-july-1st-to-system-center-server-management-suite-enterprise-licensing.aspx
-permalink: /changes-effective-july-1st-to-system-center-server-management-suite-enterprise-licensing/
 sc_member_order:
   - "0"
   - "0"

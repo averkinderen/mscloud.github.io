@@ -5,7 +5,6 @@ date: 2008-08-28T14:55:05+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/28/acs-noise-filter.aspx
-permalink: /acs-noise-filter/
 sc_member_order:
   - "0"
   - "0"

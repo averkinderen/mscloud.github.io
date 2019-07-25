@@ -5,7 +5,6 @@ date: 2008-05-05T19:10:13+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/05/05/scom-goes-cross-platform.aspx
-permalink: /scom-goes-cross-platform/
 sc_member_order:
   - "0"
   - "0"

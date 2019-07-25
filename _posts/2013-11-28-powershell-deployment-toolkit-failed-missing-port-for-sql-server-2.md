@@ -5,7 +5,6 @@ date: 2013-11-28T20:28:04+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=711
-permalink: /powershell-deployment-toolkit-failed-missing-port-for-sql-server-2/
 sc_member_order:
   - "0"
 post_views_count:

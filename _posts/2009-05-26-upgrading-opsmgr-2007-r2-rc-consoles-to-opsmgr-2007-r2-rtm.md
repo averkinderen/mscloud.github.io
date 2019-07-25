@@ -5,7 +5,6 @@ date: 2009-05-26T19:37:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/26/upgrading-opsmgr-2007-r2-rc-consoles-to-opsmgr-2007-r2-rtm.aspx
-permalink: /upgrading-opsmgr-2007-r2-rc-consoles-to-opsmgr-2007-r2-rtm/
 sc_member_order:
   - "0"
   - "0"

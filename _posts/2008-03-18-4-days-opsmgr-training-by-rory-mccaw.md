@@ -4,7 +4,6 @@ title: 4 days Opsmgr Training by Rory McCaw
 date: 2008-03-18T20:12:00+10:00
 author: alexandre@verkinderen.com
 guid: /blogs/scom/archive/2008/03/18/4-days-opsmgr-training-by-rory-mccaw.aspx
-permalink: /4-days-opsmgr-training-by-rory-mccaw/
 sc_member_order:
   - "0"
   - "0"

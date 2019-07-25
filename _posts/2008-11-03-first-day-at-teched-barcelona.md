@@ -5,7 +5,6 @@ date: 2008-11-03T14:51:25+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/11/03/first-day-at-teched-barcelona.aspx
-permalink: /first-day-at-teched-barcelona/
 sc_member_order:
   - "0"
   - "0"

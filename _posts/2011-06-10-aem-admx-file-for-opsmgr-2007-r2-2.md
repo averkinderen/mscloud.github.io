@@ -5,7 +5,6 @@ date: 2011-06-10T06:31:35+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/06/10/aem-admx-file-for-opsmgr-2007-r2.aspx
-permalink: /aem-admx-file-for-opsmgr-2007-r2-2/
 sc_member_order:
   - "0"
   - "0"

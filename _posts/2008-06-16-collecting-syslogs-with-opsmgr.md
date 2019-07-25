@@ -5,7 +5,6 @@ date: 2008-06-16T20:11:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/06/16/collecting-syslogs-with-opsmgr.aspx
-permalink: /collecting-syslogs-with-opsmgr/
 sc_member_order:
   - "0"
   - "0"

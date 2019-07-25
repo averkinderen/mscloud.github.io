@@ -5,7 +5,6 @@ date: 2008-08-25T14:20:21+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/08/25/microsoft-interop-security-azroles-dll-error-when-installing-opsmgr.aspx
-permalink: /microsoft-interop-security-azroles-dll-error-when-installing-opsmgr/
 sc_member_order:
   - "0"
   - "0"

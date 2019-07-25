@@ -5,7 +5,6 @@ date: 2010-05-01T08:34:32+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/05/01/cumulative-update-2-released-for-system-center-operations-manager-2007-r2-opsmgr.aspx
-permalink: /cumulative-update-2-released-for-system-center-operations-manager-2007-r2-opsmgr-2/
 sc_member_order:
   - "0"
   - "0"

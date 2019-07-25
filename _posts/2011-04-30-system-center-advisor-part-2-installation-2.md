@@ -5,7 +5,6 @@ date: 2011-04-30T09:59:14+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/04/30/system-center-advisor-part-2-installation.aspx
-permalink: /system-center-advisor-part-2-installation-2/
 sc_member_order:
   - "0"
   - "0"

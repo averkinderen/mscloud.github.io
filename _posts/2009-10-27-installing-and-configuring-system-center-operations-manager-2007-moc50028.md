@@ -5,7 +5,6 @@ date: 2009-10-27T10:34:25+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/10/27/installing-and-configuring-system-center-operations-manager-2007-moc50028.aspx
-permalink: /installing-and-configuring-system-center-operations-manager-2007-moc50028/
 sc_member_order:
   - "0"
   - "0"

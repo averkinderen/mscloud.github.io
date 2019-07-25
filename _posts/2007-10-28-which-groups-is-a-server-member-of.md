@@ -5,7 +5,6 @@ date: 2007-10-28T09:43:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2007/10/28/which-groups-is-a-server-member-of.aspx
-permalink: /which-groups-is-a-server-member-of/
 sc_member_order:
   - "0"
   - "0"

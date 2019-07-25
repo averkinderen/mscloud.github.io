@@ -5,7 +5,6 @@ date: 2014-03-24T14:47:02+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=776
-permalink: /part-1-bulk-import-server-locations-with-powershell/
 sc_member_order:
   - "0"
   - "0"

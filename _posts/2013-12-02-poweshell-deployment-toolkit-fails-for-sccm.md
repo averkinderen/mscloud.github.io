@@ -5,7 +5,6 @@ date: 2013-12-02T06:05:00+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=714
-permalink: /poweshell-deployment-toolkit-fails-for-sccm/
 sc_member_order:
   - "0"
   - "0"

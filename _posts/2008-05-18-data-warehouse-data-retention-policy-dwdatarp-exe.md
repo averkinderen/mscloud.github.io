@@ -5,7 +5,6 @@ date: 2008-05-18T07:27:41+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/05/18/data-warehouse-data-retention-policy-dwdatarp-exe.aspx
-permalink: /data-warehouse-data-retention-policy-dwdatarp-exe/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2013-12-30T13:59:00+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=738
-permalink: /install-opsmgr-agent-remotely-with-powershell/
 sc_member_order:
   - "0"
 post_views_count:

@@ -5,7 +5,6 @@ date: 2014-03-13T06:18:46+10:00
 author: alexandre@verkinderen.com
 
 guid: http://scug.be/scom/?p=753
-permalink: /how-to-manage-your-clouds-with-facebook/
 sc_member_order:
   - "0"
 post_views_count:

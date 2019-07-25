@@ -5,7 +5,6 @@ date: 2016-01-21T12:57:05+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=9731
-permalink: /system-center-universe-asia-pacific-is-coming/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

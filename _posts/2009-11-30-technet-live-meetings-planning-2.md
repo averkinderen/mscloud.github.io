@@ -5,7 +5,6 @@ date: 2009-11-30T18:02:24+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/11/30/technet-live-meetings-planning.aspx
-permalink: /technet-live-meetings-planning-2/
 sc_member_order:
   - "0"
   - "0"

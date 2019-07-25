@@ -5,7 +5,6 @@ date: 2009-05-27T20:28:20+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/27/savision-live-maps-for-opsmgr-2007.aspx
-permalink: /savision-live-maps-for-opsmgr-2007/
 sc_member_order:
   - "0"
   - "0"

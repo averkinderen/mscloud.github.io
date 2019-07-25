@@ -5,7 +5,6 @@ date: 2008-03-14T19:28:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/03/14/techdays-sessions.aspx
-permalink: /techdays-sessions/
 sc_member_order:
   - "0"
   - "0"

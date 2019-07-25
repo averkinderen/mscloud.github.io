@@ -5,7 +5,6 @@ date: 2008-07-17T15:23:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/07/17/how-to-find-match-the-guid-to-an-agent.aspx
-permalink: /how-to-find-match-the-guid-to-an-agent-2/
 sc_member_order:
   - "0"
   - "0"

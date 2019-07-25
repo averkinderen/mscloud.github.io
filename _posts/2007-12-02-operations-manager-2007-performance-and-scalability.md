@@ -5,7 +5,6 @@ date: 2007-12-02T09:36:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2007/12/02/operations-manager-2007-performance-and-scalability.aspx
-permalink: /operations-manager-2007-performance-and-scalability/
 sc_member_order:
   - "0"
   - "0"

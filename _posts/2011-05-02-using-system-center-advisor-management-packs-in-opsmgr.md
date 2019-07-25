@@ -5,7 +5,6 @@ date: 2011-05-02T06:59:35+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2011/05/02/using-system-center-advisor-management-packs-in-opsmgr.aspx
-permalink: /using-system-center-advisor-management-packs-in-opsmgr/
 sc_member_order:
   - "0"
   - "0"

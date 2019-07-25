@@ -5,7 +5,6 @@ date: 2008-10-22T21:08:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/10/22/configuring-the-service-level-dashboard.aspx
-permalink: /configuring-the-service-level-dashboard-2/
 sc_member_order:
   - "0"
   - "0"

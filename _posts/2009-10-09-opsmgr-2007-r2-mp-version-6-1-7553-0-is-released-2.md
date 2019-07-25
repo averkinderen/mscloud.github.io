@@ -5,7 +5,6 @@ date: 2009-10-09T06:31:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/10/09/opsmgr-2007-r2-mp-version-6-1-7553-0-is-released.aspx
-permalink: /opsmgr-2007-r2-mp-version-6-1-7553-0-is-released-2/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2017-03-08T15:27:57+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=18451
-permalink: /microsoft-powerapps-and-inner-join-2-sql-tables/
 sc_member_order:
   - "0"
   - "0"

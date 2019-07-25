@@ -5,7 +5,6 @@ date: 2009-05-28T09:12:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/05/28/optimizing-the-performance-of-your-opsmgr-console-and-reducing-db-size.aspx
-permalink: /optimizing-the-performance-of-your-opsmgr-console-and-reducing-db-size/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2009-12-09T13:54:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/12/09/opsmgr-management-pack-apc-isx-central-integration-management-pack.aspx
-permalink: /opsmgr-management-pack-apc-isx-central-integration-management-pack/
 sc_member_order:
   - "0"
   - "0"

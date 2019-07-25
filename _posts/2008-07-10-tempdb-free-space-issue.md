@@ -5,7 +5,6 @@ date: 2008-07-10T15:14:00+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2008/07/10/tempdb-free-space-issue.aspx
-permalink: /tempdb-free-space-issue/
 sc_member_order:
   - "0"
   - "0"

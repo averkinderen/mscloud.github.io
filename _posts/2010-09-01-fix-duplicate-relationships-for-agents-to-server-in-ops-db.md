@@ -5,7 +5,6 @@ date: 2010-09-01T09:34:41+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/09/01/fix-duplicate-relationships-for-agents-to-server-in-ops-db.aspx
-permalink: /fix-duplicate-relationships-for-agents-to-server-in-ops-db/
 sc_member_order:
   - "0"
   - "0"

@@ -5,7 +5,6 @@ date: 2010-12-17T21:34:34+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/12/17/avicode-now-in-the-smse-and-smde-suite.aspx
-permalink: /avicode-now-in-the-smse-and-smde-suite/
 sc_member_order:
   - "0"
   - "0"

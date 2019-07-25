@@ -5,7 +5,6 @@ date: 2009-07-08T10:16:08+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2009/07/08/system-center-user-group-netherlands-summer-night.aspx
-permalink: /system-center-user-group-netherlands-summer-night/
 sc_member_order:
   - "0"
   - "0"

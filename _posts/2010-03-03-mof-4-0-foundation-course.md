@@ -5,7 +5,6 @@ date: 2010-03-03T06:50:52+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/03/03/mof-4-0-foundation-course.aspx
-permalink: /mof-4-0-foundation-course/
 sc_member_order:
   - "0"
   - "0"

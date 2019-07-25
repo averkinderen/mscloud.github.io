@@ -5,7 +5,6 @@ date: 2015-04-21T20:00:23+10:00
 author: alexandre@verkinderen.com
 
 guid: http://www.mscloud.be/?p=8821
-permalink: /windows-azure-pack-ur6-2/
 sc_member_order:
   - "0"
 bpxl_standard_excerpt_home:

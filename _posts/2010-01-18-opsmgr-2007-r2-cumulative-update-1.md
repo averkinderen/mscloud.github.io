@@ -5,7 +5,6 @@ date: 2010-01-18T07:13:23+10:00
 author: alexandre@verkinderen.com
 
 guid: /blogs/scom/archive/2010/01/18/opsmgr-2007-r2-cumulative-update-1.aspx
-permalink: /opsmgr-2007-r2-cumulative-update-1/
 sc_member_order:
   - "0"
   - "0"
