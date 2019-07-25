@@ -3,7 +3,6 @@ id: 19131
 title: Deploying Azure Resource Policies
 date: 2017-04-28T09:03:13+10:00
 author: alexandre@verkinderen.com
-
 guid: http://www.mscloud.be/?p=19131
 sc_member_order:
   - "0"
@@ -166,12 +165,7 @@ As I need to create and assign more than one resource policy I&#8217;m going to 
 
 Have a look [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy#policy-definition-structure) for more information regarding policy constructs. You first start with a policy definition that’s created using JSON (you can see the schema here: http://schema.management.azure.com/schemas/2015-10-01-preview/policyDefinition.json) and which consists of one or more logical or condition operators that define the action and effect of the policy when a specific condition is achieved. So in our scenario we are checking **if** the field **tags**  is **false** then **append** the field tag with a **tag name** and a **default value**. You can find the Resource policy I created below:
 
-<div class="oembed-gist">
-  <noscript>
-    View the code on <a href="https://gist.github.com/averkinderen/653d1226b17102d1e099845149402e6b">Gist</a>.
-  </noscript>
-</div>
-
+<script src="https://gist.github.com/averkinderen/653d1226b17102d1e099845149402e6b.js"></script>
 In this example we were applying Append, but there are more:
 
   * **Deny**: Blocks the resource request
@@ -192,11 +186,8 @@ The script requires the following parameters:
 
 You then need to specify the subscription to assign the Policy definition. Policies are inherited by all child resources. So, if a policy is applied to a subscription, it is applicable to all the resource groups and resources in that subscription.
 
-<div class="oembed-gist">
-  <noscript>
-    View the code on <a href="https://gist.github.com/averkinderen/df7bb438bd9908af73c0deb25879d654">Gist</a>.
-  </noscript>
-</div>
+    View the code on <script src="https://gist.github.com/averkinderen/df7bb438bd9908af73c0deb25879d654.js"></script>
+
 
 Run the above script with the required parameters:
 
