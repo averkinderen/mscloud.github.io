@@ -3,7 +3,6 @@ id: 20008
 title: Enable Azure NSG Flow and Traffic Analytics
 date: 2019-07-18T14:24:35+10:00
 author: alexandre@verkinderen.com
-layout: post
 guid: http://mscloud.be/?p=20008
 permalink: /enable-azure-nsg-flow-and-traffic-analytics/
 sc_member_order:
