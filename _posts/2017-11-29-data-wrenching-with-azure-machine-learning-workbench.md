@@ -3,7 +3,6 @@ id: 19781
 title: Data wrenching with Azure Machine Learning Workbench
 date: 2017-11-29T12:20:00+10:00
 author: alexandre@verkinderen.com
-
 guid: http://mscloud.be/?p=19781
 sc_member_order:
   - "0"

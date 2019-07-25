@@ -3,7 +3,6 @@ id: 19986
 title: Configure regional settings on Azure Virtual Machines
 date: 2019-05-25T13:28:08+10:00
 author: alexandre@verkinderen.com
-
 guid: http://mscloud.be/?p=19986
 sc_member_order:
   - "0"
@@ -76,17 +75,17 @@ Next, we will create a PowerShell script to apply the regional settings. The scr
 
 You could call the PowerShell script from your ARM template as described here <https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/custom-script-windows> . For now, I will just deploy the CustomScriptExtension from the portal to show the regional settings. Click on **Extensions** and **Add** to add a new extension<figure class="wp-block-image">
 
-<img src="/wp-content/uploads/2019/05/image-2.png" alt="" class="wp-image-19993" srcset="/wp-content/uploads/2019/05/image-2.png 836w, /wp-content/uploads/2019/05/image-2-300x188.png 300w, /wp-content/uploads/2019/05/image-2-768x480.png 768w" sizes="(max-width: 836px) 100vw, 836px" /> </figure> 
+<img src="http://mscloud.be/wp-content/uploads/2019/05/image-2.png" alt="" class="wp-image-19993" srcset="/wp-content/uploads/2019/05/image-2.png 836w, /wp-content/uploads/2019/05/image-2-300x188.png 300w, /wp-content/uploads/2019/05/image-2-768x480.png 768w" sizes="(max-width: 836px) 100vw, 836px" /> </figure> 
 
 Scroll down to the **Custom Script Extension** and click **Create.** Select the ServerBuild.ps1 Script and click **OK.**<figure class="wp-block-image">
 
-<img src="/wp-content/uploads/2019/05/image-3-1024x175.png" alt="" class="wp-image-19994" srcset="/wp-content/uploads/2019/05/image-3-1024x175.png 1024w, /wp-content/uploads/2019/05/image-3-300x51.png 300w, /wp-content/uploads/2019/05/image-3-768x131.png 768w, /wp-content/uploads/2019/05/image-3.png 1112w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+<img src="http://mscloud.be/wp-content/uploads/2019/05/image-3-1024x175.png" alt="" class="wp-image-19994" srcset="http://mscloud.be/wp-content/uploads/2019/05/image-3-1024x175.png 1024w, http://mscloud.be/wp-content/uploads/2019/05/image-3-300x51.png 300w, /wp-content/uploads/2019/05/image-3-768x131.png 768w, http://mscloud.be/wp-content/uploads/2019/05/image-3.png 1112w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
 ## Result
 
 Let&#8217;s verify now if the regional settings have been applied correctly. Look in the Evenviewer and see if you can find Event 13000 <figure class="wp-block-image">
 
-<img src="/wp-content/uploads/2019/05/image-1024x524.png" alt="" class="wp-image-19990" srcset="/wp-content/uploads/2019/05/image-1024x524.png 1024w, /wp-content/uploads/2019/05/image-300x154.png 300w, /wp-content/uploads/2019/05/image-768x393.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> <figure class="wp-block-image"><img src="/wp-content/uploads/2019/05/image-1-1024x747.png" alt="" class="wp-image-19991" srcset="/wp-content/uploads/2019/05/image-1-1024x747.png 1024w, /wp-content/uploads/2019/05/image-1-300x219.png 300w, /wp-content/uploads/2019/05/image-1-768x560.png 768w, /wp-content/uploads/2019/05/image-1.png 1094w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure> 
+<img src="http://mscloud.be/wp-content/uploads/2019/05/image-1024x524.png" alt="" class="wp-image-19990" srcset="/wp-content/uploads/2019/05/image-1024x524.png 1024w, /wp-content/uploads/2019/05/image-300x154.png 300w, http://mscloud.be/wp-content/uploads/2019/05/image-768x393.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> <figure class="wp-block-image"><img src="http://mscloud.be/wp-content/uploads/2019/05/image-1-1024x747.png" alt="" class="wp-image-19991" srcset="http://mscloud.be/wp-content/uploads/2019/05/image-1-1024x747.png 1024w, /wp-content/uploads/2019/05/image-1-300x219.png 300w, /wp-content/uploads/2019/05/image-1-768x560.png 768w, /wp-content/uploads/2019/05/image-1.png 1094w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure> 
 
 ## Conclusion
 
