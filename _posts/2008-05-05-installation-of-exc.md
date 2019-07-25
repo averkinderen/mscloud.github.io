@@ -3,7 +3,6 @@ id: 500
 title: Installation of eXc for Opsmgr
 date: 2008-05-05T11:34:27+10:00
 author: alexandre@verkinderen.com
-layout: post
 guid: /blogs/scom/archive/2008/05/05/installation-of-exc.aspx
 permalink: /installation-of-exc/
 sc_member_order:
