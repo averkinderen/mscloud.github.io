@@ -53,7 +53,7 @@ This blog post will cover how to transform data with Azure Machine Learning Work
 
 The main components of Azure Machine Learning are:
 
-  * Azure Machine Learning Workbench (which is what we will use today to prepare our data)
+* Azure Machine Learning Workbench (which is what we will use today to prepare our data)
   * Azure Machine Learning Experimentation Service (to be able to use Azure ML Workbench we need an Experimentation Service)
   * Azure Machine Learning Model Management Service
   * Microsoft Machine Learning Libraries for Apache Spark (MMLSpark Library)
@@ -69,7 +69,7 @@ The Experimentation Service handles the execution of machine learning experiment
 
 Through easy configuration, you can execute your experiments across a range of compute environment options:
 
-  * Local native
+* Local native
   * Local Docker container
   * Docker container on a remote VM
   * Scale out Spark cluster in Azure
@@ -91,7 +91,7 @@ After filling in the required information and submitting the deployment you shou
 
 Now that we have our Azure ML Learning account we can install Azure ML Workbench. Azure ML Workbench is a desktop application plus command-line tools, supported on both Windows and macOS. It allows you to manage machine learning solutions through the entire data science life cycle:
 
-  * Data ingestion and preparation
+* Data ingestion and preparation
   * Model development and experiment management
   * Model deployment in various target environments
 
