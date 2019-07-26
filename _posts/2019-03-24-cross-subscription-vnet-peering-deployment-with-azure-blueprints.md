@@ -3,7 +3,6 @@ id: 19960
 title: Cross subscription VNET peering deployment with Azure Blueprints
 date: 2019-03-24T10:11:16+10:00
 author: alexandre@verkinderen.com
-
 guid: http://mscloud.be/?p=19960
 sc_member_order:
   - "0"
@@ -63,9 +62,9 @@ To be able to configure VNET peering with Blueprints in another subscription we 
 
 Managed identities for Azure resources provides Azure services with a managed identity in Azure Active Directory. You can use this identity to authenticate to services that support Azure AD authentication, without needing credentials in your code. We will be using User-assigned managed entity. 
 
-  1. In the search box, type&nbsp;_Managed Identities_, and under&nbsp;**Services**, click&nbsp;**Managed Identities**.<figure class="wp-block-image">
-
-[<img src="/wp-content/uploads/2019/03/managedidentity.png" alt="" class="wp-image-19961" srcset="/wp-content/uploads/2019/03/managedidentity.png 943w, /wp-content/uploads/2019/03/managedidentity-300x112.png 300w, /wp-content/uploads/2019/03/managedidentity-768x287.png 768w" sizes="(max-width: 943px) 100vw, 943px" />](/wp-content/uploads/2019/03/managedidentity.png)</figure> 
+  1. In the search box, type&nbsp;_Managed Identities_, and under&nbsp;**Services**, click&nbsp;**Managed Identities**.
+  
+(/wp-content/uploads/2019/03/managedidentity.png)
 
   1. Click&nbsp;**Add**&nbsp;and enter values in the following fields under&nbsp;**Create user assigned managed**&nbsp;identity pane:
       * **Resource Name**: This is the name for your user-assigned managed identity, for example **MI BLueprint**.

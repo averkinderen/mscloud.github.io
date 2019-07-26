@@ -79,15 +79,16 @@ You could call the PowerShell script from your ARM template as described here <h
 <img src="http://mscloud.be/wp-content/uploads/2019/05/image-2.png"/>
 </figure>
 
-Scroll down to the **Custom Script Extension** and click **Create.** Select the ServerBuild.ps1 Script and click **OK.**<figure class="wp-block-image">
-
-<img src="http://mscloud.be/wp-content/uploads/2019/05/image-3-1024x175.png" /></figure>
+Scroll down to the **Custom Script Extension** and click **Create.** Select the ServerBuild.ps1 Script and click **OK.**
+<figure class="wp-block-image">
+<img src="http://mscloud.be/wp-content/uploads/2019/05/image-3-1024x175.png"/>
+</figure>
 
 ## Result
 
-Let&#8217;s verify now if the regional settings have been applied correctly. Look in the Evenviewer and see if you can find Event 13000 <figure class="wp-block-image">
-
-<img src="http://mscloud.be/wp-content/uploads/2019/05/image-1024x524.png" />
+Let&#8217;s verify now if the regional settings have been applied correctly. Look in the Evenviewer and see if you can find Event 13000 
+<figure class="wp-block-image">
+<img src="http://mscloud.be/wp-content/uploads/2019/05/image-1024x524.png"/>
 </figure>
 
 ## Conclusion
