@@ -64,7 +64,7 @@ Managed identities for Azure resources provides Azure services with a managed id
 
   1. In the search box, type&nbsp;_Managed Identities_, and under&nbsp;**Services**, click&nbsp;**Managed Identities**.
   
-(/wp-content/uploads/2019/03/managedidentity.png)
+![Managed Identity](/wp-content/uploads/2019/03/managedidentity.png)
 
   1. Click&nbsp;**Add**&nbsp;and enter values in the following fields under&nbsp;**Create user assigned managed**&nbsp;identity pane:
       * **Resource Name**: This is the name for your user-assigned managed identity, for example **MI BLueprint**.
