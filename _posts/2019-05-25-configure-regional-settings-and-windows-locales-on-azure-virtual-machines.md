@@ -86,7 +86,7 @@ Scroll down to the **Custom Script Extension** and click **Create.** Select the 
 
 ## Result
 
-Let&#8217;s verify now if the regional settings have been applied correctly. Look in the Evenviewer and see if you can find Event 13000 
+Let&#8217;s verify now if the regional settings have been applied correctly. Look in the Evenviewer and see if you can find Event 13000
 <figure class="wp-block-image">
 <img src="http://mscloud.be/wp-content/uploads/2019/05/image-1024x524.png"/>
 </figure>
