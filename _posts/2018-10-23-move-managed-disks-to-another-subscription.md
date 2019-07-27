@@ -3,7 +3,6 @@ id: 19876
 title: Move Managed Disks to another subscription
 date: 2018-10-23T11:26:10+10:00
 author: alexandre@verkinderen.com
-
 guid: http://mscloud.be/?p=19876
 sc_member_order:
   - "0"

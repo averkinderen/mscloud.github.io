@@ -3,7 +3,6 @@ id: 19942
 title: Azure API Management Consumption Tier
 date: 2019-01-17T14:16:32+10:00
 author: alexandre@verkinderen.com
-
 guid: http://mscloud.be/?p=19942
 sc_member_order:
   - "0"
