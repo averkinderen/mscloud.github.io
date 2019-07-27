@@ -20,7 +20,7 @@ title                    : "Cloud and Datacenter management at your fingertups"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alexandre Verkinderen"
-description              : "An amazing website."
+description              : "Azure Cloud and Datacenter management at your fingertups"
 url                      : "https://mscloud.be" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "alexverkinderen"
 facebook:
   username               :
   app_id                 :
@@ -99,9 +99,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-57918748-1
     anonymize_ip         : # true, false (default)
 
 

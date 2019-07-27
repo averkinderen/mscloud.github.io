@@ -40,7 +40,7 @@ tags:
 
 The following PowerShell script will enable NSG Flow logging for all my NSG&#8217;s. The script will do the following:
 
-  * Ask for a Resource Group that will be used for saving the NSG logs
+* Ask for a Resource Group that will be used for saving the NSG logs
   * Ask for a storage account that will be used for saving logs
   * You need to specify the retention period of the NGS logs
   * Ask for a subscription in which you want to enable NSG flow logging
