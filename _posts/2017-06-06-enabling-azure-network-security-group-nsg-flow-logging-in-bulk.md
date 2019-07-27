@@ -3,7 +3,6 @@ id: 19551
 title: Enabling Azure Network Security Group (NSG) flow logging in bulk
 date: 2017-06-06T16:04:57+10:00
 author: alexandre@verkinderen.com
-
 guid: http://www.mscloud.be/?p=19551
 sc_member_order:
   - "0"

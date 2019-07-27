@@ -145,7 +145,7 @@ Now that we have our tweets and sentiment in our SQL Database we can create a ni
 
 In Power BI click “Get Data” and pick “Azure SQL Database”.
 
-![data](/wp-content/uploads/2018/11/data.png)
+[<img class="alignnone size-medium wp-image-19904" src="/wp-content/uploads/2018/11/data-300x192.png" alt="" width="300" height="192" srcset="/wp-content/uploads/2018/11/data-300x192.png 300w, /wp-content/uploads/2018/11/data-768x491.png 768w, /wp-content/uploads/2018/11/data-1024x654.png 1024w, /wp-content/uploads/2018/11/data-570x365.png 570w, /wp-content/uploads/2018/11/data.png 1355w" sizes="(max-width: 300px) 100vw, 300px" />](/wp-content/uploads/2018/11/data.png)
 
 Specify servername and database name and choose “Direct Query”. This way the data shown by the report is taken directly from the database
 
