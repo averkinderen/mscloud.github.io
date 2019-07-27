@@ -1,8 +1,14 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Alexandre Verkinderen is a technology passionate, evangelist and subject matter expert in cloud. He is a Hybrid Cloud Architect and actively assist large organizations to help them envision architect, implement, configure, and customize their Microsoft Cloud solutions.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Alexandre is an ITIL- certified engineer and strives to deliver quality on every single assignment he has. Additionally he believes strongly in sharing knowledge amongst his peers. He has experience in customer facing roles and had success leading technical and economic value discussions with senior customer executives that drive key decisions and implementation. The success is a result of  ongoing collaboration with generalists and specialists in the MSFT field and delivery teams (including partners, services, product engineering).
+
+As an industry expert and MVP Alexandre is a frequent speaker and ask-the-expert guest at both national and international events. In line with the continued education principle Alexandre can also be found at both national and international industry events to stay on top of what is moving in the industry, watch industry trends, and analyze how this might benefit its customers.
+
+Linkedin: be.linkedin.com/in/alexandreverkinderen
+
+Twitter: @AlexVerkinderen
