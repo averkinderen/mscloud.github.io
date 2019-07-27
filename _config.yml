@@ -115,10 +115,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:alexandre@mscloud.be
+      url: mailto:alexandre@mscloud.be
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://mscloud.be"
+      url: "https://mscloud.be"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AlexVerkinderen"
