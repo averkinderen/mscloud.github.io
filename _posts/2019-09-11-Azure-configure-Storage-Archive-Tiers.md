@@ -1,5 +1,5 @@
 ---
-title: "Azure Configure Storage Archive Tier"
+title: "Configure Azure Storage Archive Tier"
 categories:
   - Azure
 tags:
@@ -20,7 +20,7 @@ As said above, Archive storage is to keep a lot of data for a very long time wit
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-08-08_Storage_Pricing.png)
 
 As you can see the read operations are going to be really expensive if you need to retrieve something from Azure Archive.
-And it gets even more interesting if you are moving data between tiers. When data is moved to a cooler tier (hot -> cool -> archive) the operation is billed as write operation. When data is moved to a hotter tier (Archive -> cool -> hot) data is billed as a read operation.
+And it gets even more interesting if you are moving data between tiers. When data is moved to a cooler tier (hot -> cool -> archive) the operation is billed as a write operation. When data is moved to a hotter tier (Archive -> cool -> hot) data is billed as a read operation. The process of moving blobs out of the Archive tier is called "rehydration". By default it will take up to 15 hours but now in public preview Microsoft released priority retrieval where you can retrieve blobs under 10GB in less than an hour. https://azure.microsoft.com/en-us/blog/azure-archive-storage-expanded-capabilities-faster-simpler-better/ 
 
 And last but not least. You also pay an early deletion fee if you move data between tiers before the "cool early deletion period" you will pay an early deletion fee. The cool tier has a "cool early deletion period" of 30 days and the archive tier has a "cool early deletion period" of 180 days. So if you move data to the arhive tier and retrieve it after 50 days you will be charged an early deletion fee equivalent to 130 days (180 days minus 50 days).
 
@@ -28,8 +28,12 @@ And last but not least. You also pay an early deletion fee if you move data betw
 Let's do a quick calculation for the following scenario:
 One off 50TB stored for 10 years in a hot tier vs archive tier:
 
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-11_11-42-21-pricing.png)
+As you can see the monthly estimated cost of having 50TB in the hot tier is $1,025 or $123,000 for 10 years. The monthly cost for Archive storage is $260 a month or $31,000 for 10 years.
 
-Now let's assume we need to retrieve the archived data after 5 years for an audit and move it to the hot tier:
+Now let's assume we need to retrieve the 50TB archived data after 10 years for an audit and move it to the hot tier:
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-11_11-48-03-archiveretrieval.png)
+As you can see for that one particular month where we need to retrieve the data for an audit we will get a bill of $5000 but overal, on the long term, archive storage is still going to be a lot cheaper.
 
 ## Storage LifeCycle Management
 Storage LifeCycle management lets you move data between tiers automatically to optimize for performance and costs. When defining the lifecycle management keep the early deletion fee in mind :-) . Go to your storage account, LifeCycle Management and define your rules
@@ -37,8 +41,7 @@ Storage LifeCycle management lets you move data between tiers automatically to o
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-08-08_storage_lifecycle_,management.png)
 
 Defining a filter set is not mandatory. So this rule will move data from hot to cool storage after 30 days after blob last modification. Move to archive storage after 90 days after blob last modification and delete 3650 days (or 10 years) after blob last modification.
+## Conclusion
+Archive storage together with Storage LifeCycle Management is one of those hidden gems that not a lot of customers are using but for data that is not being accessed often it can save a lot of money.
 
-
-### Conclusion
-
-And that's a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!
+And that's a wrap!
