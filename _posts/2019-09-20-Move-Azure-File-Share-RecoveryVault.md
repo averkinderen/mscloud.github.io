@@ -9,7 +9,7 @@ tags:
   - Azure File share
 ---
 
-Azure Backup let's you backup [Azure File shares](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files) which is currently in preview. This article will describe how to move your Azure file share to another Recovery Vault.
+Azure Backup let's you backup [Azure File shares](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files) which is currently in preview. This article will describe how to move your Azure File share to another Recovery Vault.
 
 ## Intro
 
@@ -17,19 +17,22 @@ My current customer had about 15 Recovery Vaults which they wanted to consolidat
 
 ## Issue
 
-I stopped the backup of my File share as [explained here](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share) and tried to reprotect the File share into the my new Recovery Vault
+I stopped the backup of my File share as [explained here](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files#stop-protecting-an-azure-file-share) and tried to reprotect the File share into my new Recovery Vault but the Storage Account was not visible from my new Vault.
 
-Currently Microsoft is linking the Storage Account to the Recovery vault in order to avoid duplicate backups of File Shares. So even though I deleted the backup without retaining the data of my File Share, the link between the Storage Account and the Recovery Vault still existed.
+Currently, Microsoft is linking the Storage Account to the Recovery vault in order to avoid duplicate backups of File shares. So, even though I deleted the backup without retaining the data of my File share, the link between the Storage Account and the Recovery Vault still existed somewhere.
 
 ## Solution
 
 Microsoft told me the solution was to first un-register the Storage Account from the old Vault.
+
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-16-47-unregister-sa.png)
+
 Be carefull when doing this as this will delete all your file share backups.
 
 Now that the link has been removed between the old Recovery Vault and the Storage Account we can register the Storage Account to the new Vault and add the File share.
 
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-18-43-registring-sa.png)
+
 As you can see when we select the Storage Account where our File share is it will be registered and linked to the Recovery vault.
 
 ![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-19-35-Fileshare.png)
