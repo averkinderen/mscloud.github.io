@@ -19,7 +19,7 @@ To read or modify data in an archive storage, you must change the tier of the bl
 
 Now this is where things get interesting :-)
 As said above, Archive storage is to keep a lot of data for a very long time without accessing that data. Storing data is super cheap but retrieving data is super expensive.
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-08-08_Storage_Pricing.png)
+![pricing]({{ site.url }}/assets/images/2019-08-08_Storage_Pricing.png)
 
 As you can see the read operations are going to be really expensive if you need to retrieve something from Azure Archive.
 And it gets even more interesting if you are moving data between tiers. When data is moved to a cooler tier (hot -> cool -> archive) the operation is billed as a write operation. When data is moved to a hotter tier (Archive -> cool -> hot) data is billed as a read operation. The process of moving blobs out of the Archive tier is called "rehydration". By default it will take up to 15 hours but now in [public preview Microsoft released priority retrieval](https://azure.microsoft.com/en-us/blog/azure-archive-storage-expanded-capabilities-faster-simpler-better/ ) where you can retrieve blobs under 10GB in less than an hour.

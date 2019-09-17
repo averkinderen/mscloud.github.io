@@ -25,17 +25,17 @@ Currently, Microsoft is linking the Storage Account to the Recovery vault in ord
 
 Microsoft told me the solution was to first un-register the Storage Account from the old Vault.
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-16-47-unregister-sa.png)
+![unregister]({{ site.url }}/assets/images/2019-09-13_14-16-47-unregister-sa.png)
 
 Be carefull when doing this as this will delete all your file share backups.
 
 Now that the link has been removed between the old Recovery Vault and the Storage Account we can register the Storage Account to the new Vault and add the File share.
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-18-43-registring-sa.png)
+![register]({{ site.url }}/assets/images/2019-09-13_14-18-43-registring-sa.png)
 
 As you can see when we select the Storage Account where our File share is it will be registered and linked to the Recovery vault.
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_Fileshare.png)
+![fileshare]({{ site.url }}/assets/images/2019-09-13_Fileshare.png)
 
 ## Conclusion
 
