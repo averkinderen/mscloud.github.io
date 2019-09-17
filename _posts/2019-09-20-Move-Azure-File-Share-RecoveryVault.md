@@ -35,7 +35,7 @@ Now that the link has been removed between the old Recovery Vault and the Storag
 
 As you can see when we select the Storage Account where our File share is it will be registered and linked to the Recovery vault.
 
-![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_14-19-35-Fileshare.png)
+![no-alignment]({{ site.url }}{{ site.baseurl }}/assets/images/2019-09-13_Fileshare.png)
 
 ## Conclusion
 
