@@ -39,6 +39,6 @@ As you can see when we select the Storage Account where our File share is it wil
 
 ## Conclusion
 
-Big thanks to the Azure Storage and Backup product team to me help out. Especially Klaas Langhout and Nikhil Kumar Raparthi.
+Big thanks to the Azure Storage and Backup product team to help me out. Especially Klaas Langhout and Nikhil Kumar Raparthi.
 
 Alex
