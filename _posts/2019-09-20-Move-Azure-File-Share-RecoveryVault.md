@@ -23,7 +23,7 @@ Currently, Microsoft is linking the Storage Account to the Recovery vault in ord
 
 ## Solution
 
-Microsoft told me the solution was to first un-register the Storage Account from the old Vault.
+Microsoft told me the solution was to first un-register the Storage Account from the old Vault as [documented here](https://docs.microsoft.com/en-us/azure/backup/backup-azure-files-faq#can-i-change-the-vault-to-which-i-back-up-my-file-shares) and  [documented here](https://docs.microsoft.com/en-us/azure/backup/troubleshoot-azure-files#configuring-backup)
 
 ![unregister]({{ site.url }}/assets/images/2019-09-13_unregister-sa.png)
 
@@ -39,4 +39,6 @@ As you can see when we select the Storage Account where our File share is it wil
 
 ## Conclusion
 
-This is an undocumented feature, so big thanks to the Azure Storage and Backup product team to help out. Especially Klaas Langhout and Nikhil Kumar Raparthi.
+Big thanks to the Azure Storage and Backup product team to me help out. Especially Klaas Langhout and Nikhil Kumar Raparthi.
+
+Alex
