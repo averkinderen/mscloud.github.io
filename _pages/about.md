@@ -9,6 +9,6 @@ Alexandre is an ITIL- certified engineer and strives to deliver quality on every
 
 As an industry expert and MVP Alexandre is a frequent speaker and ask-the-expert guest at both national and international events. In line with the continued education principle Alexandre can also be found at both national and international industry events to stay on top of what is moving in the industry, watch industry trends, and analyze how this might benefit its customers.
 
-[Linkedin:](https://www.linkedin.com/in/alexandreverkinderen/)
+[Linkedin](https://www.linkedin.com/in/alexandreverkinderen/)
 
 ![Alex]({{ site.url }}/assets/images/Alex.png)
