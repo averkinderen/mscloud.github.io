@@ -27,10 +27,10 @@ There are a few preleminary steps required before you can go the Azure portal an
 
 ## Create Tenant
 
-We need to grant permissions to WVD to query our Azure Active Directory and peform administrativ and end-user tasks.
+We need to grant permissions to WVD to query our Azure Active Directory and peform administrative and end-user tasks.
 
 > Make sure you are a global admin within AAD and have the AAD tenant ID and subscription ID handy.
-> Also keep or save any PowerShell outputs, secrets, appids, names etc as you will need it later in the deployment process
+> Also keep or save any PowerShell outputs, secrets, APPids, names etc as you will need it later in the deployment process
 
 1. Open a browser and go to [Windows Virtual Desktop Server app](https://login.microsoftonline.com/common/adminconsent?client_id=5a0aa725-4958-4b0c-80a9-34562e23f3b7&redirect_uri=https%3A%2F%2Frdweb.wvd.microsoft.com%2FRDWeb%2FConsentCallback)
 2. Sign in with the global admin account and select accept
@@ -52,7 +52,7 @@ Now that we have given the WVD service the necessary permissions to query AAD we
 Add-RdsAccount -DeploymentUrl "https://rdbroker.wvd.microsoft.com"
 ```
 
-6 Create a new WVD tenant
+6 Create a new WVD tenant and replace the tenantname, AAD ID and subscriptionID with your details.
 
 ```PowerShell
 New-RdsTenant -Name <TenantName> -AadTenantId <DirectoryID> -AzureSubscriptionId <SubscriptionID>
@@ -101,7 +101,7 @@ Now that all the pre-requisites are deployed and configured we can deploy our ho
 
 2 Basics
 
-Select your subscription and resource group you want to use. Provide the name of the hostpool (this will be the name the end users will see from the Remote Web Client) and choose if you want the desktops to be pooled or personal.
+In the Basisc blade select your subscription and resource group you want to use. Provide the name of the hostpool (this will be the name the end users will see from the Remote Web Client) and choose if you want the desktops to be pooled or personal.
 ![WVD Basics blade]({{ site.url }}/assets/images/2019-10-14_WVD-Basics.png)
 
 3 Configure Virtual Machines
@@ -109,7 +109,7 @@ Select your subscription and resource group you want to use. Provide the name of
 Accept the default or customize the number and size of the VMs you want to deploy. For my poc I changed it to 1 machine. Provide a prefix for the names of the virtual machines and select OK.
 ![WVD VM blade]({{ site.url }}/assets/images/2019-10-14_WVD-ConfigureVM.png)
 
-> The prefix you specified earlier will be used as well to name the underlying resources like the Nic, disk etc. If those names don't comply with your internal naming convention you will need to modify the [WVD templates](https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/Create%20and%20provision%20WVD%20host%20pool).
+> The prefix you specified earlier for the VMs will also be used to name the underlying resources like the Nic, disk etc. If those names don't comply with your internal naming convention you will need to modify the [WVD templates](https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/Create%20and%20provision%20WVD%20host%20pool).
 
 4 Virtual Machines Settings
 
@@ -119,7 +119,7 @@ Select the Image source and specify a UPN and password for the domain join. Make
 
 5 Windows Virtual Desktop  tenant Information
 
-In the tenant blade we need to provide information regarding our WVD tenant we created earlier. Make sure to select Service principal and provide the application ID, Tenant ID and for password provide the App Secret that was created earlier.
+In the tenant blade we need to provide information regarding our WVD tenant we created earlier in PowerShell. Make sure to select Service principal and provide the application ID, Tenant ID and for password provide the App Secret that was created earlier.
 ![WVD information]({{ site.url }}/assets/images/2019-10-14_WVD-Desktopinformation.png)
 
 6 Complete setup
