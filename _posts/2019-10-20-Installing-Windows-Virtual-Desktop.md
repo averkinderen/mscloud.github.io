@@ -12,8 +12,8 @@ tags:
 
 Windows Virtual Desktop (or WVD) was finally released a few weeks back. This blog post will be part of a series of Windows Virtual Desktop related posts.
 
-..* Part 1: [Installing Windows Virtual Desktop]
-..* Part 2: Deployment issues (To be written)
+* Part 1: [Installing Windows Virtual Desktop]
+* Part 2: Deployment issues (To be written)
 
 Before we get started have a look [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup) for an overview of the terminology used in WVD.
 
