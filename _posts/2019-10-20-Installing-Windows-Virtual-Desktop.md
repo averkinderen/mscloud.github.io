@@ -115,9 +115,7 @@ Accept the default or customize the number and size of the VMs you want to deplo
 
 4 Virtual Machines Settings
 
-Select the Image source and specify a UPN and password for the domain join. Make sure to select a VNET and subnet that have access to your domain controller.
-
-![WVD domain join]({{ site.url }}/assets/images/2019-10-15_WVD-VMdomainjoin.png)
+Select the Image source and specify a UPN and password for the domain join. Make sure to select a VNET and a subnet that have access to your domain controller as the machines will automatically be joined to your domain.
 
 5 Windows Virtual Desktop  tenant Information
 
