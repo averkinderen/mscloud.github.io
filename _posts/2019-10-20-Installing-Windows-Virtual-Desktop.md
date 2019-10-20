@@ -15,7 +15,7 @@ Windows Virtual Desktop (or WVD) was finally released a few weeks back. This blo
 ![WVD Architecture]({{ site.url }}/assets/images/2019-10-15_WVD-Architecture.png)
 
 * Part 1: [Installing Windows Virtual Desktop](https://mscloud.be/azure/windows%20virtual%20desktop/Installing-Windows-Virtual-Desktop/)
-* Part 2: Deployment issues (To be written)
+* Part 2: [Deployment issues](https://mscloud.be/azure/windows%20virtual%20desktop/Debugging-Windows-Virtual-Desktop-Deployment-issues/)
 
 Before we get started have a look [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup) for an overview of the terminology used in WVD.
 

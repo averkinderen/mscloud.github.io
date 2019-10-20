@@ -13,7 +13,7 @@ tags:
 This blog post is a part of a Windows Virtual Desktop series. In our last blog post we succesfully deployed WVD but what I didn't cover was the few issues I encountered when deploying the WVD template. This blog post will summarize the few issues I had and how to solve them.
 
 * Part 1: [Installing Windows Virtual Desktop](https://mscloud.be/azure/windows%20virtual%20desktop/Installing-Windows-Virtual-Desktop/)
-* Part 2: Deployment issues (To be written)
+* Part 2: [Deployment issues](https://mscloud.be/azure/windows%20virtual%20desktop/Debugging-Windows-Virtual-Desktop-Deployment-issues/)
 
 ## Template Validation Failed
 
