@@ -20,13 +20,13 @@ Once we have our Azure Functions App up and running we need to secure it. By def
 * IP Whitelisting
 
 In this article we will discuss Azure AD authentication with Managed Identities. When we enable Azure AD authentication on our Functions App we need to find a way for our Azure API Management (APIM) to authenticate as well.
-This is where Managed Identities comes into the picture. A system-assigned Managed Identity is enabled directly on the Azure Service. When the identity is enabled, Azure creates an identity for the instance in the Azure AD tenant that's trusted by the subscription of the instance. After the identity is created, the credentials are provisioned onto the instance. The lifecycle of a system-assigned identity is directly tied to the Azure service instance that it's enabled on. If the instance is deleted, Azure automatically cleans up the credentials and the identity in Azure AD.
+This is where Managed Identities comes into the picture. A system-assigned Managed Identity is enabled directly on the Azure resource. When the identity is enabled, Azure creates an identity for the instance in the Azure AD tenant. After the identity is created, the credentials are provisioned onto the instance. The lifecycle of a system-assigned identity is directly tied to the Azure resource that it's enabled on. If the resource is deleted, Azure automatically cleans up the credentials and the identity in Azure AD.
 
 So, no need to save passwords, no need to rotate credentials etc. Everything is done automatically for your in the background.
 
 ## Enabling Managed Identity on Azure APIM
 
-Enabling a Managed Identity is super easy. Go to the resource, Settings, Managed identity and click On.
+Enabling a Managed Identity is super easy. Go to the resource, Settings, Managed Identity and click On.
 
 ![Enabling Managed Identity]({{ site.url }}/assets/images/2019-12-08-APIM-ManagedIdentity.png)
 
