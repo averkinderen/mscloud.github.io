@@ -2,7 +2,6 @@
 title: "Securing your Azure Functions App with API Management"
 categories:
   - Azure
-  - Functions App
 tags:
   - Azure
   - Azure Functions App
