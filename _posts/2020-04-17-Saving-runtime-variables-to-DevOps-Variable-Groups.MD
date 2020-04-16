@@ -9,10 +9,14 @@ tags:
 
 *Today's post comes from guest contributor Rodney Almeida. Coming from a System’s Administrator background, he enjoys working on projects from the ground up and playing with new technologies. He has been exploring Azure for a while and has recently started dipping his toes in Azure DevOps.* [Linkedin](https://www.linkedin.com/in/rodney-almeida-2ab1042b).
 
-
+We use outputs
 When creating and running Azure DevOps pipelines, you may need at times to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
 
-However once the pipeline is finished these variables are lost and therefore if you need to refer to them at a later stage you will need to find the deployment task in azure (if it still exists) and manually get the outputs again. Unless you save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
+However once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
+![Output](https://github.com/starkfell/100DaysOfIaC/blob/master/images/day67/Outputs.png?raw=true)
+
+
+Unless you save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
 
 ## Requirements
 First you need to assign the **<Project>'s Build Service (<Organisation>)** Create Access to the Variable Groups.
@@ -20,7 +24,7 @@ First you need to assign the **<Project>'s Build Service (<Organisation>)** Crea
 ![create access]({{ site.url }}/assets/images/2020-04-17-AssignAccessToVariableGroups.png)
 
 ## Update Pipeline
-Next, well add a couple of tasks to our pipeline to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here:](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops.
+Next, well add a couple of tasks to our pipeline to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here:](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
 
 Next we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
 
@@ -50,11 +54,11 @@ Next we will add a PowerShell Task to our pipeline to create the Variable Group 
 > Note: Although in Microsoft's documentation it mentions to use `echo ${AZURE_DEVOPS_CLI_PAT} | az devops login` to login, I was getting error message when creating the Variable Group. Therefore I use `echo $(System.AccessToken) | az devops login` instead.
 
 ## Modify output script
-Next we modify the Output.ps1 script from [the blog](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
+In our pipeline to retrieve outputs from ARM templates we use a powershell tasks to run to capture the JSON outputs and use the captured output in following steps. You can find more information regardin the output sript [here](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
 
 > Note: I had already previously made other modifications to the script to handle Object type variables and read 1 level further into those Objects.
 
-We add an extra parameter called VariableGroupID. This is the VariableGroupID variable that we captured when we created the variable group in the PowerShell task in the previous step. If this parameter is passed it will record whatever variable it is creating as a new entry into the variable group with the variable group id.
+We will modify the output.ps1 script to add an extra parameter called VariableGroupID. This is the VariableGroupID variable that we captured when we created the variable group in the PowerShell task in the previous step. If this parameter is passed it will record whatever variable it is creating as a new entry into the variable group with the variable group id.
 
 ```powershell
 <#
