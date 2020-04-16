@@ -24,7 +24,7 @@ First you need to assign the **<Project>'s Build Service (<Organisation>)** Crea
 ![create access]({{ site.url }}/assets/images/2020-04-17-AssignAccessToVariableGroups.png)
 
 ## Update Pipeline
-Next, well add a couple of tasks to our pipeline to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here:](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
+Next, well add a couple of tasks to our pipeline to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
 
 Next we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
 
