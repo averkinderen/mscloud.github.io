@@ -19,7 +19,7 @@ However once the pipeline is finished these variables are lost and therefore if 
 Unless you save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
 
 ## Requirements
-First you need to assign the **<Project>'s Build Service (<Organisation>)** Create Access to the Variable Groups.
+First you need to assign the `<Project>'s Build Service (<Organisation>)` Create Access to the Variable Groups.
 
 ![create access]({{ site.url }}/assets/images/2020-04-17-AssignAccessToVariableGroups.png)
 
