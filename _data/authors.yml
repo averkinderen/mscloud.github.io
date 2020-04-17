@@ -1,0 +1,51 @@
+Alexandre Verkinderen:
+  name             : "Alexandre Verkinderen"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "He is a Hybrid Cloud Architect and actively assist large organizations to help them envision architect, implement, configure, and customize their Microsoft Cloud solutions."
+  location         : "In the Cloud"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:alexandre@mscloud.be
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mscloud.be"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/AlexVerkinderen"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/averkinderen"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+Rodney Almeida:
+  name             : "Rodney Almeida"
+  #avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Coming from a System’s Administrator background, he enjoys working on projects from the ground up and playing with new technologies. He has been exploring Azure for a while and has recently started dipping his toes in Azure DevOps."
+  location         : "Australia"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      #url: mailto:alexandre@mscloud.be
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/rodney-almeida-2ab1042b"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/AlexVerkinderen"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      #url: "https://github.com/averkinderen"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"

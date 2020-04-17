@@ -1,5 +1,6 @@
 ---
 title: "Saving runtime variables to DevOps Variable Groups"
+author: Rodney Almeida
 categories:
   - Azure
 tags:
@@ -7,7 +8,7 @@ tags:
   - Azure Devops
 ---
 
-*Today's post comes from guest contributor Rodney Almeida. Coming from a System’s Administrator background, he enjoys working on projects from the ground up and playing with new technologies. He has been exploring Azure for a while and has recently started dipping his toes in Azure DevOps.* [Linkedin](https://www.linkedin.com/in/rodney-almeida-2ab1042b).
+*Today's post comes from guest contributor Rodney Almeida.*
 
 We use outputs
 When creating and running Azure DevOps pipelines, you may need at times to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
