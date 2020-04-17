@@ -54,7 +54,7 @@ Next we will add a PowerShell Task to our pipeline to create the Variable Group 
 > Note: Although in Microsoft's documentation it mentions to use `echo ${AZURE_DEVOPS_CLI_PAT} | az devops login` to login, I was getting error message when creating the Variable Group. Therefore I use `echo $(System.AccessToken) | az devops login` instead.
 
 ## Modify output script
-In our pipeline to retrieve outputs from ARM templates we use a powershell tasks to run to capture the JSON outputs and use the captured output in following steps. You can find more information regardin the output sript [here](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
+In our pipeline to retrieve outputs from ARM templates we use a powershell tasks to run to capture the JSON outputs and use the captured output in following steps. You can find more information regarding the output script [here](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
 
 > Note: I had already previously made other modifications to the script to handle Object type variables and read 1 level further into those Objects.
 
