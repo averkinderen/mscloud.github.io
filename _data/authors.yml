@@ -39,7 +39,7 @@ Rodney Almeida:
       url: "https://www.linkedin.com/in/rodney-almeida-2ab1042b"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AlexVerkinderen"
+      #url: "https://twitter.com/AlexVerkinderen"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
