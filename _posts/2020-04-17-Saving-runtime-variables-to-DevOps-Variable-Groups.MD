@@ -12,11 +12,11 @@ tags:
 
 We use ARM outputs quite extensively in our Azure DevOps pipelines. At times you may need to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
 
-However, once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
+However, once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in Azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
 ![Output](https://github.com/starkfell/100DaysOfIaC/blob/master/images/day67/Outputs.png?raw=true)
 
 
-The solution to this is to save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
+The solution to this, is to save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
 
 ## Requirements
 First you need to assign the `<Project>'s Build Service (<Organisation>)` Create permission to the Variable Groups.
@@ -24,9 +24,9 @@ First you need to assign the `<Project>'s Build Service (<Organisation>)` Create
 ![create access]({{ site.url }}/assets/images/2020-04-17-AssignAccessToVariableGroups.png)
 
 ## Update Pipeline
-Next, we will add a couple of tasks to to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
+Next, we will add a couple of tasks to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
 
-Next, we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
+After this, we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
 
 ```yml
   - script: echo $(System.AccessToken) | az devops login
@@ -54,7 +54,7 @@ Next, we will add a PowerShell Task to our pipeline to create the Variable Group
 > Note: Although in Microsoft's documentation it mentions to use `echo ${AZURE_DEVOPS_CLI_PAT} | az devops login` to login, I was getting error message when creating the Variable Group. Therefore I use `echo $(System.AccessToken) | az devops login` instead.
 
 ## Modify output script
-In our pipeline to retrieve outputs from ARM templates we use a powershell tasks to run to capture the JSON outputs and use the captured output in following steps. You can find more information regarding the output script [here](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
+In our pipeline to retrieve outputs from ARM templates we use a PowerShell tasks to capture the JSON outputs and use the captured output in following steps. You can find more information regarding the output script [here](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md#convert-json-output-to-string).
 
 > Note: I had already previously made other modifications to the script to handle Object type variables and read 1 level further into those Objects.
 
@@ -128,13 +128,13 @@ $armOutputObj.PSObject.Properties | ForEach-Object {
 
 ```
 ## Running the pipeline
-Now we kick off our pipeline and see the results.
+Now we kick off our pipeline and have a look at the results.
 ![Pipeline Execution]({{ site.url }}/assets/images/2020-04-17-PipelineExecution.PNG)
 
-We can see that after the pipeline completes the following variable group is created
+We can see that after the pipeline completes the following variable group is automtically created
 ![Variable Group Created]({{ site.url }}/assets/images/2020-04-17-VariableGroupCreated.png)
 
-And all outputs from the pipeline are stored inside that variable group to be referenced at a later stage by different pipelines for example
+And all ARM outputs from the pipeline are stored inside that variable group to be referenced at a later stage by different pipelines, stages or jobs for example.
 ![Variable Group Content]({{ site.url }}/assets/images/2020-04-17-VariableGroupContent.png)
 
 
