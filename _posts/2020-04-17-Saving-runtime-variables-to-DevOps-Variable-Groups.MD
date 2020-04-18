@@ -1,5 +1,5 @@
 ---
-title: "Saving runtime variables to DevOps Variable Groups"
+title: "Saving runtime variables to Azure DevOps Variable Groups"
 author: Rodney Almeida
 categories:
   - Azure
