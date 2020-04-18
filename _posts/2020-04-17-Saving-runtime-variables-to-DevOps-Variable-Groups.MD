@@ -10,23 +10,23 @@ tags:
 
 *Today's post comes from guest contributor Rodney Almeida.*
 
-We use outputs when creating and running Azure DevOps pipelines, you may need at times to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
+We use ARM outputs quite extensively in our Azure DevOps pipelines. At times you may need to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
 
-However once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
+However, once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
 ![Output](https://github.com/starkfell/100DaysOfIaC/blob/master/images/day67/Outputs.png?raw=true)
 
 
-Unless you save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
+The solution to this is to save these variables to a variable group in Azure DevOps which can then be referred to in other pipelines. This article will show you how to use Azure CLI to create a new variable group in Azure DevOps and save your runtime variables to it.
 
 ## Requirements
-First you need to assign the `<Project>'s Build Service (<Organisation>)` Create Access to the Variable Groups.
+First you need to assign the `<Project>'s Build Service (<Organisation>)` Create permission to the Variable Groups.
 
 ![create access]({{ site.url }}/assets/images/2020-04-17-AssignAccessToVariableGroups.png)
 
 ## Update Pipeline
-Next, we will add a couple of tasks to our pipeline to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
+Next, we will add a couple of tasks to to login to Azure DevOps CLI from within the pipeline using the `$(System.AccessToken)`. More on this can be [found here](https://docs.microsoft.com/en-us/azure/devops/cli/azure-devops-cli-in-yaml?view=azure-devops).
 
-Next we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
+Next, we will add a PowerShell Task to our pipeline to create the Variable Group and populate the first variable.
 
 ```yml
   - script: echo $(System.AccessToken) | az devops login
