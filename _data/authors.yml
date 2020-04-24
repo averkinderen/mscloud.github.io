@@ -26,7 +26,7 @@ Alexandre Verkinderen:
 
 Rodney Almeida:
   name             : "Rodney Almeida"
-  #avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Rodney.jpg"
   bio              : "Coming from a System’s Administrator background, he enjoys working on projects from the ground up and playing with new technologies. He has been exploring Azure for a while and has recently started dipping his toes in Azure DevOps."
   location         : "Australia"
   email            :
