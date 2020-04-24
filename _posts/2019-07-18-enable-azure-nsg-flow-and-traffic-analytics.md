@@ -10,11 +10,9 @@ tags:
   - network watcher
   - powershell
 ---
-A while back I wrote a [blog post](https://mscloud.be/enabling-azure-network-security-group-nsg-flow-logging-in-bulk/) on how to enable NSG flow and traffic analytics in bulk for all your NSGs. 
+A while back I wrote a [blog post](https://mscloud.be/enabling-azure-network-security-group-nsg-flow-logging-in-bulk/) on how to enable NSG flow and traffic analytics in bulk for all your NSGs.
 
-A few things have changed since then so I decided to create a V2 version of the PowerShell script. 
-
-
+A few things have changed since then so I decided to create a V2 version of the PowerShell script.
 
 You will notice that the script has been updated to use the new AZ PowerShell modules.  
   
