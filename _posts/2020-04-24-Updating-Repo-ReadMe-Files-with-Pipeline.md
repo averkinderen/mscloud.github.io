@@ -24,7 +24,7 @@ First thing I found was this Microsoft [documentation](https://docs.microsoft.co
 
 ## Create ReadMe Template and Calling Script
 
-Next, we created our own template file called `ReadMe.doc.ps1` using Bernie's [ARM Template example](https://github.com/BernieWhite/PSDocs/blob/master/docs/scenarios/arm-template/arm-template.doc.ps1) as a base. 
+Next, we created our own template file called `ReadMe.doc.ps1` using Bernie's [ARM Template example](https://github.com/BernieWhite/PSDocs/blob/master/docs/scenarios/arm-template/arm-template.doc.ps1) as a base.
 
 ```powershell
 #
@@ -162,7 +162,6 @@ git status
 ```
 
 > Note: We are using `git add $FILETOCOMMIT` to only commit the README.md file to minimise the risk of this process completely destroying our repository.
-
 
 ## Creating a Pipeline Job
 
