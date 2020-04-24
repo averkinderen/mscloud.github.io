@@ -10,13 +10,13 @@ tags:
 
 *Today's post comes from guest contributor Rodney Almeida*
 
-Bernie White has a Powershell Module ([PSDocs](https://github.com/BernieWhite/PSDocs)) that can generate mark down file (*.md) and Stefan Stranger's [blog post](https://stefanstranger.github.io/2020/04/12/CreatingAzureDevOpsWIKIPagesFromWithApipeline/) shows us how to upload these to a DevOps Wiki. We started investigating this as we saw this being a great feature to automate the creation and maintenance of README.md files within our IaC Templates. The only issue we had is that our README.md files live side by side with our ARM Templates in the Azure DevOps Repositories and not in the Wiki section that Stefan's post updates. So the challenge is, how do we make our Azure Pipelines write back the README.md files it creates on the agents to the repository?
+Bernie White has a Powershell Module ([PSDocs](https://github.com/BernieWhite/PSDocs)) that can generate mark down files (*.md) and Stefan Stranger's [blog post](https://stefanstranger.github.io/2020/04/12/CreatingAzureDevOpsWIKIPagesFromWithApipeline/) shows us how to upload these to a DevOps Wiki. We started investigating this as we saw this being a great feature to automate the creation and maintenance of README.md files within our IaC Templates. The only issue is that our README.md files live side by side with our ARM Templates in the Azure DevOps Repositories and not in the Wiki section that Stefan's post updates. So the challenge is, how do we make our Azure Pipelines write back the README.md files it dynamically creates on the build agent during to the repository?
 
 Solution is to use git within the pipeline to commit the change to the modified and\or created file back to the repository.
 
 ## Requirements
 
-First thing I found was this Microsoft [documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/git-commands?view=azure-devops&tabs=yaml) which specifies additional access requirements for **Project Collection Build Service**. However we found that our pipelines was using the `<Project>'s Build Service (<Organisation>)` account and therefore we assigned the additional access to that account.
+First thing I found was this Microsoft [documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/scripts/git-commands?view=azure-devops&tabs=yaml) which specifies additional access requirements for the **Project Collection Build Service**. However we found that our pipelines were using the `<Project>'s Build Service (<Organisation>)` account and therefore we had to assign the additional access to that account.
 
 > Note: Permissions "Read" and "Create Tag" where already Inherited so not need to reassign again.
 
@@ -131,7 +131,7 @@ Invoke-PSDocument -Path "$WorkingDir\$DocTemplatePath" -InputObject $PSDocsInput
 
 ## Create a BASH script to run the git commands
 
-We also created a BASH script called `GITCommitReadMeFile.sh` to run the set to git commands needed to be able to be reused in all our IaC Template Pipelines.
+We also created a BASH script called `GITCommitReadMeFile.sh`. This will run the necessary git commands needed to upload our new README file to our repository.
 
 ```bash
 BRANCH=$1
@@ -191,7 +191,7 @@ Next we to put all these together into a pipeline job.
 
 ## Running the pipeline
 
-Now we kick off our pipeline and have a look at the results.
+Now we kick off our pipeline and have a look at the results. Notice we have 2 extra tasks. The first one will create the README file dynamically with PowerShell, the second one will add and commit the new file to our repository.
 ![Pipeline Execution]({{ site.url }}/assets/images/2020-04-24-PipelineExecution.PNG)
 
 We can see that after the pipeline completes the README.md file has been updated.
