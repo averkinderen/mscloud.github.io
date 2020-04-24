@@ -8,7 +8,7 @@ tags:
   - Azure Devops
 ---
 
-*Today's post comes from guest contributor Rodney Almeida.*
+*Today's post comes from guest contributor Rodney Almeida*
 
 We use ARM outputs quite extensively in our Azure DevOps pipelines. At times you may need to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
 
