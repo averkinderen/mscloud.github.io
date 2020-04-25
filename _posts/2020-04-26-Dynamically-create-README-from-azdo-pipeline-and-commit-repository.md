@@ -1,5 +1,5 @@
 ---
-title: "Dynamically create README from Azure DevOps Pipeline and Commit to Repository"
+title: "Dynamically create README Files from Azure DevOps Pipeline and Commit to Repository"
 author: Rodney Almeida
 categories:
   - Azure
