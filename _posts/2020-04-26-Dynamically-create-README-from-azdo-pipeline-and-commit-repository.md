@@ -191,6 +191,7 @@ Let's put everything together into a pipeline job. The first task will call the 
 
 Now we kick off our pipeline and have a look at the results.
 ![Pipeline Execution]({{ site.url }}/assets/images/2020-04-24-PipelineExecution.png)
+![Pipeline Execution]({{ site.url }}/assets/images/2020-04-24-PipelineExecution.PNG)
 
 We can see that after the pipeline completes the README.md file has been updated.
 ![ReadMe File]({{ site.url }}/assets/images/2020-04-24-ReadMeFile.png)
