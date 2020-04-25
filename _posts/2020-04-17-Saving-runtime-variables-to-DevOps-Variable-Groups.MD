@@ -135,7 +135,7 @@ $armOutputObj.PSObject.Properties | ForEach-Object {
 Now we kick off our pipeline and have a look at the results.
 ![Pipeline Execution]({{ site.url }}/assets/images/2020-04-17-PipelineExecution.PNG)
 
-We can see that after the pipeline completes the following variable group is automtically created
+We can see that after the pipeline completes the following variable group is automatically created
 ![Variable Group Created]({{ site.url }}/assets/images/2020-04-17-VariableGroupCreated.png)
 
 And all ARM outputs from the pipeline are stored inside that variable group to be referenced at a later stage by different pipelines, stages or jobs for example.
