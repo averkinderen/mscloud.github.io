@@ -23,11 +23,11 @@ To be able to achieve this we will need to manually register a new application i
 
 First, navigate to your APIM instance, and select **Identities** under the Developer portal settings
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-Addidentity.png" alt-text="Add Identity":::
+![Add Identity]({{ site.url }}/assets/images/2020-05-01-APIM-Addidentity.png)
 
 Click add new identity and select **Azure Active Directory** and copy the **Redirect URL**. We will need this later when we create our Azure AD application.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-redirecturl.png" alt-text="Redirect URL":::
+![Redirect URL]({{ site.url }}/assets/images/2020-05-01-APIM-redirecturl.png)
 
 > [!NOTE]
 > Make sure you don't copy the legacy redirect URL if you are using the new APIM portal like me.
@@ -38,29 +38,29 @@ Don't close this window just yet. We will need to fill in the ClientID and Clien
 
 Open a new tab and [register](https://go.microsoft.com/fwlink/?linkid=2083908) a new app in Azure AD. Select **New Registration**. Give your new app a meaningful **name** , select "Accounts in this organizational directory only" and paste the **redirect url** from APIM and press **register**.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-RegisterAPP.png" alt-text="Register APP in Azure AD":::
+![Register APP in Azure AD]({{ site.url }}/assets/images/2020-05-01-APIM-RegisterAPP.png)
 
 Once the app is registered, copy the **ClientID**
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-APPClientID.png" alt-text="ClientID":::
+![Client ID]({{ site.url }}/assets/images/2020-05-01-APIM-APPClientID.png)
 
 Go to Certificate and Secrets and **create** a new Secret. Once created, copy the Client Secret.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-APPSecret.png" alt-text="Client Secret":::
+![Client Secret]({{ site.url }}/assets/images/2020-05-01-APIM-APPSecret.png)
 
 There is one last thing we should do in our newly created Azure AD app before switching back to our APIM. Click on **Authentication** and select **ID Tokens**.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-APPIDTokens.png" alt-text="ID Tokens":::
+![ID Tokens]({{ site.url }}/assets/images/2020-05-01-APIM-APPIDTokens.png)
 
 ## Finalize Azure AD identity provider in APIM
 
 Now, let's switch back to our APIM and fill in all the necessary information. Paste the ClientID and Client Secret from the previous step and press **Add**.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-Appinfo.png" alt-text="Add info":::
+![Add info]({{ site.url }}/assets/images/2020-05-01-APIM-Appinfo.png)
 
 At this stage you can already try and login to your APIM with Azure AD. Go to https:yoururl/signin
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-portal-signin.png" alt-text="AD Sign in":::
+![AD Sign in]({{ site.url }}/assets/images/2020-05-01-APIM-portal-signin.png)
 
 You will see that the sign in page is using the **Sign-in button: OAuth widget** for Azure AD authentication After sign in the user will be prompted to complete the sign up process.
 
@@ -68,7 +68,7 @@ You will see that the sign in page is using the **Sign-in button: OAuth widget**
 
 I want all my users to use Azure AD authentication instead of Basic authentication. So I customized the APIM portal and removed all **Basic oAuth widgets** from the portal.
 
-:::image type="content" source="../assets/images/2020-05-01-APIM-portal-RemoveBasic.png" alt-text="Remove Basic oAuth":::
+![Remove Basic oAuth]({{ site.url }}/assets/images/2020-05-01-APIM-portal-RemoveBasic.png)
 
 ## Conclusion
 
