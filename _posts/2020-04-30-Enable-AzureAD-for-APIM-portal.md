@@ -1,5 +1,5 @@
 ---
-title: "Enable Azure AD authentication for API Management Service Portal"
+title: "Enable Azure AD authentication for API Management Service Developer Portal"
 categories:
   - Azure
 tags:
