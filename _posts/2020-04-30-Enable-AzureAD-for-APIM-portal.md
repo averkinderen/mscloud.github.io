@@ -1,5 +1,5 @@
 ---
-title: "Enable Azure AD for API Management Service Portal"
+title: "Enable Azure AD authentication for API Management Service Portal"
 categories:
   - Azure
 tags:
@@ -28,7 +28,6 @@ Click add new identity and select **Azure Active Directory** and copy the **Redi
 
 ![Redirect URL]({{ site.url }}/assets/images/2020-05-01-APIM-redirecturl.png)
 
-> [!NOTE]
 > Make sure you don't copy the legacy redirect URL if you are using the new APIM portal like me.
 
 Don't close this window just yet. We will need to fill in the ClientID and Client Secret of the new app we are about to register in Azure AD.
@@ -61,7 +60,7 @@ At this stage you can already try and login to your APIM with Azure AD. Go to ht
 
 ![AD Sign in]({{ site.url }}/assets/images/2020-05-01-APIM-portal-signin.png)
 
-You will see that the sign in page is using the **Sign-in button: OAuth widget** for Azure AD authentication After sign in the user will be prompted to complete the sign up process.
+You will see that the sign in page is using the **Sign-in button: OAuth widget** for Azure AD authentication. After sign in the user will be prompted to complete the sign up process.
 
 ## Modify the APIM portal for Azure AD authentication
 
