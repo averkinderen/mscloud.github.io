@@ -1,6 +1,5 @@
 ---
-title: "Saving runtime variables to Azure DevOps Variable Groups"
-author: Alexandre Verkinderen
+title: "Enable Azure AD for API Management Service Portal"
 categories:
   - Azure
 tags:
@@ -21,7 +20,7 @@ To be able to achieve this we will need to manually register a new application i
 
 ## Add Azure AD identity provider in APIM
 
-First, navigate to your APIM instance, and select **Identities** under the Developer portal settings
+First, navigate to your APIM instance, and select **Identities** under the **Developer portal** settings
 
 ![Add Identity]({{ site.url }}/assets/images/2020-05-01-APIM-Addidentity.png)
 
