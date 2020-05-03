@@ -7,19 +7,19 @@ tags:
   - APIM
 ---
 
-One of my customers is on a journey to re-architect old on-premises web application to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API definition in APIM would get updated.
+One of my customers is on a journey to re-architect old on-premises web applications to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API definition in APIM would get updated.
 
-The challenge was that if a new build was created and released, the Swagger file of the webAPP would be updated but not the API definition of the API in APIM. Once you [import and publish](https://docs.microsoft.com/en-us/azure/api-management/import-and-publish#-import-and-publish-a-backend-api) an API it will not be updated automatically. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. So, if we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
+The challenge was that if a new build was created and released, the Swagger file of the APIapp would be updated but not the API definition of the API in APIM. Once you [import and publish](https://docs.microsoft.com/en-us/azure/api-management/import-and-publish#-import-and-publish-a-backend-api) an API in APIM it will not be updated automatically. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. If we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
 
 *If we have continuous deployments for our webApps, we want continuous deployments for our APIM as well.*
 
 ## Introduction
 
-On some weeks we might have a couple of new builds and releases done. The release contains 3 stages to deploy to DEV, UAT and Production respectively as seen in the diagram below:
+The release contains 3 stages to deploy to DEV, UAT and Production respectively as seen in the diagram below:
 
 ![AZDO]({{ site.url }}/assets/images/2020-05-08-APIM-AZDO-APIM.png)
 
-We first looked at the [APIM DevOps Resource kit](https://github.com/Azure/azure-api-management-devops-resource-kit). But that was overly complicated for what we wanted to achieve. A quick search in the Azure DevOps marketplace revealed the following extensions from [Stephan Eyskens](https://marketplace.visualstudio.com/items?itemName=stephane-eyskens.apim).
+We first looked at the [APIM DevOps Resource kit](https://github.com/Azure/azure-api-management-devops-resource-kit) to keep the APIs in sync. But that was overly complicated for what we wanted to achieve. A quick search in the Azure DevOps marketplace revealed the following extensions from [Stephan Eyskens](https://marketplace.visualstudio.com/items?itemName=stephane-eyskens.apim).
 
 ## Setup the pipeline
 
@@ -33,14 +33,14 @@ Next, add the following tasks to your pipeline:
 
 - **PowerShell task** to parse the Swagger file. This task will parse our Swagger JSON file and extract things like the name, display name etc of our API. It happened to me before that a Dev guy would come up with a name, we would setup the pipeline but once the business saw the name they wanted it changed so I had to change my pipeline or my variables. Now, if the Dev guy changes something in the Swagger file it will get processed and the API in APIM will change automatically.
 
-- **Create/Update API** task to create or update our API in APIM. This task will create or update the API in APIM based on the Swagger file and also set different API policies for dev, uat and prod. This task will also update the API in APIM in case the Dev guy will create new API methods or remove API methods.
+- **Create/Update API**. This task will create or update the API in APIM based on the Swagger file and also set different API policies for dev, uat and prod. This task will also update the API in APIM in case the Dev guy will create new API methods or remove API methods.
 
 - Create 3 variable groups with the following settings.
 
 ![Variable Group]({{ site.url }}/assets/images/2020-05-08-APIM-AZDO-variablegroup.png)
 
 > **NOTE**
-> I'm not going to explain how to setup a build for your dot net solution. I assume you already have this in place.
+> I'm not going to explain how to setup a build for your dot Net solution. I assume you already have this in place.
 
 Copy the following yaml content into your pipeline.
 
@@ -111,7 +111,8 @@ Copy the following yaml content into your pipeline.
           MicrosoftApiManagementAPIVersion: '2018-01-01'
 ```
 
-> - Please note that the API task from the market place is not yet fully compatible with YAML pipelines. It works perfectly fine but the pipeline is going to highlight it as not supported. A work around for this is to create a classic pipeline, add the task and copy the YAML configuration.
+> - Please note that the API task from the market place is not fully compatible with YAML pipelines yet. It works perfectly fine but the pipeline is going to highlight it as not supported.
+> - You will also not be able to edit the settings of the task in your YAML pipeline. A work around for this is to create a classic pipeline, add the task, configure the settings and copy the YAML configuration.
 > - I also struggled a bit with the APIM policy. YAML pipelines don't like XML code inside the YAML file. The work around for this was to set the integer values in the variable groups as per screenshot above.
 
 Let's trigger our pipeline.
