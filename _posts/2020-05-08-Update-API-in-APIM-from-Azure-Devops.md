@@ -1,5 +1,5 @@
 ---
-title: "Use Azure DevOps pipelines for continuous delivery to Azure API Management Service "
+title: "Use Azure DevOps pipelines for continuous delivery of APIs to Azure API Management Service "
 categories:
   - Azure
 tags:
@@ -8,7 +8,9 @@ tags:
 ---
 
 One of my customers is on a journey to re-architect old on-premises web application to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API in APIM would get updated.
-The challenge was that if a new build was created and released, the Swagger file of the webAPP would get updated but not the API definition of the API in APIM. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. So, if we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
+
+The challenge was that if a new build was created and released, the Swagger file of the webAPP would be updated but not the API definition of the API in APIM. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. So, if we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
+
 *If we have continuous deployments for our webApps, we want continuous deployments for our APIM as well.*
 
 ## Introduction
@@ -63,7 +65,7 @@ Copy the following yaml content into your pipeline.
         displayName: "Deploy to Azure APIapp"
         inputs:
           ConnectionType: 'AzureRM'
-          azureSubscription: 'Microsoft Azure Sponsorship New(66ce97df-3e85-4cde-9b69-3e4c5d7d51e7)'
+          azureSubscription: 'Microsoft Azure Sponsorship New'
           appType: 'apiApp'
           WebAppName: 'todotapim'
           packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
@@ -79,7 +81,7 @@ Copy the following yaml content into your pipeline.
       - task: stephane-eyskens.apim.apim.apim@3
         displayName: "API Management - Create/Update API"
         inputs:
-          ConnectedServiceNameARM: 'Microsoft Azure Sponsorship New(1)(66ce97df-3e85-4cde-9b69-3e4c5d7d51e7)'
+          ConnectedServiceNameARM: 'Microsoft Azure Sponsorship New'
           ResourceGroupName: $(ResourceGroupName)
           ApiPortalName: $(ApiPortalName)
           UseProductCreatedByPreviousTask: false
@@ -118,9 +120,11 @@ Let's trigger our pipeline.
 
 ## Conclusion
 
-As you can see our APIs have been created/update in APIM and our policies have been set as well. :smiley:
+As you can see our APIs have been created/updated in APIM and our policies have been set as well. :smiley:
 
 ![Pipeline Overview]({{ site.url }}/assets/images/2020-05-08-APIM-APIs.png)
+
+Now, every time a developer is releasing a new version of the API the API definition in APIM will be updated.
 
 Thanks,
 
