@@ -7,9 +7,9 @@ tags:
   - APIM
 ---
 
-One of my customers is on a journey to re-architect old on-premises web application to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API in APIM would get updated.
+One of my customers is on a journey to re-architect old on-premises web application to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API definition in APIM would get updated.
 
-The challenge was that if a new build was created and released, the Swagger file of the webAPP would be updated but not the API definition of the API in APIM. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. So, if we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
+The challenge was that if a new build was created and released, the Swagger file of the webAPP would be updated but not the API definition of the API in APIM. Once you [import and publish](https://docs.microsoft.com/en-us/azure/api-management/import-and-publish#-import-and-publish-a-backend-api) an API it will not be updated automatically. So, even though the developers released a new build, the consumers would still consume the older version of the API published in APIM. So, if we have 10 APIs with each 3 environments and we do, let's say, 5 releases a week that's 150 manual updates to APIM.
 
 *If we have continuous deployments for our webApps, we want continuous deployments for our APIM as well.*
 
@@ -23,7 +23,7 @@ We first looked at the [APIM DevOps Resource kit](https://github.com/Azure/azure
 
 ## Setup the pipeline
 
-First, [install the extension](https://marketplace.visualstudio.com/items?itemName=stephane-eyskens.apim) to your Azure DevOps environment.
+First, [install the extension](https://marketplace.visualstudio.com/items?itemName=stephane-eyskens.apim) in your Azure DevOps environment.
 
 Next, add the following tasks to your pipeline:
 
@@ -31,7 +31,7 @@ Next, add the following tasks to your pipeline:
 
 - **AzureRmWebAppDeployment**. This task will take the downloaded build artifact and deploy it to our API app in Azure.
 
-- **PowerShell task** to parse the Swagger file. This task will parse our Swagger JSON and extract things like the name, display name etc of our API. It happened to me before that a Dev guy would come up with a name, we would setup the pipeline but once the business saw the name they wanted it changed so I had to change my pipeline or my variables. Now, if the Dev guy changes something in the Swagger file it will get processed and the API in APIM will change automatically.
+- **PowerShell task** to parse the Swagger file. This task will parse our Swagger JSON file and extract things like the name, display name etc of our API. It happened to me before that a Dev guy would come up with a name, we would setup the pipeline but once the business saw the name they wanted it changed so I had to change my pipeline or my variables. Now, if the Dev guy changes something in the Swagger file it will get processed and the API in APIM will change automatically.
 
 - **Create/Update API** task to create or update our API in APIM. This task will create or update the API in APIM based on the Swagger file and also set different API policies for dev, uat and prod. This task will also update the API in APIM in case the Dev guy will create new API methods or remove API methods.
 
