@@ -8,8 +8,6 @@ tags:
   - Azure Devops
 ---
 
-*Today's post comes from guest contributor Rodney Almeida*
-
 We use ARM outputs quite extensively in our Azure DevOps pipelines. At times you may need to get outputs from previous steps and store them as variables to be consumed further down the pipeline. The following blog post already details this process really well [blog post](https://github.com/starkfell/100DaysOfIaC/blob/master/articles/day.67.outputs.md).
 
 However, once the pipeline is finished these variables are lost and therefore if you need to refer them at a later stage you will need to find the deployment task in Azure (if it still exists) and manually get the outputs again. Here you can see the outputs in the Azure Portal:
