@@ -1,10 +1,11 @@
 ---
-title: "Use Azure DevOps pipelines for continuous delivery of APIs to Azure API Management Service "
+title: "Use Azure DevOps pipelines for continuous delivery of APIs to Azure API Management Service"
 categories:
   - Azure
 tags:
   - Azure
   - APIM
+  - Azure Devops
 ---
 
 One of my customers is on a journey to re-architect old on-premises web applications to more modern webApps using APIs. All APIs should use Azure DevOps CI/CD pipelines and will only be exposed through Azure API Management Service. We wanted to ensure that every time a developer has released a new build the API definition in APIM would get updated.
