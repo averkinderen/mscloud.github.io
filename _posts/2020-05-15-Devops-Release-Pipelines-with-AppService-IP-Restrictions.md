@@ -15,7 +15,7 @@ Our release pipeline broke after enabling IP restrictions on the API app.
 
 ![Devops error message]({{ site.url }}/assets/images/2020-05-15-AZDO-400.png)
 
-We have a task, as mentioned in [this blogpost](https://mscloud.be/azure/Update-API-in-APIM-from-Azure-Devops) that reads the Swagger file from our API app to update the APIs in APIM. After enabling IP restrictions we would receive a 404 error message when trying to read the swagger file as the swagger file was not publicly availabile anymore
+We have a task, as mentioned in [this blogpost](https://mscloud.be/azure/Update-API-in-APIM-from-Azure-Devops), that reads the Swagger file from our API app to update the APIs in APIM. After enabling IP restrictions we would receive a 404 error message when trying to read the swagger file as the swagger file was not publicly availabile anymore
 
 ```json
 2020-05-12T04:03:55.0921140Z 						}
@@ -38,11 +38,11 @@ The list of [public IPs used per](https://www.microsoft.com/en-us/download/detai
 
 ## Solution: Self Hosted Agents
 
-I'm a big fan of Microsoft hosted agents, it makes my life easier, I don't need to worry about maintenance and high availability and it's really cheap to just buy another agent. However, for this scenario the only possible solution is to use Self-Hosted build agents and add the public IP to the webApp IP restriction Allow List. There are a few different options to install a self-hosted agent ([docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) and [Windows](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops) for example) that I'm not going to cover here. We installed a self-hosted agent in our virtual network that is sitting behind an Azure Firewall in our Hub network and all subnets have that firewall defined as the next hope for route 0.0.0.0/0. This means that all unkown traffic (like internet traffic) will go through the Azure firewall and will exit our network using the public IP of that Azure Firewall.
+I'm a big fan of Microsoft hosted agents, it makes my life easier, I don't need to worry about maintenance and high availability and it's really cheap to just buy another agent if needed. However, for this scenario the only possible solution is to use Self-Hosted build agents and add the public IP to the webApp IP restriction Allow List. There are a few different options to install a self-hosted agent ([docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) and [Windows](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops) for example) that I'm not going to cover here. We installed a self-hosted agent in our virtual network that is sitting behind an Azure Firewall in our Hub network and all subnets have that firewall defined as the next hope for route 0.0.0.0/0. This means that all unkown traffic (like internet traffic) will go through the Azure Firewall and will exit our network using the public IP of that Azure Firewall.
 
 ![Azdo Self Hosted]({{ site.url }}/assets/images/2020-05-16-AZDO-Selfhosted.png)
 
-After deploying the self-hosted agent in our network all we had to do was to add the public ip of the Azure firewall to our IP restrictions list and change our Yaml pipeline to use the self-hosted agent instead
+After deploying the self-hosted agent in our network all we had to do was to add the public ip of the Azure Firewall to our IP restrictions list and change our Yaml pipeline to use the self-hosted agent instead
 
 ```Yaml
 - stage: DEV
@@ -63,13 +63,15 @@ After deploying the self-hosted agent in our network all we had to do was to add
           downloadPath: '$(System.ArtifactsDirectory)'
 ```
 
+And adding the public IP to the allow list on the Azure APP:
+
 ![WebApp IP restrictions]({{ site.url }}/assets/images/2020-05-16-AZDO-IPrestrictions.png)
 
-And after this we could succesfully read the swagger file from our APIapp and update the API management. :smile:
+After this we could succesfully read the swagger file from our APIapp and update the API management. :smile:
 
 ![Successfly read from swagger]({{ site.url }}/assets/images/2020-05-16-AZDO-200.png)
 
-We also updated our ARM template that deploys our webApps to automatically add the public IP to the allow list.
+We also updated our ARM template that deploys our webApps to automatically add the public IP of the Azure Firewall to the allow list.
 
 ```json
 "variables": {
