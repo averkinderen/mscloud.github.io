@@ -27,7 +27,7 @@ We have a task, as mentioned in [this blogpost](https://mscloud.be/azure/Update-
 
 So we had to try and find the public IP of our hosted agents and add those IPs in the allow list on our WebApp. At first I tried adding these [Azure Devops IP addresses](https://docs.microsoft.com/en-us/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops#ip-addresses-and-range-restrictions) in the allow IP list of the webApp. However, the release pipeline still failed as those are the IP adddresses of the Azure DevOps Service itself, like the control plane. Not the build agents themselves.
 
-I then realised the hosted agents are being deployed as resources in Azure in the same [Azure geography](https://azure.microsoft.com/en-us/global-infrastructure/geographies/) as your Azure DevOps Organisation. So in my case, the hosted agents would be spin up in Azure EastUS 2.
+I then realised the hosted agents are being deployed as resources in Azure in the same [Azure geography](https://azure.microsoft.com/en-us/global-infrastructure/geographies/) as your Azure DevOps Organization. So in my case, the hosted agents would be spin up in Azure EastUS 2.
 
 ![Devops region]({{ site.url }}/assets/images/2020-05-16-AZDO-region.png)
 
@@ -38,7 +38,7 @@ The list of [public IPs used per](https://www.microsoft.com/en-us/download/detai
 
 ## Solution: Self Hosted Agents
 
-I'm a big fan of Microsoft hosted agents, it makes my life easier, I don't need to worry about maintenance and high availability and it's really cheap to just buy another agent if needed. However, for this scenario the only possible solution is to use Self-Hosted build agents and add the public IP to the webApp IP restriction Allow List. There are a few different options to install a self-hosted agent ([docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) and [Windows](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops) for example) that I'm not going to cover here. We installed a self-hosted agent in our virtual network that is sitting behind an Azure Firewall in our Hub network and all subnets have that firewall defined as the next hope for route 0.0.0.0/0. This means that all unkown traffic (like internet traffic) will go through the Azure Firewall and will exit our network using the public IP of that Azure Firewall.
+I'm a big fan of Microsoft hosted agents, it makes my life easier, I don't need to worry about maintenance and high availability and it's really cheap to just buy another agent if needed. However, for this scenario the only possible solution is to use Self-Hosted build agents and add the public IP to the webApp IP restriction Allow List. There are a few different options to install a self-hosted agent ([docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) and [Windows](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops) for example) that I'm not going to cover here. We installed a self-hosted agent in our virtual network that is sitting behind an Azure Firewall in our Hub network and all subnets have that firewall defined as the next hope for route 0.0.0.0/0. This means that all unknown traffic (like internet traffic) will go through the Azure Firewall and will exit our network using the public IP of that Azure Firewall.
 
 ![Azdo Self Hosted]({{ site.url }}/assets/images/2020-05-16-AZDO-Selfhosted.png)
 
@@ -67,7 +67,7 @@ And adding the public IP to the allow list on the Azure APP:
 
 ![WebApp IP restrictions]({{ site.url }}/assets/images/2020-05-16-AZDO-IPrestrictions.png)
 
-After this we could succesfully read the swagger file from our APIapp and update the API management. :smile:
+After this we could successfully read the swagger file from our APIapp and update the API management. :smile:
 
 ![Successfly read from swagger]({{ site.url }}/assets/images/2020-05-16-AZDO-200.png)
 
