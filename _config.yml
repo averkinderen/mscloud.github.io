@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cloud and Datacenter management at your fingertips"
+title                    : "Cloud management at your fingertips"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Alexandre Verkinderen"
-description              : "Azure Cloud and Datacenter management at your fingertips"
+description              : "Azure Cloud management at your fingertips"
 url                      : "https://mscloud.be" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "averkinderen/mscloud.github.io"
