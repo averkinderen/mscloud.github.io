@@ -6,7 +6,7 @@ tags:
   - Azure
   - Azure APIM
 header:
-  og_image: /assets/images/2020-06-06-AzureSQL-SetADadmin.png
+  og_image: /assets/images/2020-06-10-AzureAPI-vnet.png
 ---
 
 There are currently 2 developer portals for the Azure API Management service: a legacy portal and the [new portal experience](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-developer-portal). We deployed our Azure APIM instance before the new portal was released so we were still running on the legacy portal. We are running our Azure APIM instance with custom domains on an internal vnet behind an application gateway with WAF and the default OWASP 3.0 rules enabled. This appeared to be a real challenge with the new developer portal.
