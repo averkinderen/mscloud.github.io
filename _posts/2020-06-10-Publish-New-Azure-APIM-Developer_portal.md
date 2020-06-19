@@ -47,7 +47,9 @@ I have my Azure APIM sitting on a [virtual network behind an Azure Application g
 
 Next, as we have a new endpoint, we need to update our health probes and app gateway settings. Go to your Azure Application Gateway and configure the listener and rules like this:
 
-**Create a new Health Probe**:
+**Create a new Health Probe**
+
+Add the new management endpoint public address the host.
 
 ![Health probe]({{ site.url }}/assets/images/2020-06-10-AzureAPI-addHealthProbe.png)
 
