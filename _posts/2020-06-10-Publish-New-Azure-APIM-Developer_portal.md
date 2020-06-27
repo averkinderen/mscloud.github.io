@@ -63,13 +63,13 @@ Add the following new HTTP setting to include the new management endpoint:
 
 **You will need to add 2 new listeners**:
 
-You wil need to create 2 listeners. One for the management endpoint on http and one for https:
+You wil need to create 2 listeners. One for the management endpoint on https on port 3443 and one for https on port 443:
 
 ![listener https]({{ site.url }}/assets/images/2020-06-10-AzureAPI-ListenerhttpsManagement.png)
 
 **You will also need to add 2 new routing rules**:
 
-Create 2 new routing rules for http and https:
+Create 2 new routing rules for:
 
 ![add https routing rule]({{ site.url }}/assets/images/2020-06-10-AzureAPI-addroutingrulehttps.png)
 
