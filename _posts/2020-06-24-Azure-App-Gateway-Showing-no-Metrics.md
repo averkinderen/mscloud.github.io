@@ -9,11 +9,11 @@ header:
   og_image: /assets/images/2020-06-24-Azureappgw-nometrics.png
 ---
 
-This is the curious story of an Azure Application Gateway showing no metrics and logs at all. Even thought this was one the main customer's production Application Gateways we could see 0 requests in the metrics. These metrics should show up regardless if you have log analytics configured or not.
+This is the curious case of an Azure Application Gateway showing no metrics and logs at all. Even thought this was one of the main customer's production Application Gateways we could see 0 requests in the metrics. Which was strange as behind the Application Gateway was an online webshop which served thousands of customers every day.
 
 ![App gateway no metrics]({{ site.url }}/assets/images/2020-06-24-Azureappgw-nometrics.png)
 
-Our diagnostic logs are automatically configured based on this [Azure Policy written by Tao](https://blog.tyang.org/2019/05/19/deploying-azure-policy-definitions-via-azure-devops-part-1/). We double checked the diagnostics settings were enabled, which was the case, but still no logs were stored in Log Analytics:
+These metrics should show up regardless if you have log analytics configured or not. Our diagnostic logs are automatically configured based on this [Azure Policy written by Tao](https://blog.tyang.org/2019/05/19/deploying-azure-policy-definitions-via-azure-devops-part-1/). We double checked the diagnostics settings were enabled, which was the case, but still no logs were stored in Log Analytics:
 
 ![App gateway no metrics]({{ site.url }}/assets/images/2020-06-24-Azureappgw-nologs.png)
 
@@ -39,13 +39,13 @@ In order to make the logs and metrics work, we had to add 2 more cypher suites :
 - TLS_RSA_WITH_AES_256_CBC_SHA256
 - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 
-The reason for this is that the Azure Application Gateway V1 writes logs to a storage account in the backend. This storage account requires certain cypher Suites to be enabled in order to be able to store the logs and metrics to that storage account. The following 3 cypher suites below must be enabled:
+The reason for this is that the Azure Application Gateway V1 writes logs to a storage account in the backend. This storage account requires certain Cypher Suites to be enabled in order to be able to store the logs and metrics to that storage account. The following 3 cypher suites mentioned below must be enabled:
 
 - TLS_RSA_WITH_AES_128_GCM_SHA256
 - TLS_RSA_WITH_AES_256_CBC_SHA256
 - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 
-So make sure you have at least the 3 cypher suites mentioned above as seen in the picture.
+So make sure you have at least the 3 cypher enabled as seen in this picture.
 
 ![App gateway no metrics]({{ site.url }}/assets/images/2020-06-24-Azureappgw-fixSSL.png)
 
