@@ -76,4 +76,4 @@ As you can see, the service connection is never completely provisioned as it is 
 
 Therefore we have opted, for now, to provision new DevOps Projects from a Powershell script which will run under the context of a real user who has the necessary rights to both Azure AD and DevOps.
 
-![Failed SC Creation in Pipeline]({{ site.url }}/assets/images/2020-07-11-AzdoPS.PNG)
+![DevOp Project Creation via PS]({{ site.url }}/assets/images/2020-07-11-AzdoPS.PNG)
