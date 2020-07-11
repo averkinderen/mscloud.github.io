@@ -1,5 +1,5 @@
 ---
-title: "Create an Automatic Service Principal Azure RM Service Connections in Azure DevOps via Azure CLI"
+title: "Create an Automatic Service Principal Azure RM Service Connection in Azure DevOps via Azure CLI"
 author: Rodney Almeida
 categories:
   - Azure
@@ -10,7 +10,7 @@ header:
   og_image: /assets/images/2020-07-11-AutomaticGUI.PNG
 ---
 
-With more and more of our development projects being built and released via Azure DevOps, I find myself creating a few DevOps projects which at creation time share identical configs like service connections, permissions, repository names etc. Therefore this week I have been trying to automate the creation of Azure DevOps projects. Many of the configs are easily configurable with AzureCLI and the Devops extension of it, but one thing I was struggling with was the creation of the service connections to our Azure subscriptions the way we do it [from the GUI.](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-using-automated-security) We are using the Automatic Option when setting up the service connections for each one of our Azure subscriptions.
+With more and more of our development and infrastructure projects being built and released via Azure DevOps, I find myself creating a few DevOps projects which, at creation time, share identical configs like service connections, permissions, repository names etc. Therefore, this week I have been trying to automate the creation of Azure DevOps projects. Many of the configs are easily configurable with AzureCLI and the Devops extension of it, but one thing I was struggling with was the creation of the service connections to our Azure subscriptions the way we do it [from the GUI.](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-using-automated-security) We are using the Automatic Option when setting up the service connections for each one of our Azure subscriptions.
 
 ![Automatic Service Connector GUI]({{ site.url }}/assets/images/2020-07-11-AutomaticGUI.PNG)
 
@@ -21,9 +21,11 @@ When you select the Automatic way the following is happening as part of the auto
 - Assigns the new AzureAD application contributor permissions on the subscription
 - Creates a Service Connection in Azure DevOps using the AzureAD application details
 
+This is the preferred option as we don't have to make certificates and keys or manually create the Azure AD Application etc.
+
 ## Issue
 
-This is the preferred option as we don't have to make certificates and keys or manually create the Azure AD Application etc. I wanted to be able to do the same thing with AzureCLI but if you look at the documentation there doesn't seem to be a command for this. The ['az devops service-endpoint azurerm create'](https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/devops/service-endpoint/azurerm?view=azure-cli-latest#ext-azure-devops-az-devops-service-endpoint-azurerm-create) would seem to be the one we have to use but there is no automatic flag and its parameters are essentially what you see in the manual option on the GUI.
+ I wanted to be able to do the same thing with AzureCLI but if you look at the documentation there doesn't seem to be a command for this. The ['az devops service-endpoint azurerm create'](https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/devops/service-endpoint/azurerm?view=azure-cli-latest#ext-azure-devops-az-devops-service-endpoint-azurerm-create) would seem to be the one we have to use but there is no automatic flag and its parameters are essentially what you see in the manual option on the GUI.
 
 ![Manual Service Connector GUI]({{ site.url }}/assets/images/2020-07-11-ManualGUI.PNG)
 
@@ -77,3 +79,5 @@ As you can see, the service connection is never completely provisioned as it is 
 Therefore we have opted, for now, to provision new DevOps Projects from a Powershell script which will run under the context of a real user who has the necessary rights to both Azure AD and DevOps.
 
 ![DevOp Project Creation via PS]({{ site.url }}/assets/images/2020-07-11-AzdoPS.PNG)
+
+Rodney.
