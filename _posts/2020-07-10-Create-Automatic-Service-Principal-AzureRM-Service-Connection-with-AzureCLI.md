@@ -6,6 +6,8 @@ categories:
 tags:
   - Azure
   - Azure Devops
+header:
+  og_image: /assets/images/2020-07-11-AutomaticGUI.PNG
 ---
 
 With more and more of our development projects being built and released via Azure DevOps, I find myself creating a few DevOps projects which at creation time share identical configs like service connections, permissions, repository names etc. Therefore this week I have been trying to automate the creation of Azure DevOps projects. Many of the configs are easily configurable with AzureCLI and the Devops extension of it, but one thing I was struggling with was the creation of the service connections to our Azure subscriptions the way we do it [from the GUI.](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-using-automated-security) We are using the Automatic Option when setting up the service connections for each one of our Azure subscriptions.
@@ -73,3 +75,5 @@ While doing some research online, I found various examples for creating Service 
 As you can see, the service connection is never completely provisioned as it is unable to create the SPN in AAD as the YAML pipeline does not have rights to do so. This step is one of many that we have not being able to have run as a DevOps Pipeline due to similar reasons.
 
 Therefore we have opted, for now, to provision new DevOps Projects from a Powershell script which will run under the context of a real user who has the necessary rights to both Azure AD and DevOps.
+
+![Failed SC Creation in Pipeline]({{ site.url }}/assets/images/2020-07-11-AzdoPS.PNG)
