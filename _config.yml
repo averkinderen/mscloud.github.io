@@ -229,7 +229,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  # - jemoji  # Disabled due to Ruby 3.2 compatibility issue
   - jekyll-include-cache
   - jekyll-seo-tag
 
@@ -239,7 +239,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
+  # - jemoji  # Disabled due to Ruby 3.2 compatibility issue
   - jekyll-include-cache
   - jekyll-archives
 

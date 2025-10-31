@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git log:*)",
+      "Bash(cat:*)",
+      "Bash(ruby:*)",
+      "Bash(bundle install:*)",
+      "Bash(npm audit fix:*)",
+      "Bash(bundle exec jekyll build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

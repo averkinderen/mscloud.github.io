@@ -13,9 +13,17 @@ header:
 ---
 In this blog post I will explain how we used Azure Private Link Service Direct Connect combined with Fabric Managed Private Endpoints to securely connect our Azure Fabric notebooks to our private API Management instance. This setup allows us to call our internal APIs from Fabric without enabling public endpoints, while maintaining full network isolation and security.
 
+## What are Fabric Managed Private Endpoints?
+
+Microsoft Fabric introduced Managed Private Endpoints to allow secure connectivity to Azure and on-premises data sources. When you create a Managed Private Endpoint in Fabric, it creates a private endpoint in Microsoft's managed virtual network that connects to your Private Link Service.
+
+The key advantage here is that **you don't need to manage the networking infrastructure**. Fabric handles the virtual network, the private endpoint, and the DNS resolution. You simply point it at your Private Link Service, and Fabric takes care of the rest.
+
+From your notebook's perspective, you're just calling a hostname (like `apimdev01.azure-api.net`), but behind the scenes, Fabric resolves this to the private endpoint IP and routes traffic through the Private Link Service to your private APIM in your VNet.
+
 ## The Challenge
 
-Our API Management (APIM) instance is deployed in our internal Azure VNet at `192.120.10.36` with public network access disabled. We needed to access this APIM from Azure Fabric notebooks to process data from our internal systems. The challenge is that Fabric runs in Microsoft's managed virtual network, which doesn't have direct connectivity to our private VNet. We also cant use the default Azure Fabric Managed Private Endpoints as at the time of writing they dont support APIM https://learn.microsoft.com/en-gb/fabric/security/security-managed-private-endpoints-create#supported-data-sources. 
+Our API Management (APIM) instance is deployed in our internal Azure VNet at `192.120.10.36` with public network access disabled. We needed to access this APIM from Azure Fabric notebooks to process data from our internal systems. The challenge is that Fabric runs in Microsoft's managed virtual network, which doesn't have direct connectivity to our private VNet. We also cant use the default Azure Fabric Managed Private Endpoints as at the time of writing they dont support [APIM](https://learn.microsoft.com/en-gb/fabric/security/security-managed-private-endpoints-create#supported-data-sources). 
 
 We needed a solution that:
 - Keeps our APIM completely private (no public endpoints)
@@ -44,14 +52,6 @@ Key benefits of Direct Connect:
 
 The trade-off is that you can't have multiple backends or health probes, but for our use case where we're connecting to a single APIM instance, this is perfect.
 
-## What are Fabric Managed Private Endpoints?
-
-Microsoft Fabric introduced Managed Private Endpoints to allow secure connectivity to Azure and on-premises data sources. When you create a Managed Private Endpoint in Fabric, it creates a private endpoint in Microsoft's managed virtual network that connects to your Private Link Service.
-
-The key advantage here is that **you don't need to manage the networking infrastructure**. Fabric handles the virtual network, the private endpoint, and the DNS resolution. You simply point it at your Private Link Service, and Fabric takes care of the rest.
-
-From your notebook's perspective, you're just calling a hostname (like `apimdev01.azure-api.net`), but behind the scenes, Fabric resolves this to the private endpoint IP and routes traffic through the Private Link Service to your private APIM in your VNet.
-
 ## Architecture Overview
 
 Here's what the complete architecture looks like:
@@ -61,9 +61,9 @@ Azure Fabric (Microsoft Managed VNet)
     ↓
 Managed Private Endpoint (10.250.0.13 or whatever the assigned IP will be in the managed vnet (that you dont see))
     ↓
-Private Link Service (pls-directconnect)
+Private Link Service 
     ↓
-NAT Subnet (192.120.69.110, 192.120.69.111)
+NAT Subnet (192.120.69.110, 192.120.69.111 or whatever IPs that will be assigned to the PLS private endpoint)
     ↓
 VNet Peering or same VNet
     ↓
@@ -84,12 +84,10 @@ The beauty of this setup is that:
 Before starting, make sure you have:
 
 1. **APIM deployed in a VNet** with public network access disabled
-2. **A subnet for Private Link Service** in your Azure VNet (can be same or different VNet as APIM)
+2. **A subnet for Private Link Service** in your Azure VNet (can be same or different VNet as APIM and can be an existing subnet)
 3. **VNet peering** configured if APIM is in a different VNet (optional if same VNet)
 4. **Contributor permissions** on the resource groups for both networking and Fabric
 5. **Fabric workspace** where you'll create the Managed Private Endpoint
-
-> **Note:** With the `-DestinationIPAddress` parameter, Azure handles routing automatically. You don't need to configure User Defined Routes (UDRs) manually.
 
 ### Step 1: Create the Private Link Service (Direct Connect Mode)
 
@@ -332,7 +330,7 @@ For development and testing on private networks, use `verify=False`
 
 ## Verifying the Setup
 
-To verify your Private Link is working correctly:
+To verify your Private Link is working correctly, create a Python notebook in Azure Fabric:
 
 ```python
 import socket
@@ -390,7 +388,7 @@ If all three tests pass, your Private Link Direct Connect is working correctly!
 
 3. **No load balancer needed** - The absence of `-LoadBalancerFrontendIpConfiguration` is what makes it Direct Connect. This saves costs and reduces complexity.
 
-4. **The Private Endpoint IP is correct** - When you see traffic going to `10.250.0.x` instead of `192.120.10.36`, that's expected. The Private Endpoint abstracts the backend IP by design.
+4. **The Private Endpoint IP is correct** - When you see traffic going to `10.250.0.x` , that's expected. The Private Endpoint abstracts the backend IP by design.
 
 5. **NSG rules are critical** - Make sure your APIM's NSG allows inbound traffic from the Private Link Service subnet. This is often the cause of connection timeouts.
 
