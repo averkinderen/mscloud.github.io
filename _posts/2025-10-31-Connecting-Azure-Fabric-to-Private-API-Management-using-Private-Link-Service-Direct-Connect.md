@@ -21,6 +21,8 @@ The key advantage here is that **you don't need to manage the networking infrast
 
 From your notebook's perspective, you're just calling a hostname (like `apimdev01.azure-api.net`), but behind the scenes, Fabric resolves this to the private endpoint IP and routes traffic through the Private Link Service to your private APIM in your VNet.
 
+![fabric](https://learn.microsoft.com/en-us/fabric/security/media/security-managed-vnets-fabric-overview/managed-vnets-overview.gif)
+
 ## The Challenge
 
 Our API Management (APIM) instance is deployed in our internal Azure VNet at `192.120.10.36` with public network access disabled. We needed to access this APIM from Azure Fabric notebooks to process data from our internal systems. The challenge is that Fabric runs in Microsoft's managed virtual network, which doesn't have direct connectivity to our private VNet. We also cant use the default Azure Fabric Managed Private Endpoints as at the time of writing they dont support [APIM](https://learn.microsoft.com/en-gb/fabric/security/security-managed-private-endpoints-create#supported-data-sources). 
@@ -37,6 +39,8 @@ Enter Private Link Service Direct Connect.
 ## What is Private Link Service Direct Connect?
 
 Azure Private Link Service allows you to expose your services privately to other Azure resources. The "Direct Connect" variant is specifically designed for scenarios where you don't need a load balancer in front of your service.
+
+Note that at the time of writing Private Link Service Direct Connect is still in public preview.
 
 In a standard Private Link Service setup, traffic flows through a load balancer which then distributes to backend resources. With Direct Connect, the architecture is simpler:
 
@@ -75,7 +79,7 @@ The beauty of this setup is that:
 2. Fabric can't directly reach your VNet (different virtual networks)
 3. Private Link Service bridges the gap securely
 4. All traffic stays on the Microsoft backbone
-5. And no Virtual machines that act as gateway
+5. And no Virtual machines that act as gateway (and everyone that knows me, know that I dont like virtual machines :-) )
 
 ## Our Implementation
 
