@@ -402,10 +402,6 @@ If all three tests pass, your Private Link Direct Connect is working correctly!
 
 Private Link Service Direct Connect combined with Fabric Managed Private Endpoints provides a secure, performant way to connect Fabric to private APIM instances in Azure VNets. The setup is straightforward when using the `-DestinationIPAddress` parameter, which handles routing automatically. Once configured, it "just works" from the perspective of your Fabric notebooks.
 
-We've been running this setup in production for several weeks now with excellent results. Our data scientists can call our internal APIs as easily as they would call public APIs, all while maintaining enterprise security standards with no public endpoints.
-
-The key is using the `-DestinationIPAddress` parameter when creating your Private Link Service. This single parameter eliminates the need for complex routing configurations, User Defined Routes, or load balancers. Azure handles the routing automatically, making the implementation much simpler than traditional approaches.
-
 If you're looking to connect Fabric to private Azure resources without enabling public access, I highly recommend this approach. The security posture is excellent, the performance is great, and the user experience is seamless.
 
 Hope this helps,

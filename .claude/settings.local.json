@@ -6,7 +6,8 @@
       "Bash(ruby:*)",
       "Bash(bundle install:*)",
       "Bash(npm audit fix:*)",
-      "Bash(bundle exec jekyll build:*)"
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
